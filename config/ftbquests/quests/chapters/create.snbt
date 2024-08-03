@@ -1,0 +1,523 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "26A327D69CDFBE6F"
+	icon: "create:wrench"
+	id: "615DEFC002D7F550"
+	images: [
+		{
+			height: 2.0d
+			image: "numismatics:item/coin/cog"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			image: "numismatics:item/coin/cog"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/recipe_arrow.png"
+			rotation: 0.0d
+			width: 1.4666666666666666d
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "create:block/belt_scroll"
+			rotation: 90.0d
+			width: 1.0d
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "create:block/belt_scroll"
+			rotation: 90.0d
+			width: 1.0d
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "create:block/belt_scroll"
+			rotation: 90.0d
+			width: 1.0d
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "create:block/belt_scroll"
+			rotation: 90.0d
+			width: 1.0d
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "create:block/belt_scroll"
+			rotation: 90.0d
+			width: 1.0d
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "create:block/belt_scroll"
+			rotation: 90.0d
+			width: 1.0d
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "create:block/belt_scroll"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "create:block/tunnel/andesite_tunnel_top_window"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "create:block/depot_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/recipe_arrow.png"
+			rotation: 90.0d
+			width: 1.4666666666666666d
+			x: 6.0d
+			y: 3.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2B368F5E3C003768"]
+			icon: "create:brass_hand"
+			id: "160C7D730946E37F"
+			rewards: [
+				{
+					count: 4
+					id: "09FBF1C4BF75A4A7"
+					item: "farmersdelight:sweet_berry_cookie"
+					type: "item"
+				}
+				{
+					id: "4F791FAF8978C917"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Hold W while hovering over create items!"
+			tasks: [{
+				id: "7E6F392458FCB5D2"
+				type: "checkmark"
+			}]
+			title: "Welcome to Create!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["160C7D730946E37F"]
+			hide_dependency_lines: true
+			id: "16B1AB08206CAEE9"
+			rewards: [{
+				count: 2
+				id: "2DC23011F41B4BF5"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Stackable tools?!"
+			tasks: [{
+				id: "62FEFF7E94381A5E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "create:toolboxes"
+					}
+				}
+				title: "Any #create:toolboxes"
+				type: "item"
+			}]
+			title: "Craft a Toolbox"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["160C7D730946E37F"]
+			id: "24E1F27221044923"
+			rewards: [{
+				count: 2
+				id: "0997E4642BB43359"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Its Trademarked"
+			tasks: [{
+				id: "61521EECB6853A5B"
+				item: "create:wrench"
+				type: "item"
+			}]
+			title: "Craft The Wrench"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["160C7D730946E37F"]
+			hide_dependency_lines: true
+			id: "48297C40258F15F5"
+			rewards: [{
+				count: 2
+				id: "6A55C694462FCC16"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Visualise stress"
+			tasks: [{
+				id: "5050D43077B5FE40"
+				item: "create:goggles"
+				type: "item"
+			}]
+			title: "Craft the Mechanical Goggles"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["160C7D730946E37F"]
+			hide_dependency_lines: true
+			id: "1C76C899C0857D6B"
+			rewards: [{
+				count: 2
+				id: "572C284574C2F1B1"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Huff and Puff"
+			tasks: [{
+				id: "35645F2E945650D9"
+				item: {
+					Count: 1
+					id: "create:copper_backtank"
+					tag: {
+						Air: 900
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft the Copper Backtank"
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["160C7D730946E37F"]
+			description: ["I recommend finding a large cave with a lot of exposed andesite, you'll need a lot"]
+			id: "611AC4E3CE095710"
+			rewards: [{
+				id: "1EADA8C5C3C08E6E"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "The base resource for all of Create"
+			tasks: [{
+				count: 32L
+				id: "4A23F8AE8CD695F4"
+				item: { Count: 32, id: "minecraft:andesite" }
+				type: "item"
+			}]
+			title: "Mine some Andesite"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["611AC4E3CE095710"]
+			description: ["You can use iron or zinc nuggets with andesite to craft andesite alloy"]
+			id: "48A3CDE402F2E213"
+			rewards: [{
+				count: 4
+				id: "1916F9BA9DCCE38A"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Now we're getting started!"
+			tasks: [{
+				id: "0555D3300B4AD524"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Craft Andesite Alloy"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48A3CDE402F2E213"]
+			description: [
+				"Andesite casings arent crafted normally, to make andesite casings, first &6strip a log, then &bright click &6on it with andesite alloy &rThe same applies for all the other casings in the mod."
+				"&c(Andesite Casings use Andesite alloy)"
+				"&c(Copper Casings use Copper ingots)"
+				"&c(Brass Casings use Brass ingots)"
+				"&c(Train Casings use Sturdy sheets)"
+			]
+			id: "17FA00EA38A585D9"
+			rewards: [{
+				count: 2
+				id: "4180A8F5A9742707"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Read the description for this one!"
+			tasks: [{
+				id: "63FA3726411E4535"
+				item: "create:andesite_casing"
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "Craft Andesite Casings"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17FA00EA38A585D9"]
+			hide_dependency_lines: true
+			id: "742F1D3500D8D9CF"
+			optional: true
+			rewards: [{
+				id: "4C422C757DCEB842"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6BA5613A9C9CE69C"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			title: "Craft a Mechanical Press"
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["17FA00EA38A585D9"]
+			hide_dependency_lines: true
+			id: "776BC1546F3ACCA6"
+			optional: true
+			rewards: [{
+				id: "4F009BA60C2BEE80"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "50E6B3CFC87E33C4"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			title: "Craft a Mechanical Saw"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["17FA00EA38A585D9"]
+			hide_dependency_lines: true
+			id: "3DEFAB18112DA96D"
+			optional: true
+			rewards: [{
+				id: "3F986D729D08CB66"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6CC36A6333757682"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			title: "Craft a Mechanical Mixer"
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["17FA00EA38A585D9"]
+			id: "533288782C13B692"
+			optional: true
+			rewards: [{
+				id: "1515D06A8B5ED326"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "74D6FE8B8AC3D4AB"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			title: "Craft a Hand Crank"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["17FA00EA38A585D9"]
+			hide_dependency_lines: true
+			id: "39CA349CD2FF8C4F"
+			optional: true
+			rewards: [{
+				id: "594E82A031BCC35A"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0E21D73C1FFE73AE"
+				item: "create:depot"
+				type: "item"
+			}]
+			title: "Craft a Depot"
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["17FA00EA38A585D9"]
+			hide_dependency_lines: true
+			id: "3EC6E14796A7C7E3"
+			optional: true
+			rewards: [{
+				id: "22AC5ACA50034A6D"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "38D1A6EE1F4AA9E7"
+				item: "create:basin"
+				type: "item"
+			}]
+			title: "Craft a Basin"
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["17FA00EA38A585D9"]
+			hide_dependency_lines: true
+			id: "1E24D0A238BB042D"
+			optional: true
+			rewards: [{
+				id: "3708F250F07C7139"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "58580BC1382E3F8D"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			title: "Craft a Water Wheel"
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["17FA00EA38A585D9"]
+			hide_dependency_lines: true
+			id: "2D4794DB7F68BCDF"
+			optional: true
+			rewards: [{
+				id: "6530EADBF3030784"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "27B0D4D8308E1FAB"
+				item: "create:millstone"
+				type: "item"
+			}]
+			title: "Craft a Millstone"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["17FA00EA38A585D9"]
+			id: "68C04ED266103B58"
+			rewards: [{
+				id: "432C38EC74F3E237"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Full-on automation ahead!"
+			tasks: [{
+				id: "1B7764ADEAE3BD8F"
+				type: "checkmark"
+			}]
+			title: "Ready to move on?"
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17FA00EA38A585D9"]
+			id: "03479EFD2E2B610D"
+			rewards: [{
+				id: "502EF57186E672BA"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "37F12B99903CBBCD"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			title: "Getting Advanced"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["160C7D730946E37F"]
+			hide_dependency_lines: true
+			id: "099CD48D688185C2"
+			rewards: [{
+				count: 2
+				id: "275A3614C30A27AA"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2F665A07E3C3EEE1"
+				item: "create:clipboard"
+				type: "item"
+			}]
+			title: "Craft the Clipboard"
+			x: -2.5d
+			y: -0.5d
+		}
+	]
+	title: "Create"
+}

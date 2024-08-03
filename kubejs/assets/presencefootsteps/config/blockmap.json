@@ -1,0 +1,310 @@
+{
+	"natures_spirit:beach_grass": "NOT_EMITTER",
+	"natures_spirit:beach_grass.messy": "MESSY_GROUND",
+	"natures_spirit:beach_grass.foliage": "brush",
+
+    "natures_spirit:scorched_grass": "NOT_EMITTER",
+	"natures_spirit:scorched_grass.messy": "MESSY_GROUND",
+	"natures_spirit:scorched_grass.foliage": "brush",
+
+    "natures_spirit:sedge_grass": "NOT_EMITTER",
+	"natures_spirit:sedge_grass.messy": "MESSY_GROUND",
+	"natures_spirit:sedge_grass.foliage": "brush",
+
+    "natures_spirit:oat_grass": "NOT_EMITTER",
+	"natures_spirit:oat_grass.messy": "MESSY_GROUND",
+	"natures_spirit:oat_grass.foliage": "brush",
+
+    "natures_spirit:melic_grass": "NOT_EMITTER",
+	"natures_spirit:melic_grass.messy": "MESSY_GROUND",
+	"natures_spirit:melic_grass.foliage": "brush",
+
+    "natures_spirit:frigid_grass": "NOT_EMITTER",
+	"natures_spirit:frigid_grass.messy": "MESSY_GROUND",
+	"natures_spirit:frigid_grass.foliage": "brush",
+
+    "natures_spirit:dwarf_blossoms": "NOT_EMITTER",
+	"natures_spirit:dwarf_blossoms.messy": "MESSY_GROUND",
+	"natures_spirit:dwarf_blossoms.foliage": "brush",
+
+	"natures_spirit:ruby_blossoms": "NOT_EMITTER",
+	"natures_spirit:ruby_blossoms.messy": "MESSY_GROUND",
+	"natures_spirit:ruby_blossoms.foliage": "brush",
+
+    "natures_spirit:lavender": "NOT_EMITTER",
+	"natures_spirit:lavender.messy": "MESSY_GROUND",
+	"natures_spirit:lavender.foliage": "brush",
+
+    "natures_spirit:bluebell": "NOT_EMITTER",
+	"natures_spirit:bluebell.messy": "MESSY_GROUND",
+	"natures_spirit:bluebell.foliage": "brush",
+
+    "natures_spirit:tiger_lily": "NOT_EMITTER",
+	"natures_spirit:tiger_lily.messy": "MESSY_GROUND",
+	"natures_spirit:tiger_lily.foliage": "brush",
+
+    "natures_spirit:purple_wildflower": "NOT_EMITTER",
+	"natures_spirit:purple_wildflower.messy": "MESSY_GROUND",
+	"natures_spirit:purple_wildflower.foliage": "brush",
+
+    "natures_spirit:yellow_wildflower": "NOT_EMITTER",
+	"natures_spirit:yellow_wildflower.messy": "MESSY_GROUND",
+	"natures_spirit:yellow_wildflower.foliage": "brush",
+
+    "natures_spirit:bleeding_heart": "NOT_EMITTER",
+	"natures_spirit:bleeding_heart.messy": "MESSY_GROUND",
+	"natures_spirit:bleeding_heart.foliage": "brush",
+
+    "natures_spirit:blue_bulbs": "NOT_EMITTER",
+	"natures_spirit:blue_bulbs.messy": "MESSY_GROUND",
+	"natures_spirit:blue_bulbs.foliage": "brush",
+
+    "natures_spirit:carnation": "NOT_EMITTER",
+	"natures_spirit:carnation.messy": "MESSY_GROUND",
+	"natures_spirit:carnation.foliage": "brush",
+
+    "natures_spirit:gardenia": "NOT_EMITTER",
+	"natures_spirit:gardenia.messy": "MESSY_GROUND",
+	"natures_spirit:gardenia.foliage": "brush",
+
+    "natures_spirit:marigold": "NOT_EMITTER",
+	"natures_spirit:marigold.messy": "MESSY_GROUND",
+	"natures_spirit:marigold.foliage": "brush",
+
+    "natures_spirit:foxglove": "NOT_EMITTER",
+	"natures_spirit:foxglove.messy": "MESSY_GROUND",
+	"natures_spirit:foxglove.foliage": "brush",
+
+    "natures_spirit:ornate_succulent": "NOT_EMITTER",
+	"natures_spirit:ornate_succulent.messy": "MESSY_GROUND",
+	"natures_spirit:ornate_succulent.foliage": "brush",
+
+    "natures_spirit:drowsy_succulent": "NOT_EMITTER",
+	"natures_spirit:drowsy_succulent.messy": "MESSY_GROUND",
+	"natures_spirit:drowsy_succulent.foliage": "brush",
+
+    "natures_spirit:aureate_succulent": "NOT_EMITTER",
+	"natures_spirit:aureate_succulent.messy": "MESSY_GROUND",
+	"natures_spirit:aureate_succulent.foliage": "brush",
+
+    "natures_spirit:sage_succulent": "NOT_EMITTER",
+	"natures_spirit:sage_succulent.messy": "MESSY_GROUND",
+	"natures_spirit:sage_succulent.foliage": "brush",
+
+    "natures_spirit:foamy_succulent": "NOT_EMITTER",
+	"natures_spirit:foamy_succulent.messy": "MESSY_GROUND",
+	"natures_spirit:foamy_succulent.foliage": "brush",
+
+    "natures_spirit:imperial_succulent": "NOT_EMITTER",
+	"natures_spirit:imperial_succulent.messy": "MESSY_GROUND",
+	"natures_spirit:imperial_succulent.foliage": "brush",
+
+    "natures_spirit:regal_succulent": "NOT_EMITTER",
+	"natures_spirit:regal_succulent.messy": "MESSY_GROUND",
+	"natures_spirit:regal_succulent.foliage": "brush",
+
+
+
+    
+    "natures_spirit:silverbush": "NOT_EMITTER",
+	"natures_spirit:silverbush.messy": "MESSY_GROUND",
+	"natures_spirit:silverbush.foliage": "brush_straw_transition",
+
+    "natures_spirit:cattail": "NOT_EMITTER",
+	"natures_spirit:cattail.messy": "MESSY_GROUND",
+	"natures_spirit:cattail.foliage": "brush_straw_transition",
+
+    "natures_spirit:snapdragon": "NOT_EMITTER",
+	"natures_spirit:snapdragon.messy": "MESSY_GROUND",
+	"natures_spirit:snapdragon.foliage": "brush_straw_transition",
+
+    "natures_spirit:red_heather": "NOT_EMITTER",
+	"natures_spirit:red_heather.messy": "MESSY_GROUND",
+	"natures_spirit:red_heather.foliage": "brush_straw_transition",
+
+    "natures_spirit:white_heather": "NOT_EMITTER",
+	"natures_spirit:white_heather.messy": "MESSY_GROUND",
+	"natures_spirit:white_heather.foliage": "brush_straw_transition",
+
+    "natures_spirit:purple_heather": "NOT_EMITTER",
+	"natures_spirit:purple_heather.messy": "MESSY_GROUND",
+	"natures_spirit:purple_heather.foliage": "brush_straw_transition",
+
+    "natures_spirit:green_bearberries": "NOT_EMITTER",
+	"natures_spirit:green_bearberries.messy": "MESSY_GROUND",
+	"natures_spirit:green_bearberries.foliage": "brush_straw_transition",
+
+    "natures_spirit:red_bearberries": "NOT_EMITTER",
+	"natures_spirit:red_bearberries.messy": "MESSY_GROUND",
+	"natures_spirit:red_bearberries.foliage": "brush_straw_transition",
+
+    "natures_spirit:purple_bearberries": "NOT_EMITTER",
+	"natures_spirit:purple_bearberries.messy": "MESSY_GROUND",
+	"natures_spirit:purple_bearberries.foliage": "brush_straw_transition",
+
+    "natures_spirit:tall_beach_grass": "NOT_EMITTER",
+	"natures_spirit:tall_beach_grass.messy": "MESSY_GROUND",
+	"natures_spirit:tall_beach_grass.foliage": "brush_straw_transition",
+
+    "natures_spirit:tall_scorched_grass": "NOT_EMITTER",
+	"natures_spirit:tall_scorched_grass.messy": "MESSY_GROUND",
+	"natures_spirit:tall_scorched_grass.foliage": "brush_straw_transition",
+
+    "natures_spirit:tall_sedge_grass": "NOT_EMITTER",
+	"natures_spirit:tall_sedge_grass.messy": "MESSY_GROUND",
+	"natures_spirit:tall_sedge_grass.foliage": "brush_straw_transition",
+
+    "natures_spirit:tall_oat_grass": "NOT_EMITTER",
+	"natures_spirit:tall_oat_grass.messy": "MESSY_GROUND",
+	"natures_spirit:tall_oat_grass.foliage": "brush_straw_transition",
+
+    "natures_spirit:tall_melic_grass": "NOT_EMITTER",
+	"natures_spirit:tall_melic_grass.messy": "MESSY_GROUND",
+	"natures_spirit:tall_melic_grass.foliage": "brush_straw_transition",
+
+    "natures_spirit:tall_frigid_grass": "NOT_EMITTER",
+	"natures_spirit:tall_frigid_grass.messy": "MESSY_GROUND",
+	"natures_spirit:tall_frigid_grass.foliage": "brush_straw_transition",
+
+    "natures_spirit:large_flaxen_fern": "NOT_EMITTER",
+	"natures_spirit:large_flaxen_fern.messy": "MESSY_GROUND",
+	"natures_spirit:large_flaxen_fern.foliage": "brush_straw_transition",
+
+    "natures_spirit:large_lush_fern": "NOT_EMITTER",
+	"natures_spirit:large_lush_fern.messy": "MESSY_GROUND",
+	"natures_spirit:large_lush_fern.foliage": "brush_straw_transition",
+
+
+
+
+    "natures_spirit:flaxen_fern": "NOT_EMITTER",
+	"natures_spirit:flaxen_fern.messy": "MESSY_GROUND",
+	"natures_spirit:flaxen_fern.foliage": "straw",
+
+    "natures_spirit:lush_fern": "NOT_EMITTER",
+	"natures_spirit:lush_fern.messy": "MESSY_GROUND",
+	"natures_spirit:lush_fern.foliage": "straw",
+
+
+
+
+    "natures_spirit:lotus_flower": "waterfine",
+	"natures_spirit:lotus_flower.carpet": "waterfine",
+
+    "natures_spirit:helvola_pad": "waterfine",
+	"natures_spirit:helvola_pad.carpet": "waterfine",
+
+    "ribbits:giant_lilypad": "waterfine",
+	"ribbits:giant_lilypad.carpet": "waterfine",
+
+
+
+
+	"minecraft:red_moss_block": "rug,grass",
+	"minecraft:red_moss_carpet": "rug,grass",
+	"minecraft:red_moss_carpet.carpet": "rug,grass",
+
+
+
+
+	"galosphere:allurite_block": "chimes",
+	"galosphere:allurite_stairs": "chimes",
+	"galosphere:allurite_slab": "chimes",
+	"galosphere:chiseled_allurite": "chimes",
+	"galosphere:allurite_lamp": "chimes",
+	"galosphere:smooth_allurite": "chimes",
+	"galosphere:smooth_allurite_stairs": "chimes",
+	"galosphere:smooth_allurite_slab": "chimes",
+	"galosphere:allurite_bricks": "chimes",
+	"galosphere:allurite_brick_stairs": "chimes",
+	"galosphere:allurite_brick_slab": "chimes",
+	"galosphere:allurite_cluster": "chimes",
+	"galosphere:allurite_cluster.foliage": "chimes",
+	"galosphere:glinted_allurite_cluster": "chimes",
+	"galosphere:glinted_allurite_cluster.foliage": "chimes",
+
+	"galosphere:lumiere_block": "chimes",
+	"galosphere:lumiere_stairs": "chimes",
+	"galosphere:lumiere_slab": "chimes",
+	"galosphere:chiseled_lumiere": "chimes",
+	"galosphere:lumiere_lamp": "chimes",
+	"galosphere:smooth_lumiere": "chimes",
+	"galosphere:smooth_lumiere_stairs": "chimes",
+	"galosphere:smooth_lumiere_slab": "chimes",
+	"galosphere:lumiere_bricks": "chimes",
+	"galosphere:lumiere_brick_stairs": "chimes",
+	"galosphere:lumiere_brick_slab": "chimes",
+	"galosphere:lumiere_cluster": "chimes",
+	"galosphere:lumiere_cluster.foliage": "chimes",
+	"galosphere:glinted_lumiere_cluster": "chimes",
+	"galosphere:glinted_lumiere_cluster.foliage": "chimes",
+	"galosphere:charged_lumiere_block": "chimes",
+
+	"galosphere:silver_block": "hardmetal",
+	"galosphere:silver_panel": "hardmetal",
+	"galosphere:silver_panel_stairs": "hardmetal",
+	"galosphere:silver_panel_slab": "hardmetal",
+	"galosphere:silver_tiles": "hardmetal",
+	"galosphere:silver_tiles_stairs": "hardmetal",
+	"galosphere:silver_tiles_slab": "hardmetal",
+	"galosphere:silver_lattice": "metalbar",
+
+	"galosphere:combustion_table": "hardmetal",
+	"galosphere:monstrometer": "hardmetal",
+	"galosphere:warped_anchor": "hardmetal",
+	"galosphere:silver_balance": "hardmetal",
+
+	"galosphere:lichen_moss": "rug,grass",
+
+	"galosphere:pink_salt": "stone",
+	"galosphere:pink_salt_stairs": "stone",
+	"galosphere:pink_salt_slab": "stone",
+	"galosphere:pink_salt_wall": "stone",
+	"galosphere:polished_pink_salt": "stone",
+	"galosphere:polished_pink_salt_stairs": "stone",
+	"galosphere:polished_pink_salt_slab": "stone",
+	"galosphere:polished_pink_salt_wall": "stone",
+	"galosphere:pink_salt_bricks": "stone",
+	"galosphere:pink_salt_brick_stairs": "stone",
+	"galosphere:pink_salt_brick_slab": "stone",
+	"galosphere:pink_salt_brick_wall": "stone",
+	"galosphere:chiseled_pink_salt": "stone",
+
+	"galosphere:rose_pink_salt": "stone",
+	"galosphere:rose_pink_salt_stairs": "stone",
+	"galosphere:rose_pink_salt_slab": "stone",
+	"galosphere:rose_pink_salt_wall": "stone",
+	"galosphere:polished_rose_pink_salt": "stone",
+	"galosphere:polished_rose_pink_salt_stairs": "stone",
+	"galosphere:polished_rose_pink_salt_slab": "stone",
+	"galosphere:polished_rose_pink_salt_wall": "stone",
+	"galosphere:rose_pink_salt_bricks": "stone",
+	"galosphere:rose_pink_salt_brick_stairs": "stone",
+	"galosphere:rose_pink_salt_brick_slab": "stone",
+	"galosphere:rose_pink_salt_brick_wall": "stone",
+	"galosphere:chiseled_rose_pink_salt": "stone",
+
+	"galosphere:pastel_pink_salt": "stone",
+	"galosphere:pastel_pink_salt_stairs": "stone",
+	"galosphere:pastel_pink_salt_slab": "stone",
+	"galosphere:pastel_pink_salt_wall": "stone",
+	"galosphere:polished_pastel_pink_salt": "stone",
+	"galosphere:polished_pastel_pink_salt_stairs": "stone",
+	"galosphere:polished_pastel_pink_salt_slab": "stone",
+	"galosphere:polished_pastel_pink_salt_wall": "stone",
+	"galosphere:pastel_pink_salt_bricks": "stone",
+	"galosphere:pastel_pink_salt_brick_stairs": "stone",
+	"galosphere:pastel_pink_salt_brick_slab": "stone",
+	"galosphere:pastel_pink_salt_brick_wall": "stone",
+	"galosphere:chiseled_pastel_pink_salt": "stone",
+
+	"galosphere:pink_salt_chamber": "stone",
+	"galosphere:pink_salt_lamp": "stone",
+	"galosphere:pink_salt_cluster": "stone",
+	"galosphere:pink_salt_straw": "stone,ore",
+	"galosphere:pink_salt_straw.foliage": "stone,ore",
+
+	"galosphere:cured_membrane_block": "mud,slime",
+	"galosphere:stranded_membrane_block": "slime"
+	
+}

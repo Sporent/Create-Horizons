@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "displayDebugData": false,
+  "enabled": true,
+  "leafSize": 5,
+  "leafLifespan": 200,
+  "leafSpawnRate": 10,
+  "coniferLeafSpawnRate": 1,
+  "cherrySpawnRate": 10,
+  "snowflakeSpawnRate": 15,
+  "dropFromPlayerPlacedBlocks": true,
+  "leavesOnBlockHit": true,
+  "minimumFreeSpaceBelow": 1,
+  "windEnabled": true,
+  "windlessDimensions": [
+    "minecraft:the_end",
+    "minecraft:the_nether"
+  ],
+  "leafSettings": {
+    "natures_spirit:frosty_fir_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": true,
+      "spawnBreakingLeaves": true
+    },
+    "natures_spirit:cypress_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": true,
+      "spawnBreakingLeaves": true
+    },
+    "natures_spirit:part_purple_wisteria_leaves": {
+      "spawnRateFactor": 0.0,
+      "isConiferBlock": false,
+      "spawnBreakingLeaves": false
+    },
+    "natures_spirit:yellow_larch_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": true,
+      "spawnBreakingLeaves": true
+    },
+    "natures_spirit:cedar_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": true,
+      "spawnBreakingLeaves": true
+    },
+    "natures_spirit:larch_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": true,
+      "spawnBreakingLeaves": true
+    },
+    "natures_spirit:part_pink_wisteria_leaves": {
+      "spawnRateFactor": 0.0,
+      "isConiferBlock": false,
+      "spawnBreakingLeaves": false
+    },
+    "natures_spirit:part_white_wisteria_leaves": {
+      "spawnRateFactor": 0.0,
+      "isConiferBlock": false,
+      "spawnBreakingLeaves": false
+    },
+    "natures_spirit:fir_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": true,
+      "spawnBreakingLeaves": true
+    },
+    "natures_spirit:part_blue_wisteria_leaves": {
+      "spawnRateFactor": 0.0,
+      "isConiferBlock": false,
+      "spawnBreakingLeaves": false
+    },
+    "natures_spirit:frosty_redwood_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": true,
+      "spawnBreakingLeaves": true
+    }
+  },
+  "leafSpawners": [],
+  "fallSpawnRateFactor": 1.8,
+  "winterSpawnRateFactor": 0.1,
+  "startingSpawnRadius": 0,
+  "decaySpawnRateFactor": 2.6,
+  "maxDecayLeaves": 9
+}

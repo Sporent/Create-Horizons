@@ -1,0 +1,594 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_automation"
+	group: "5716469554F0FE75"
+	icon: "create:mechanical_press"
+	id: "3BD19BCBF8BBD5CA"
+	images: [
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/recipe_arrow.png"
+			rotation: 0.0d
+			width: 1.4666666666666666d
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "numismatics:item/coin/sun"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			image: "numismatics:item/coin/sun"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			height: 2.0d
+			image: "create:block/belt_scroll"
+			rotation: 90.0d
+			width: 1.0d
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "create:block/belt_scroll"
+			rotation: 90.0d
+			width: 1.0d
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "create:block/belt_scroll"
+			rotation: 90.0d
+			width: 1.0d
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "create:block/belt_scroll"
+			rotation: 90.0d
+			width: 1.0d
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "create:block/belt_scroll"
+			rotation: 90.0d
+			width: 1.0d
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/recipe_arrow.png"
+			rotation: -90.0d
+			width: 1.4666666666666666d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			height: 2.0d
+			image: "create:block/belt_scroll"
+			rotation: 90.0d
+			width: 1.0d
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "create:block/belt_scroll"
+			rotation: 90.0d
+			width: 1.0d
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "create:block/belt_scroll"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -1.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["03479EFD2E2B610D"]
+			icon: "create:large_cogwheel"
+			id: "6424838E710A9E39"
+			rewards: [{
+				id: "222D727DF2645940"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0E4D2355D78262DC"
+				type: "checkmark"
+			}]
+			title: "Get started with Create Automation"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6424838E710A9E39"]
+			icon: "create:blaze_burner"
+			id: "2574E2BECB8553E2"
+			rewards: [{
+				count: 2
+				id: "5464D34574ED6508"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "63F4DD585D62FDB9"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+				{
+					dimension: "minecraft:the_nether"
+					id: "5FB849C140B97F33"
+					title: "Visit the Nether"
+					type: "dimension"
+				}
+			]
+			title: "The Essence of Heat"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2574E2BECB8553E2"]
+			id: "276FEDFF63BC84E3"
+			rewards: [
+				{
+					id: "45001E24E4C8D588"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					id: "099BA3B423C7D547"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7EE8C3515DE8FDB8"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["276FEDFF63BC84E3"]
+			id: "6257E7158511D071"
+			rewards: [{
+				count: 2
+				id: "0F75057C9912F774"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "03A1BF8B9A84F0C9"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6257E7158511D071"
+				"5576F5A0C98D643D"
+			]
+			id: "1ACA4690BEAA4C73"
+			rewards: [{
+				count: 2
+				id: "1DD4F2508ADF47C3"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "569E5533AB464B2E"
+				item: { Count: 2, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1ACA4690BEAA4C73"]
+			id: "0C00715BCE212616"
+			rewards: [{
+				id: "7E638B9C94EC9175"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48D43C82C2AA0D14"
+				item: "create:powdered_obsidian"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6257E7158511D071"]
+			id: "5576F5A0C98D643D"
+			rewards: [{
+				id: "0B3B7262E942CC0C"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5553D3349305DAF2"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6257E7158511D071"]
+			hide_dependency_lines: true
+			id: "4181A64024B834CB"
+			rewards: [{
+				id: "2B29C578B5EB84CC"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2953DF48EE1E5BC0"
+				item: "create:smart_chute"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6257E7158511D071"]
+			hide_dependency_lines: true
+			id: "2F526FA562E48DA8"
+			rewards: [{
+				id: "6172D2D416051719"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "126A6A0EC617392E"
+				item: "create:elevator_pulley"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6257E7158511D071"]
+			hide_dependency_lines: true
+			id: "236B98B21C8454E4"
+			rewards: [{
+				id: "40B6E0C90F7B3ED2"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "37387937F8E1B6CC"
+				item: "create:sequenced_gearshift"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6257E7158511D071"]
+			hide_dependency_lines: true
+			id: "772F56785B40EC4C"
+			rewards: [{
+				id: "439A544FB1374E92"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6F6B9C44D1BC510D"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6257E7158511D071"]
+			hide_dependency_lines: true
+			id: "3FD602AD6989A885"
+			rewards: [{
+				id: "75BEF85115465A9A"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6726EA505AA84221"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6257E7158511D071"]
+			hide_dependency_lines: true
+			id: "4A7B006D52DF004F"
+			rewards: [{
+				id: "61E4AE6132228F54"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6BAB0E2A3D21176E"
+				item: "create:stockpile_switch"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6257E7158511D071"]
+			hide_dependency_lines: true
+			id: "1958B25CEEC360E8"
+			rewards: [{
+				id: "31027AF30E5F5316"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5521CB65812C2604"
+				item: "create:content_observer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6257E7158511D071"]
+			hide_dependency_lines: true
+			id: "625AFCD2F950F429"
+			rewards: [{
+				id: "772FE53415F22A26"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "188CE96740298D30"
+				item: "create:display_link"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6257E7158511D071"]
+			hide_dependency_lines: true
+			id: "5658AA8E0AD314E5"
+			rewards: [{
+				id: "1227C05372725F83"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4E03BDE3181055D8"
+				item: "create:brass_tunnel"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6424838E710A9E39"]
+			id: "4AC14E43DDDF6F24"
+			rewards: [{
+				count: 2
+				id: "3BA641E5CA37B0A0"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "221962A6323FFC99"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6424838E710A9E39"]
+			hide_dependency_lines: true
+			id: "6F5BB3EA2DE99BED"
+			rewards: [{
+				id: "78B8194126D67350"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "044B8202B6C29FA0"
+				item: {
+					Count: 1
+					id: "create:netherite_diving_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6424838E710A9E39"]
+			hide_dependency_lines: true
+			id: "24199C0DBA5BC1BB"
+			rewards: [{
+				id: "722A74A188E73DBA"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "191AFF4A2E529C43"
+				item: {
+					Count: 1
+					id: "create:netherite_backtank"
+					tag: {
+						Air: 900
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"6424838E710A9E39"
+				"5576F5A0C98D643D"
+			]
+			hide_dependency_lines: true
+			id: "0CB05C3064401C68"
+			rewards: [{
+				id: "27EE13D0A84661E6"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7EE8B25B5EFDDF31"
+				item: {
+					Count: 1
+					id: "create:extendo_grip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6424838E710A9E39"
+				"5576F5A0C98D643D"
+			]
+			hide_dependency_lines: true
+			id: "2E796B6973E71531"
+			rewards: [{
+				id: "6271B094E358AF8F"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1CE2433DE405762F"
+				item: {
+					Count: 1
+					id: "create:potato_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6424838E710A9E39"]
+			id: "18B6455CCE1CC15F"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [{
+				count: 2
+				id: "18D16A6835FEECBC"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			subtitle: "You can now safely swim in lava!"
+			tasks: [
+				{
+					id: "6F5C5DD1040000AF"
+					item: {
+						Count: 1
+						id: "create:netherite_diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A557D8418BF7C0A"
+					item: {
+						Count: 1
+						id: "create:netherite_backtank"
+						tag: {
+							Air: 900
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "444698CEBD561F2A"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F75591D637A6BDA"
+					item: {
+						Count: 1
+						id: "create:netherite_diving_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Helldiver"
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+	title: "Create Technology"
+}

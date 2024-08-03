@@ -1,0 +1,1899 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "overworld"
+	group: "197E5BFB4E9BA354"
+	icon: "minecraft:grass_block"
+	id: "30C811E24FE02A16"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:grass_block"
+			id: "165A5C62C520FB96"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "All quests are hidden until completed!"
+			tasks: [{
+				advancement: "minecraft:story/root"
+				criterion: ""
+				id: "3735555DA6BB98CF"
+				type: "advancement"
+			}]
+			title: "Overworld Exploration"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42AC022AE3A663C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "minecraft:sandstone"
+			id: "5564797F87BDF5FD"
+			rewards: [{
+				id: "1A31F58E2721299F"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6ACF639E6A3438B1"
+				structure: "betterdeserttemples:desert_temple"
+				title: "Find a Desert Temple"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["165A5C62C520FB96"]
+			disable_toast: true
+			icon: "minecraft:map"
+			id: "42AC022AE3A663C7"
+			subtitle: "11 new structures to find"
+			tasks: [{
+				advancement: "minecraft:story/root"
+				criterion: ""
+				id: "6FF16CF0D6AC940C"
+				type: "advancement"
+			}]
+			title: "Yungs Better Structures"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42AC022AE3A663C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "minecraft:skeleton_skull"
+			id: "5E41676655FE1366"
+			rewards: [{
+				id: "49EB397F8051F761"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1D2A71F34885C379"
+				structure: "betterdungeons:skeleton_dungeon"
+				title: "Find a Skeleton Dungeon"
+				type: "structure"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["42AC022AE3A663C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "minecraft:stone_bricks"
+			id: "14674068FC7F7E45"
+			rewards: [{
+				id: "738D9C025597BD6B"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "53E50846794D0843"
+				structure: "betterdungeons:small_dungeon"
+				title: "Find a Small Dungeon"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["42AC022AE3A663C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "minecraft:cobweb"
+			id: "061051F2E4200A34"
+			rewards: [{
+				id: "50C8D10FBEDA48DA"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "19E261599BEFC098"
+				structure: "betterdungeons:spider_dungeon"
+				title: "Find a Spider Dungeon"
+				type: "structure"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["42AC022AE3A663C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "minecraft:zombie_head"
+			id: "285922AFD1836418"
+			rewards: [{
+				id: "49B9360F589E1D18"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Also called a catacomb"
+			tasks: [{
+				id: "7F51385B8CA45DB4"
+				structure: "betterdungeons:zombie_dungeon"
+				title: "Find a Zombie Dungeon"
+				type: "structure"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["42AC022AE3A663C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "minecraft:mossy_cobblestone"
+			id: "6089A9CE9FD6715D"
+			rewards: [{
+				id: "4AED2F186F3F2740"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "59481666777AFE4E"
+				structure: "betterjungletemples:jungle_temple"
+				title: "Find a Jungle Temple"
+				type: "structure"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["42AC022AE3A663C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "minecraft:minecart"
+			id: "1605EB6A23F4F4B1"
+			rewards: [{
+				id: "25988ED8478EAD84"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1D9DA45871D614C5"
+				structure: "#bettermineshafts:better_mineshafts"
+				title: "Find a Mineshaft"
+				type: "structure"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["42AC022AE3A663C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "minecraft:prismarine_bricks"
+			id: "715ACEF64F8E4A04"
+			rewards: [{
+				id: "023B40A8CA44701D"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3BD0B8CC842FE7F3"
+				structure: "betteroceanmonuments:ocean_monument"
+				title: "Find an Ocean Monument"
+				type: "structure"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["42AC022AE3A663C7"]
+			hide_dependency_lines: false
+			icon: "minecraft:ender_eye"
+			id: "5E949574429FC859"
+			rewards: [{
+				count: 4
+				id: "5EDB9F76A7C557A8"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "32099E51F4132E89"
+				structure: "betterstrongholds:stronghold"
+				title: "Find a Stronghold"
+				type: "structure"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42AC022AE3A663C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "minecraft:cauldron"
+			id: "67A27B309590E6E2"
+			rewards: [{
+				id: "46C34BF61FDCFF1F"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "378258243FD79705"
+				structure: "betterwitchhuts:witch_circle"
+				title: "Find a Witch Circle"
+				type: "structure"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["42AC022AE3A663C7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "minecraft:cauldron"
+			id: "3D0121615A710409"
+			rewards: [{
+				id: "4314AE7C0AF27AD2"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "27622B8F0842B0DB"
+				structure: "betterwitchhuts:witch_hut"
+				title: "Find a Witch Hut"
+				type: "structure"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"5564797F87BDF5FD"
+				"6089A9CE9FD6715D"
+				"1605EB6A23F4F4B1"
+				"5E41676655FE1366"
+				"14674068FC7F7E45"
+				"061051F2E4200A34"
+				"5E949574429FC859"
+				"67A27B309590E6E2"
+				"3D0121615A710409"
+				"285922AFD1836418"
+				"715ACEF64F8E4A04"
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "08475E4BC63ACD07"
+			rewards: [
+				{
+					count: 16
+					id: "6EB3764A511E4BF6"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "361A398846235C76"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "41909785B068A873"
+					item: "numismatics:crown"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5AC327020C7ACE74"
+				title: "Congratulations!"
+				type: "checkmark"
+			}]
+			title: "Dungeon Master"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["165A5C62C520FB96"]
+			disable_toast: true
+			icon: "minecraft:map"
+			id: "07740DBE4FDB1C09"
+			subtitle: "3 new cave biomes"
+			tasks: [{
+				advancement: "minecraft:story/root"
+				criterion: ""
+				id: "1647A0A2153060EA"
+				type: "advancement"
+			}]
+			title: "Galosphere"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["165A5C62C520FB96"]
+			disable_toast: true
+			icon: "minecraft:map"
+			id: "05877FDDF85EB7F8"
+			subtitle: "8 new types of structures"
+			tasks: [{
+				advancement: "minecraft:story/root"
+				criterion: ""
+				id: "2123590CAF770B9C"
+				type: "advancement"
+			}]
+			title: "Cobblemon Structures"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["07740DBE4FDB1C09"]
+			icon: "galosphere:allurite_shard"
+			id: "6A453E049C38D98F"
+			rewards: [{
+				id: "47280E27F5E38DFC"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "galosphere:crystal_canyons"
+				id: "67CE8BE4E117ECFC"
+				title: "Find Crystal Canyons"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["07740DBE4FDB1C09"]
+			icon: "galosphere:bowl_lichen"
+			id: "64B734082D3D5603"
+			rewards: [{
+				id: "6E7CF119F9F548B3"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "galosphere:lichen_caves"
+				id: "2A39D1EEED6C7534"
+				title: "Find Lichen Caves"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["07740DBE4FDB1C09"]
+			icon: "galosphere:pink_salt_shard"
+			id: "5C60D1F26F41B0E5"
+			rewards: [{
+				id: "7D84A23CE26F9194"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "galosphere:pink_salt_caves"
+				id: "3F745D0C87734F2F"
+				title: "Find Pink Salt Caves"
+				type: "biome"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["05877FDDF85EB7F8"]
+			hide_dependent_lines: true
+			icon: "minecraft:oak_log"
+			id: "1D7616C68CF02D46"
+			rewards: [{
+				id: "7DF410EEECA41EF5"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "28048AD795E9EA0F"
+				structure: "#cobblemon:fossils/tree"
+				title: "Find a Cobblemon Fossil Tree"
+				type: "structure"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05877FDDF85EB7F8"]
+			hide_dependency_lines: true
+			icon: "minecraft:pointed_dripstone"
+			id: "62D2E52009E30CB2"
+			rewards: [{
+				id: "72BA8EEEDC1C51FA"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2DAF4B397D737D95"
+				structure: "#cobblemon:fossils/den"
+				title: "Find a Cobblemon Fossil Den"
+				type: "structure"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05877FDDF85EB7F8"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "minecraft:moss_block"
+			id: "5C364D867CD62CA7"
+			rewards: [{
+				id: "5F0FE484297D618D"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5F5C0CC03933C977"
+				structure: "#cobblemon:fossils/pond"
+				title: "Find a Cobblemon Fossil Pond"
+				type: "structure"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["05877FDDF85EB7F8"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "minecraft:stone"
+			id: "50CC28EF1329B398"
+			rewards: [{
+				id: "5E51FF6142381F0E"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "20AC1A7ED0A7C0FC"
+				structure: "#cobblemon:fossils/pit"
+				title: "Find a Cobblemon Fossil Pit"
+				type: "structure"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["05877FDDF85EB7F8"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "minecraft:magma_block"
+			id: "36A1D1AEE741A3F0"
+			rewards: [{
+				id: "08D3A96244EE0EB6"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6095106FBDE4360F"
+				structure: "#cobblemon:fossils/vent"
+				title: "Find a Cobblemon Fossil Vent"
+				type: "structure"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["05877FDDF85EB7F8"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "cobblemon:relic_coin_pouch"
+			id: "37335E719A5228E9"
+			rewards: [{
+				id: "060963A88A5A0283"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3D9E8EC55065261F"
+				structure: "#cobblemon:ruins/misc"
+				title: "Find Cobblemon Ruins"
+				type: "structure"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["05877FDDF85EB7F8"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "minecraft:suspicious_gravel"
+			id: "13AF6EEFE9C8E85A"
+			rewards: [{
+				id: "5E1A54032E54D065"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "63B20ADB615B78F0"
+				structure: "#cobblemon:ruins/arch"
+				title: "Find a Cobblemon Arch"
+				type: "structure"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["05877FDDF85EB7F8"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "cobblemon:gimmighoul_chest"
+			id: "673EFCB56077C2A1"
+			rewards: [{
+				id: "1067A05822AF503D"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6C79930E8F8A5AA5"
+				structure: "#cobblemon:ruins/tower"
+				title: "Find a Cobblemon Gimmighoul Tower"
+				type: "structure"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"13AF6EEFE9C8E85A"
+				"62D2E52009E30CB2"
+				"50CC28EF1329B398"
+				"5C364D867CD62CA7"
+				"1D7616C68CF02D46"
+				"36A1D1AEE741A3F0"
+				"673EFCB56077C2A1"
+				"37335E719A5228E9"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "053B1AEB9214DE8F"
+			rewards: [
+				{
+					count: 4
+					id: "150AA97CA29B3568"
+					item: "cobblemon:relic_coin_sack"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4567FC3F09AE6EE5"
+					item: "cobblemon:pep_up_flower"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "673AE0B73A340255"
+					item: "cobblemon:vivichoke"
+					type: "item"
+				}
+				{
+					id: "429F891892A73D7D"
+					item: "numismatics:crown"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "39F6681F40A5BFE6"
+				title: "Congratulations!"
+				type: "checkmark"
+			}]
+			title: "Archaeologist"
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6A453E049C38D98F"
+				"64B734082D3D5603"
+				"5C60D1F26F41B0E5"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0345E64458A3D4E3"
+			rewards: [
+				{
+					id: "43074230BD97F848"
+					item: "galosphere:silver_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6F5B053269F1DF66"
+					item: "galosphere:silver_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7EBE939902D1BFDF"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "59D85646C02974C3"
+				title: "Congratulations!"
+				type: "checkmark"
+			}]
+			title: "Spelunker"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5C60D1F26F41B0E5"]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "galosphere:saltbound_tablet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "50D594DF1814613D"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "6562C9D8E5B2046E"
+					item: "numismatics:cog"
+					type: "item"
+				}
+				{
+					count: 8
+					exclude_from_claim_all: true
+					id: "62AC4DF573ED18DA"
+					item: "galosphere:cured_membrane"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4AD00E49DF737DC2"
+				structure: "galosphere:pink_salt_shrine"
+				title: "Find the Pink Salt Shrine"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"5AE9E05F6A5A9216"
+				"33E44678BF68707D"
+				"08C095193D643CBE"
+				"5CAD0D330F4593CE"
+				"495D73E000225C88"
+				"76610A4B0121BEE6"
+				"675F6B315C95EDD4"
+				"7285589086C31403"
+				"29F799F78D8941AA"
+				"7E43008493E8EB2B"
+				"46E1843E089EFD8A"
+				"42D067ADB29EAF53"
+				"36C4257D3876C0E7"
+				"7D500A7E4AFA31EA"
+				"6003586A17D2D018"
+				"559F6C6756AE9782"
+				"6AEC50E584219B3B"
+				"3E9FAE519D80C7F5"
+				"38D3838AC8FF7620"
+				"6C7B745C89133797"
+				"60DEDBA65612735C"
+				"7A70A244ED448033"
+				"143E1389E67D2CB0"
+				"005FFF95B86D6B72"
+				"4CBB8618FC11B551"
+				"7DE106400DA4D99D"
+				"60443732E60800DD"
+				"687EF252F1469372"
+				"1069E2AB154A10E4"
+				"143763945CE40A72"
+				"71028127593D1B21"
+				"752A4DCD2FEF00CB"
+				"1EE8A68F802A0A19"
+				"51F2DB13DD7224C9"
+				"1EF042B353B3DBC1"
+				"59566E1F193135A4"
+				"51D1460D66D8B504"
+				"3F4711B134BBD4B1"
+				"130A8C9753F77424"
+				"39EE0D46A6EE9018"
+				"1605929356247243"
+				"478F95CF85B6C07B"
+				"75DD8EC02FF0CF2A"
+				"3E032D5DBC1BE8EA"
+				"4135CC4325449666"
+				"458D0AF39DFE5B71"
+				"091264EE9730E504"
+				"6359D0C76F78B227"
+				"2A299FE4E412386D"
+				"7320214A60B15A6D"
+				"5C60D1F26F41B0E5"
+				"6A453E049C38D98F"
+				"64B734082D3D5603"
+			]
+			description: [
+				"Find all of the overworld biomes added by this modpack!"
+				"{@pagebreak}"
+				"Spoiler alert there are 53 of them and you will have to travel 10s of thousands of blocks to find them all.. that's why this quest is optional. Good luck!"
+			]
+			hide: false
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			icon: {
+				Count: 1
+				id: "minecraft:netherite_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "08AFDA2FAB9F598B"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "1A763C85071778B9"
+					item: "cobblemon:master_ball"
+					type: "item"
+				}
+				{
+					id: "73CBEC5080BEFF88"
+					item: "numismatics:sun"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "178FC3BC1D66685E"
+				title: "Found them dummy give me my reward"
+				type: "checkmark"
+			}]
+			title: "A True Adventurer"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:yellow_larch_sapling"
+			id: "08C095193D643CBE"
+			optional: true
+			rewards: [{
+				id: "556E066F4C8F085A"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:amber_covert"
+				id: "5C59C790420D93BE"
+				title: "Find Amber Covert"
+				type: "biome"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:flaxen_fern"
+			id: "60DEDBA65612735C"
+			optional: true
+			rewards: [{
+				id: "4FDC41D8BA389316"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:golden_wilds"
+				id: "10D4D91E50EF03EF"
+				title: "Find Golden Wilds"
+				type: "biome"
+			}]
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["165A5C62C520FB96"]
+			disable_toast: true
+			icon: "minecraft:map"
+			id: "00AB58E71EBD192C"
+			subtitle: "51 new types of biomes to explore"
+			tasks: [{
+				advancement: "minecraft:story/root"
+				criterion: ""
+				id: "283313E5B5CEF23F"
+				type: "advancement"
+			}]
+			title: "Natures Spirit"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:pink_sand"
+			id: "478F95CF85B6C07B"
+			optional: true
+			rewards: [{
+				id: "76810CA4F266A3D7"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:tropical_shores"
+				id: "02A6A5EE9CD11E8F"
+				title: "Find Tropical Shores"
+				type: "biome"
+			}]
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:mahogany_sapling"
+			id: "75DD8EC02FF0CF2A"
+			optional: true
+			rewards: [{
+				id: "499D50650E2F9CE1"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:tropical_woods"
+				id: "2F10E3B91B12AF05"
+				title: "Find Tropical Woods"
+				type: "biome"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:red_moss_block"
+			id: "3E032D5DBC1BE8EA"
+			optional: true
+			rewards: [{
+				id: "657A23FCF0DD7DDC"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:tundra"
+				id: "4AD72198C32D646B"
+				title: "Find Tundra"
+				type: "biome"
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:white_chalk"
+			id: "4135CC4325449666"
+			optional: true
+			rewards: [{
+				id: "5D7C05E1A71012E1"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:white_cliffs"
+				id: "6703F6976E39098E"
+				title: "Find White Cliffs"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:larch_sapling"
+			id: "33E44678BF68707D"
+			optional: true
+			rewards: [{
+				id: "70FD2FB9ED5B8B80"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:alpine_highlands"
+				id: "6D254F42202A4BAA"
+				title: "Find Alpine Highlands"
+				type: "biome"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:red_heather"
+			id: "7A70A244ED448033"
+			optional: true
+			rewards: [{
+				id: "1EE768EE554F872D"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:heather_fields"
+				id: "3E322999AC0FA68E"
+				title: "Find Heather Fields"
+				type: "biome"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:saxaul_sapling"
+			id: "1EE8A68F802A0A19"
+			optional: true
+			rewards: [{
+				id: "0354A0D60F5A0FA1"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:shrubby_highlands"
+				id: "6059198E7D03108C"
+				title: "Find Shrubby Highlands"
+				type: "biome"
+			}]
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:lavender"
+			id: "143E1389E67D2CB0"
+			optional: true
+			rewards: [{
+				id: "2E9AD44B853587D1"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:lavender_fields"
+				id: "79CA7FBA72C7E600"
+				title: "Find Lavender Fields"
+				type: "biome"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:tall_melic_grass"
+			id: "51F2DB13DD7224C9"
+			optional: true
+			rewards: [{
+				id: "5B975EB86967FD9B"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:shrubland"
+				id: "6B9DF078A03C0C0C"
+				title: "Find Shrubland"
+				type: "biome"
+			}]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:joshua_sapling"
+			id: "005FFF95B86D6B72"
+			optional: true
+			rewards: [{
+				id: "0607EC4AEEB1FC4C"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:lively_dunes"
+				id: "48DEE86780E6C658"
+				title: "Find Lively Dunes"
+				type: "biome"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "minecraft:snow_block"
+			id: "1EF042B353B3DBC1"
+			optional: true
+			rewards: [{
+				id: "6565040B86BA0E55"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:sleeted_slopes"
+				id: "67FDD1F77F204D6D"
+				title: "Find Sleeted Slopes"
+				type: "biome"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:red_maple_sapling"
+			id: "4CBB8618FC11B551"
+			optional: true
+			rewards: [{
+				id: "320DE36473005D06"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:maple_woodlands"
+				id: "579BA673091EF568"
+				title: "Find Maple Woodlands"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "minecraft:snow_block"
+			id: "59566E1F193135A4"
+			optional: true
+			rewards: [{
+				id: "607193F70AA81016"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:snowcapped_red_peaks"
+				id: "39801B3F2B238BEA"
+				title: "Find Snowcapped Red Peaks"
+				type: "biome"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:larch_sapling"
+			id: "5AE9E05F6A5A9216"
+			optional: true
+			rewards: [{
+				id: "0D0977842634A882"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:alpine_clearings"
+				id: "7491209B2AC6DEAE"
+				title: "Find Alpine Clearings"
+				type: "biome"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:carnation"
+			id: "42D067ADB29EAF53"
+			optional: true
+			rewards: [{
+				id: "62A0942572B47D52"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:carnation_fields"
+				id: "722B52B296744ED2"
+				title: "Find Carnation Fields"
+				type: "biome"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:sandy_soil"
+			id: "36C4257D3876C0E7"
+			optional: true
+			rewards: [{
+				id: "7CFBD6537FEA7675"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:chaparral"
+				id: "788D34CB389C5DEE"
+				title: "Find Chaparral"
+				type: "biome"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:larch_sapling"
+			id: "7D500A7E4AFA31EA"
+			optional: true
+			rewards: [{
+				id: "22057552C80B8EDE"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:coniferous_covert"
+				id: "7D70DEA1EE2ECC26"
+				title: "Find Coniferous Covert"
+				type: "biome"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:cypress_sapling"
+			id: "6003586A17D2D018"
+			optional: true
+			rewards: [{
+				id: "56A2085A246BB52C"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:cypress_fields"
+				id: "15A43F49DBB658BB"
+				title: "Find Cypress Fields"
+				type: "biome"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: false
+			icon: "minecraft:acacia_sapling"
+			id: "495D73E000225C88"
+			optional: true
+			rewards: [{
+				id: "29CBB15BFBFE55D3"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:arid_savanna"
+				id: "111BF28A5B3FBDFE"
+				title: "Find Arid Savanna"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:chert"
+			id: "5CAD0D330F4593CE"
+			optional: true
+			rewards: [{
+				id: "08B1613DB52A199D"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:arid_highlands"
+				id: "4B6D223B4CD53417"
+				title: "Find Arid Highlands"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:aspen_sapling"
+			id: "76610A4B0121BEE6"
+			optional: true
+			rewards: [{
+				id: "47B002D09279D33B"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:aspen_forest"
+				id: "26E5A722FA5B4450"
+				title: "Find Aspen Forest"
+				type: "biome"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:marigold"
+			id: "7DE106400DA4D99D"
+			optional: true
+			rewards: [{
+				id: "6A4A770CF027438B"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:marigold_meadows"
+				id: "799C660BA9B867AA"
+				title: "Find Marigold Meadows"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:sugi_sapling"
+			id: "458D0AF39DFE5B71"
+			optional: true
+			rewards: [{
+				id: "0D28C2680FFAD899"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:windswept_sugi_forest"
+				id: "4BDD5F62A1F502A0"
+				title: "Find Windswept Sugi Forest"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:frosty_fir_leaves"
+			id: "51D1460D66D8B504"
+			optional: true
+			rewards: [{
+				id: "64962340B506F4B9"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:snowy_fir_forest"
+				id: "114A367DCD10B7A9"
+				title: "Find Snowy Fir Forest"
+				type: "biome"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:ghaf_sapling"
+			id: "559F6C6756AE9782"
+			optional: true
+			rewards: [{
+				id: "619D62CD334B891C"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:drylands"
+				id: "5E06AC05FBDF7A83"
+				title: "Find Drylands"
+				type: "biome"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:tall_sedge_grass"
+			id: "60443732E60800DD"
+			optional: true
+			rewards: [{
+				id: "73D5F5F4C779B8A3"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:marsh"
+				id: "4AC8EF0751897816"
+				title: "Find Marsh"
+				type: "biome"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "minecraft:bamboo"
+			id: "675F6B315C95EDD4"
+			optional: true
+			rewards: [{
+				id: "3BF9C4805184AFF5"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:bamboo_wetlands"
+				id: "7C22F12B68F727FC"
+				title: "Find Bamboo Wetlands"
+				type: "biome"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:sandy_soil"
+			id: "6AEC50E584219B3B"
+			optional: true
+			rewards: [{
+				id: "42C2B5556DDFD660"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:dusty_slopes"
+				id: "4C48998B6629A3A8"
+				title: "Find Dusty Slopes"
+				type: "biome"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:lush_fern"
+			id: "3F4711B134BBD4B1"
+			optional: true
+			rewards: [{
+				id: "43E9C2A9F6CF4250"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:sparse_tropical_woods"
+				id: "41A3D69CEDB5495B"
+				title: "Find Sparse Tropical Woods"
+				type: "biome"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:pink_wisteria_sapling"
+			id: "091264EE9730E504"
+			optional: true
+			rewards: [{
+				id: "1FFC6358F7466FEA"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:wisteria_forest"
+				id: "204FF3DD71E9ACA6"
+				title: "Find Wisteria Forest"
+				type: "biome"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:palo_verde_sapling"
+			id: "7285589086C31403"
+			optional: true
+			rewards: [{
+				id: "55FD71A2252842CA"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:blooming_dunes"
+				id: "393D0A386B916235"
+				title: "Find Blooming Dunes"
+				type: "biome"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:tall_oat_grass"
+			id: "687EF252F1469372"
+			optional: true
+			rewards: [{
+				id: "5EB09FB1574A87AD"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:oak_savanna"
+				id: "33459C63B09C81A6"
+				title: "Find Oak Savanna"
+				type: "biome"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:pink_sandstone"
+			id: "6359D0C76F78B227"
+			optional: true
+			rewards: [{
+				id: "3F48E35C56C99882"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:wooded_drylands"
+				id: "10A86C44D5EE0A52"
+				title: "Find Wooded Drylands"
+				type: "biome"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:kaolin"
+			id: "130A8C9753F77424"
+			optional: true
+			rewards: [{
+				id: "17B12695601E9971"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:stratified_desert"
+				id: "797437070C4CCF91"
+				title: "Find Stratified Desert"
+				type: "biome"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:fir_sapling"
+			id: "3E9FAE519D80C7F5"
+			optional: true
+			rewards: [{
+				id: "7AF5A6B4C2E94A97"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:fir_forest"
+				id: "14205EA23771DDFD"
+				title: "Find Fir Forest"
+				type: "biome"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:tall_frigid_grass"
+			id: "1069E2AB154A10E4"
+			optional: true
+			rewards: [{
+				id: "061FE5A24B315C56"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:prairie"
+				id: "757C2D29CF33E943"
+				title: "Find Prairie"
+				type: "biome"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:ruby_blossoms"
+			id: "29F799F78D8941AA"
+			optional: true
+			rewards: [{
+				id: "5019A688B5D8CD3A"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:blooming_highlands"
+				id: "51FFF2182DD14C71"
+				title: "Find Blooming Highlands"
+				type: "biome"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:blue_wisteria_sapling"
+			id: "38D3838AC8FF7620"
+			optional: true
+			rewards: [{
+				id: "08A60889E79C9A01"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:floral_ridges"
+				id: "598A5EE74B87806A"
+				title: "Find Floral Ridges"
+				type: "biome"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:sugi_sapling"
+			id: "39EE0D46A6EE9018"
+			optional: true
+			rewards: [{
+				id: "6455ED817D17737D"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:sugi_forest"
+				id: "660C7314822DAF17"
+				title: "Find Sugi Forest"
+				type: "biome"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:saxaul_sapling"
+			id: "2A299FE4E412386D"
+			optional: true
+			rewards: [{
+				id: "49A84FEC46392747"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:woody_highlands"
+				id: "10959EECC4FFF129"
+				title: "Find Woody Highlands"
+				type: "biome"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:chert"
+			id: "143763945CE40A72"
+			optional: true
+			rewards: [{
+				id: "673AD00A103D1E78"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:red_peaks"
+				id: "27401FC437D7AF05"
+				title: "Find Red Peaks"
+				type: "biome"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "minecraft:cherry_sapling"
+			id: "7E43008493E8EB2B"
+			optional: true
+			rewards: [{
+				id: "7A6C4332596A8DFE"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:blooming_sugi_forest"
+				id: "502FA381C42B6305"
+				title: "Find Blooming Sugi Forest"
+				type: "biome"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:silverbush"
+			id: "6C7B745C89133797"
+			optional: true
+			rewards: [{
+				id: "613E5A99BBC1F0C5"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:flowering_shrubland"
+				id: "7A4F0656811CC6BE"
+				title: "Find Flowering Shrubland"
+				type: "biome"
+			}]
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:helvola_flower"
+			id: "1605929356247243"
+			optional: true
+			rewards: [{
+				id: "3CB191F3D1B33DDD"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:tropical_basin"
+				id: "32E1FE1FA332A1F0"
+				title: "Find Tropical Basin"
+				type: "biome"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:olive_sapling"
+			id: "7320214A60B15A6D"
+			optional: true
+			rewards: [{
+				id: "064CA36B05E601D5"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:xeric_plains"
+				id: "7D845C460D9D40BC"
+				title: "Find Xeric Plains"
+				type: "biome"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:redwood_sapling"
+			id: "71028127593D1B21"
+			optional: true
+			rewards: [{
+				id: "33F4CC4DC4AD4621"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:redwood_forest"
+				id: "44ADD0DA0C4D69C9"
+				title: "Find Redwood Forest"
+				type: "biome"
+			}]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "minecraft:red_sand"
+			id: "752A4DCD2FEF00CB"
+			optional: true
+			rewards: [{
+				id: "6E640FCD773B0887"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:scorched_dunes"
+				id: "7A215D3441ED3E14"
+				title: "Find Scorched Dunes"
+				type: "biome"
+			}]
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:red_moss_block"
+			id: "46E1843E089EFD8A"
+			optional: true
+			rewards: [{
+				id: "526295AB25A2A9BF"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:boreal_taiga"
+				id: "3F64CF3A51E8033E"
+				title: "Find Boreal Taiga"
+				type: "biome"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["00AB58E71EBD192C"]
+			hide_dependency_lines: true
+			icon: "natures_spirit:frosty_redwood_leaves"
+			id: "7B089B038CBD9FD7"
+			optional: true
+			rewards: [{
+				id: "2337F0728E0B0457"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "natures_spirit:snowy_redwood_forest"
+				id: "7B86C433EF4AA171"
+				title: "Find Snowy Redwood Forest"
+				type: "biome"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+	]
+	title: "Overworld"
+}

@@ -1,0 +1,650 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cobblemon_automation"
+	group: "5716469554F0FE75"
+	icon: "cobblemon:monitor"
+	id: "495E3F79DC75B821"
+	images: [{
+		height: 3.9d
+		image: "create_horizons:textures/resurrection_machine.png"
+		rotation: 0.0d
+		width: 3.0d
+		x: 0.0d
+		y: -6.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2D33F080ABA9A632"]
+			dependency_requirement: "one_completed"
+			id: "41E27A41083089BB"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "757BBD232611A81F"
+				type: "checkmark"
+			}]
+			title: "Get started with Cobblemon Technology and Automation"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"778B73ECF7A5244B"
+				"5CD94BE0F6D68D6D"
+				"41D80E1747C50377"
+				"26506E5FCD333615"
+				"6DAA63E8E68C380B"
+				"1C7F4EC35F08AC03"
+			]
+			dependency_requirement: "one_completed"
+			id: "1D60BE8DC551965F"
+			tasks: [{
+				id: "5E8F1283FC73AC2A"
+				item: "kubejs:incomplete_pokeball"
+				type: "item"
+			}]
+			title: "Begin an Assembly Line"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1D60BE8DC551965F"]
+			id: "276A54FC5EF07C30"
+			tasks: [
+				{
+					id: "20A5F04CEA7A40E7"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "cobblemon:poke_balls"
+						}
+					}
+					title: "Any #cobblemon:poke_balls"
+					type: "item"
+				}
+				{
+					id: "3AD9169554526758"
+					title: "Automated?"
+					type: "checkmark"
+				}
+			]
+			title: "Automate Pokeballs"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["41E27A41083089BB"]
+			id: "337737A60FD7A04E"
+			rewards: [{
+				id: "122EA002C65AB203"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "28E0302133F486B8"
+				item: "create:copper_sheet"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["337737A60FD7A04E"]
+			id: "407BD92281ED5FDD"
+			rewards: [{
+				count: 4
+				id: "0364E4CFFA7CBEC9"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2B55AADEAD1175D8"
+				item: "create:iron_sheet"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["337737A60FD7A04E"]
+			id: "6CCCD02B989BC88C"
+			rewards: [{
+				count: 4
+				id: "43B6A9884254B4F0"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7EC38CD0AEE92D9C"
+				item: "create:golden_sheet"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"6CCCD02B989BC88C"
+				"407BD92281ED5FDD"
+			]
+			dependency_requirement: "one_completed"
+			id: "129CCC377E50BFB7"
+			rewards: [{
+				id: "6A81927F43BC7995"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "468EF982234749C3"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["129CCC377E50BFB7"]
+			id: "07C67AC2097EB849"
+			rewards: [{
+				count: 2
+				id: "498647BD9D2C0482"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "41080BADA9633F2D"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["129CCC377E50BFB7"]
+			id: "1B8D7B31898043A0"
+			rewards: [{
+				id: "185E4B65085FB610"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0431E24D96CBC634"
+				item: "createdeco:netherite_sheet"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"1B8D7B31898043A0"
+				"07C67AC2097EB849"
+			]
+			dependency_requirement: "one_completed"
+			id: "22D456D04ADAFBA2"
+			rewards: [{
+				count: 2
+				id: "6C63F16D58F61984"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2BE8ACB186B35E6B"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3FD52065B7353AE1"]
+			icon: "create:copper_sheet"
+			id: "5CD94BE0F6D68D6D"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "77AAF298C4873638"
+					item: "create:copper_sheet"
+					type: "item"
+				}
+				{
+					id: "6E8B408DB9C232CA"
+					title: "Automated?"
+					type: "checkmark"
+				}
+			]
+			title: "Automate Copper Sheets"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4E5E169D28F773A3"]
+			icon: "create:iron_sheet"
+			id: "41D80E1747C50377"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "51586D61CED7BF77"
+					item: "create:iron_sheet"
+					type: "item"
+				}
+				{
+					id: "0ED75603B1B143CB"
+					title: "Automated?"
+					type: "checkmark"
+				}
+			]
+			title: "Automate Iron Sheets"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["47CDEBB8D36BE507"]
+			icon: "create:golden_sheet"
+			id: "26506E5FCD333615"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "52E07AA62A2A0AF7"
+					item: "create:golden_sheet"
+					type: "item"
+				}
+				{
+					id: "4D0C425A4F86AA39"
+					title: "Automated?"
+					type: "checkmark"
+				}
+			]
+			title: "Automate Gold Sheets"
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["41E27A41083089BB"]
+			id: "778B73ECF7A5244B"
+			tasks: [
+				{
+					id: "128383BD5FDB55E9"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "cobblemon:cut_apricorns"
+						}
+					}
+					title: "Any #cobblemon:cut_apricorns"
+					type: "item"
+				}
+				{
+					id: "694D7156E9619B66"
+					title: "Automated?"
+					type: "checkmark"
+				}
+			]
+			title: "Automated Cutting Apricorns"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["68C04ED266103B58"]
+			icon: "minecraft:clay_ball"
+			id: "366885A52ED05F2B"
+			tasks: [
+				{
+					id: "6FCA9FF975C9675C"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+				{
+					id: "0232356E7C4C7AEB"
+					title: "Automated?"
+					type: "checkmark"
+				}
+			]
+			title: "Automate Clay Balls"
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["68C04ED266103B58"]
+			icon: "minecraft:soul_sand"
+			id: "253E6DABD648C577"
+			tasks: [
+				{
+					id: "1716788857089DA9"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+				{
+					id: "16C21BB675310662"
+					title: "Automated?"
+					type: "checkmark"
+				}
+			]
+			title: "Automate Soul Sand"
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"68C04ED266103B58"
+				"2B44BC22C2E95B82"
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:iron_ingot"
+			id: "4E5E169D28F773A3"
+			tasks: [
+				{
+					id: "33FBC1BDE60158FB"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "0360B2F217561FD1"
+					title: "Automated?"
+					type: "checkmark"
+				}
+			]
+			title: "Automate Iron Ingots"
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["366885A52ED05F2B"]
+			icon: "minecraft:copper_ingot"
+			id: "3FD52065B7353AE1"
+			tasks: [
+				{
+					id: "1F9DB54901124997"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "4877B45F5F98E51E"
+					title: "Automated?"
+					type: "checkmark"
+				}
+			]
+			title: "Automate Copper Ingots"
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["253E6DABD648C577"]
+			icon: "minecraft:gold_ingot"
+			id: "47CDEBB8D36BE507"
+			tasks: [
+				{
+					id: "2837DE2C8FF03E91"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "791C02DA42D1EAF4"
+					title: "Automated?"
+					type: "checkmark"
+				}
+			]
+			title: "Automate Gold Ingots"
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2B44BC22C2E95B82"]
+			icon: "galosphere:silver_nugget"
+			id: "6DAA63E8E68C380B"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "788EFFD92DD9C43A"
+					item: "galosphere:silver_nugget"
+					type: "item"
+				}
+				{
+					id: "6A5DC7E54A9BCDDD"
+					title: "Automated?"
+					type: "checkmark"
+				}
+			]
+			title: "Automate Silver Nuggets"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["52B0CABF2D7CE731"]
+			icon: "cobblemon:tumblestone"
+			id: "1C7F4EC35F08AC03"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "5BC9055FA60AF1DE"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "cobblemon:tumblestones"
+						}
+					}
+					title: "Any #cobblemon:tumblestones"
+					type: "item"
+				}
+				{
+					id: "62E8624243BE03BA"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Automate Tumblestones"
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["376C266F7EDF092E"]
+			icon: "minecraft:iron_nugget"
+			id: "2B44BC22C2E95B82"
+			tasks: [
+				{
+					id: "52997F52C251AD0F"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+				{
+					id: "0CFB199EC925D27D"
+					title: "Automated?"
+					type: "checkmark"
+				}
+			]
+			title: "Automate Iron Nuggets"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["68C04ED266103B58"]
+			icon: "minecraft:gravel"
+			id: "376C266F7EDF092E"
+			tasks: [
+				{
+					id: "700048FB3A11009A"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+				{
+					id: "34E8259F0F3EE676"
+					title: "Automated?"
+					type: "checkmark"
+				}
+			]
+			title: "Automate Gravel"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["68C04ED266103B58"]
+			icon: {
+				Count: 1
+				id: "minecraft:brush"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "50613F926FF0B536"
+			tasks: [
+				{
+					id: "207F55D856734FA6"
+					item: {
+						Count: 1
+						id: "minecraft:brush"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0167F08B591F01B2"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "cobblemon:tumblestones"
+						}
+					}
+					title: "Any #cobblemon:tumblestones"
+					type: "item"
+				}
+			]
+			title: "Excavate Cobblemon Ruins"
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["50613F926FF0B536"]
+			icon: "minecraft:lava_bucket"
+			id: "52B0CABF2D7CE731"
+			tasks: [
+				{
+					id: "4DECA4D942C497B2"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "65AAEB82BC1DB3F5"
+					title: "Automated?"
+					type: "checkmark"
+				}
+			]
+			title: "Automate Lava"
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["41E27A41083089BB"]
+			hide_dependency_lines: true
+			icon: "createdeco:decal_warning"
+			id: "4AFA8DA675B54D40"
+			subtitle: "But heavily recommended!"
+			tasks: [{
+				id: "764CE6F219CBA27D"
+				type: "checkmark"
+			}]
+			title: "Automation Is optional!"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"41E27A41083089BB"
+				"276A54FC5EF07C30"
+			]
+			hide_dependency_lines: true
+			id: "7363BBEAEF567C56"
+			rewards: [{
+				count: 2
+				id: "7949F9A4F5AEE679"
+				item: "numismatics:crown"
+				type: "item"
+			}]
+			subtitle: "Cobblemon Mastery"
+			tasks: [{
+				id: "7E4013B7BF888D2A"
+				item: "cobblemon:master_ball"
+				type: "item"
+			}]
+			title: "The Greatest of Them All"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41E27A41083089BB"]
+			description: [
+				"See the image below for how to build it :D"
+				"Once built fill the tank with organics (same stuff used for the composter)"
+				"And then place the fossil in the bottom left machine!"
+				"&6Some pokemon will require two fossils of different types to work"
+			]
+			hide_dependency_lines: true
+			id: "5CCFEE00D2351B28"
+			subtitle: "Re-enact Jurassic Park"
+			tasks: [
+				{
+					id: "3178C2C9F690C070"
+					item: "cobblemon:restoration_tank"
+					type: "item"
+				}
+				{
+					id: "652A60735AE018F8"
+					item: "cobblemon:monitor"
+					type: "item"
+				}
+				{
+					id: "359AA019C7E28900"
+					item: "cobblemon:fossil_analyzer"
+					type: "item"
+				}
+			]
+			title: "Build a Restoration Machine"
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["41E27A41083089BB"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "7D037F38D33E4292"
+			tasks: [{
+				id: "230C0B2489B9417F"
+				item: "cobblemon:healing_machine"
+				type: "item"
+			}]
+			title: "Craft a Healing Machine"
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["41E27A41083089BB"]
+			hide_dependency_lines: true
+			id: "58325C4E3BEA1362"
+			subtitle: "Use to store your pokemon"
+			tasks: [{
+				id: "1C5AA5431A96E85A"
+				item: "cobblemon:pc"
+				type: "item"
+			}]
+			title: "Craft a PC"
+			x: -2.5d
+			y: -6.0d
+		}
+	]
+	title: "Cobblemon Technology"
+}

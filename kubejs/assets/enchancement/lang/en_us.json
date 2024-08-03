@@ -1,0 +1,5 @@
+{
+    "enchantment.galosphere.enfeeble.desc" : "Gives mobs slowness for a brief duration when hit by the pink salt pillars",
+    "enchantment.galosphere.sustain.desc" : "Extends the duration of the pink salt pillars",
+    "enchantment.galosphere.rupture.desc" : "Causes the pink salt pillars to shatter into shards when they retract"
+}

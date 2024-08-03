@@ -1,0 +1,136 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "end"
+	group: "197E5BFB4E9BA354"
+	icon: "minecraft:end_stone"
+	id: "78B1F20DF54A0904"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:end_stone"
+			id: "59C94BEC6C243AA0"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "4CEC41C63E504C68"
+				title: "Visit The End"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59C94BEC6C243AA0"]
+			icon: "minecraft:dead_brain_coral_block"
+			id: "1B7FEDF96F36BDB2"
+			rewards: [{
+				count: 2
+				id: "3ADC5D8DB8A2CC62"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "nullscape:shadowlands"
+				id: "066530B8C2469E51"
+				type: "biome"
+			}]
+			title: "Visit Shadowlands"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["59C94BEC6C243AA0"]
+			icon: "minecraft:amethyst_block"
+			id: "0D4C5F06BCAC4A20"
+			rewards: [{
+				count: 2
+				id: "5E31F05067E746D3"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "nullscape:crystal_peaks"
+				id: "0B733A89423B0AE8"
+				type: "biome"
+			}]
+			title: "Visit Crystal Peaks"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["59C94BEC6C243AA0"]
+			icon: "minecraft:blackstone"
+			id: "70D8394EBD682174"
+			rewards: [{
+				count: 2
+				id: "3741383B43A8897A"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				biome: "nullscape:void_barrens"
+				id: "125CBC16E0BD89AA"
+				type: "biome"
+			}]
+			title: "Visit Void Barrens"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0D4C5F06BCAC4A20"
+				"1B7FEDF96F36BDB2"
+				"70D8394EBD682174"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:netherite_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "62535AE3692E4D69"
+			rewards: [
+				{
+					id: "0D107AB1E8F0AEB3"
+					item: "numismatics:crown"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5D754F21BAC40AF4"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "181D08E2FE647B54"
+				type: "checkmark"
+			}]
+			title: "Void Wanderer"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["59C94BEC6C243AA0"]
+			icon: "createdeco:decal_warning"
+			id: "16043A70EADBBD4D"
+			subtitle: "Use trains instead :)"
+			tasks: [{
+				id: "68868AA99B6D2638"
+				type: "checkmark"
+			}]
+			title: "ELYTRAS ARE DISABLED"
+			x: 0.0d
+			y: -2.0d
+		}
+	]
+	title: "End"
+}

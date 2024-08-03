@@ -1,0 +1,9 @@
+{
+	chapter_groups: [
+		{ id: "26A327D69CDFBE6F", title: "Basics" }
+		{ id: "197E5BFB4E9BA354", title: "Exploration" }
+		{ id: "121DD5857BC2A50A", title: "Economy" }
+		{ id: "5716469554F0FE75", title: "Technology" }
+		{ id: "085420B3B4B26FF9", title: "Extras" }
+	]
+}

@@ -1,0 +1,338 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "amarite"
+	group: "085420B3B4B26FF9"
+	icon: "amarite:amarite_shard"
+	id: "4387529082D7E205"
+	images: [
+		{
+			height: 1.175d
+			image: "minecraft:block/budding_amethyst"
+			rotation: 0.0d
+			width: 1.175d
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			height: 1.175d
+			image: "minecraft:block/raw_gold_block"
+			rotation: 0.0d
+			width: 1.175d
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			height: 1.175d
+			image: "minecraft:block/magma"
+			rotation: 0.0d
+			width: 1.175d
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			height: 1.175d
+			image: "minecraft:block/raw_gold_block"
+			rotation: 0.0d
+			width: 1.175d
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			height: 1.175d
+			image: "minecraft:block/raw_gold_block"
+			rotation: 0.0d
+			width: 1.175d
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			height: 1.175d
+			image: "minecraft:block/raw_gold_block"
+			rotation: 0.0d
+			width: 1.175d
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			height: 1.175d
+			image: "minecraft:block/raw_gold_block"
+			rotation: 0.0d
+			width: 1.175d
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			height: 1.175d
+			image: "minecraft:block/raw_gold_block"
+			rotation: 0.0d
+			width: 1.175d
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			height: 1.175d
+			image: "minecraft:block/budding_amethyst"
+			rotation: 0.0d
+			width: 1.175d
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			height: 1.175d
+			image: "amarite:block/budding_amarite"
+			rotation: 0.0d
+			width: 1.175d
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/recipe_arrow.png"
+			rotation: 0.0d
+			width: 1.4666666666666666d
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			height: 1.175d
+			image: "minecraft:block/budding_amethyst"
+			rotation: 0.0d
+			width: 1.175d
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/recipe_arrow.png"
+			rotation: 0.0d
+			width: 1.4666666666666666d
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			height: 1.175d
+			image: "amarite:block/budding_amarite"
+			rotation: 0.0d
+			width: 1.175d
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			height: 1.175d
+			image: "amarite:block/fresh_amarite_bud"
+			rotation: 0.0d
+			width: 1.175d
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/recipe_arrow.png"
+			rotation: 0.0d
+			width: 1.4666666666666666d
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/recipe_arrow.png"
+			rotation: 0.0d
+			width: 1.4666666666666666d
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			height: 1.175d
+			image: "amarite:block/budding_amarite"
+			rotation: 0.0d
+			width: 1.175d
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			height: 1.175d
+			image: "amarite:block/partial_amarite_bud"
+			rotation: 0.0d
+			width: 1.175d
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			height: 1.175d
+			image: "amarite:block/budding_amarite"
+			rotation: 0.0d
+			width: 1.175d
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			height: 1.175d
+			image: "amarite:block/amarite_cluster"
+			rotation: 0.0d
+			width: 1.175d
+			x: 10.0d
+			y: -2.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:budding_amethyst"
+			id: "7D33B9433EF9300F"
+			subtitle: "you could find a geode there or bring one down using a mechanical piston"
+			tasks: [{
+				id: "613DF23DEF6D0000"
+				type: "checkmark"
+			}]
+			title: "Get a budding amethyst below y=0"
+			x: -5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7D33B9433EF9300F"]
+			icon: "amarite:budding_amarite"
+			id: "7CF65B9CAC3B0337"
+			subtitle: "Side and top down perspective of the setup to the right"
+			tasks: [{
+				id: "2D011ADB713E3526"
+				type: "checkmark"
+			}]
+			title: "Make an Amarite growing setup"
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7CF65B9CAC3B0337"]
+			id: "5236A1627AF6F9F0"
+			rewards: [{
+				id: "36C352246BA7DF65"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D1AEA7325FEBD2C"
+				item: "amarite:amarite_shard"
+				type: "item"
+			}]
+			title: "Harvest an Amarite Shard"
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5236A1627AF6F9F0"]
+			id: "0B91F1CE1B14FDFC"
+			rewards: [{
+				id: "363E772B1AE8B2B8"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "548987A3EAD057B2"
+				item: "amarite:amarite_block"
+				type: "item"
+			}]
+			title: "Craft an Amarite Block"
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0B91F1CE1B14FDFC"]
+			id: "1999449BBC6BBC8D"
+			rewards: [{
+				count: 4
+				id: "1DF505032DE2E1BF"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "29C98CF6FEB2E67C"
+				item: "amarite:amarite_longsword"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0B91F1CE1B14FDFC"]
+			id: "0039097D52F26633"
+			rewards: [{
+				count: 4
+				id: "68B12B1F8DEEC36A"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "762869F5196CFB6D"
+				item: "amarite:amarite_disc"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5236A1627AF6F9F0"]
+			id: "62177460CFADD7CB"
+			rewards: [{
+				count: 2
+				id: "0D799CE9F3F3CF2C"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "43128EAF44ECF799"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "spelunker:spelunker"
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0B91F1CE1B14FDFC"]
+			id: "122EAD737631F7FA"
+			rewards: [{
+				count: 4
+				id: "34C6C773D273B9A0"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F4687FDF22AB4A9"
+				item: "amarite:amarite_mirror"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			icon: "createdeco:decal_warning"
+			id: "1147D5D514B33BA1"
+			tasks: [{
+				id: "11B4F8AE9D00B011"
+				type: "checkmark"
+			}]
+			title: "Side View Middle Slice"
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			icon: "createdeco:decal_warning"
+			id: "4190FC1D3CCBDF34"
+			tasks: [{
+				id: "6EFD073E8187576E"
+				type: "checkmark"
+			}]
+			title: "Top View"
+			x: 4.0d
+			y: -7.5d
+		}
+	]
+	title: "Amarite"
+}

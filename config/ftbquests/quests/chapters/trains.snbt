@@ -1,0 +1,296 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "trains"
+	group: "5716469554F0FE75"
+	icon: "create:track_station"
+	id: "39DD2A31A0C26C03"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0C00715BCE212616"]
+			icon: "create:track"
+			id: "13BE64685ABA5A24"
+			rewards: [{
+				id: "7C8D01340FC0EAEE"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "696D24F5974AD6C2"
+				type: "checkmark"
+			}]
+			title: "Get Started with Create Trains!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["13BE64685ABA5A24"]
+			id: "24B27824948D894B"
+			rewards: [{
+				count: 4
+				id: "70EC1DA952933B2E"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09DF9029A5B69542"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			title: "Assemble a Sturdy Sheet"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["24B27824948D894B"]
+			id: "056297F3A721FFC5"
+			optional: true
+			rewards: [{
+				id: "4C4D5403BE4C4708"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "22DF4435C60F10F2"
+				item: "create:schedule"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["24B27824948D894B"]
+			id: "1967C7CAE9522C51"
+			optional: true
+			rewards: [{
+				id: "3D51E4FEAB9FE761"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3193DE1AF4E4AE2B"
+				item: "railways:fuel_tank"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["24B27824948D894B"]
+			id: "778B8887154686D7"
+			rewards: [{
+				id: "5C860E0059240026"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FD9BC98502E46EC"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			title: "Make Train Casing"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["778B8887154686D7"]
+			id: "2F65C153FB7F498B"
+			rewards: [{
+				id: "25CEAF96681F1D72"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4ACBF530FA733D87"
+					item: "create:controls"
+					type: "item"
+				}
+				{
+					id: "19BB6D48FB7673E3"
+					item: "create:track_station"
+					type: "item"
+				}
+				{
+					id: "1D67B59FF79322AC"
+					item: {
+						Count: 1
+						id: "create:super_glue"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0384E86885A5129C"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "create:seats"
+						}
+					}
+					title: "Any #create:seats"
+					type: "item"
+				}
+			]
+			title: "Craft Train Components"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2F65C153FB7F498B"
+				"6C0AF5DBE0C19608"
+			]
+			id: "6A919EEE352AA1C9"
+			rewards: [{
+				id: "15DFE98BD6B75565"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "550E13D50B7C6C30"
+				item: "railways:handcar"
+				type: "item"
+			}]
+			title: "Assemble a Train for the First Time!"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["13BE64685ABA5A24"]
+			id: "6C0AF5DBE0C19608"
+			rewards: [{
+				id: "33462C0F5F14D8B3"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C22A3C265E52A13"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "railways:train_tracks"
+					}
+				}
+				title: "Any #railways:train_tracks"
+				type: "item"
+			}]
+			title: "Assemble a Train Track"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["778B8887154686D7"]
+			id: "0C9169F52C11C565"
+			optional: true
+			rewards: [{
+				id: "6162C931263BF9CE"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "00E0F3E826D0ACF9"
+				item: "create:track_signal"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["778B8887154686D7"]
+			hide_dependency_lines: true
+			id: "0E9DBCFBE842861B"
+			optional: true
+			rewards: [{
+				id: "65F171C12156E380"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7C7AB3042BAB7B9E"
+				item: "railways:track_coupler"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["778B8887154686D7"]
+			hide_dependency_lines: true
+			id: "2A2DB6EF302BE3D3"
+			optional: true
+			rewards: [{
+				id: "0368531AEEDFC4E1"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "64F7F608E189B638"
+				item: "create:track_observer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["778B8887154686D7"]
+			hide_dependency_lines: true
+			id: "00AA2434B9AE5A7C"
+			optional: true
+			rewards: [{
+				id: "64F03B03E3373D67"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0606E06190E6A337"
+				item: "railways:portable_fuel_interface"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["13BE64685ABA5A24"]
+			id: "35972B4AFB0FD954"
+			rewards: [{
+				count: 2
+				id: "44376BEF16FAE2D7"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			subtitle: "Time to build a railway"
+			tasks: [{
+				count: 250L
+				id: "077F0EEA84BA285D"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "railways:train_tracks"
+					}
+				}
+				title: "Any #railways:train_tracks"
+				type: "item"
+			}]
+			title: "Make a whole lotta tracks"
+			x: 0.0d
+			y: -4.0d
+		}
+	]
+	title: "Trains!!!!"
+}

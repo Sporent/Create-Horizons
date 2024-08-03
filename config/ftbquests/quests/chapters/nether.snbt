@@ -1,0 +1,344 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "nether"
+	group: "197E5BFB4E9BA354"
+	icon: "minecraft:netherrack"
+	id: "7D7B4574242DD882"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:netherrack"
+			id: "27EEFF4EBB5F49E3"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "28DA8D8892D1EC81"
+				type: "dimension"
+			}]
+			title: "Visit The Nether"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27EEFF4EBB5F49E3"]
+			disable_toast: true
+			icon: "minecraft:map"
+			id: "0D5BC08F3FFC8801"
+			subtitle: "8 New Biomes"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "2155E4CE5B49AF8E"
+				type: "dimension"
+			}]
+			title: "Incendium"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0D5BC08F3FFC8801"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "minecraft:smooth_basalt"
+			id: "024034131199604F"
+			rewards: [{
+				id: "5DBC1A0D56CE1F5A"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "incendium:ash_barrens"
+				id: "23F4D7F71D72D63D"
+				type: "biome"
+			}]
+			title: "Find Ash Barrens"
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0D5BC08F3FFC8801"]
+			hide_dependent_lines: true
+			icon: "minecraft:red_sand"
+			id: "457F80B67DD40FD6"
+			rewards: [{
+				id: "54B05ACBE94907A0"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "incendium:infernal_dunes"
+				id: "1FE94BF49C6E92D6"
+				type: "biome"
+			}]
+			title: "Find Infernal Dunes"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0D5BC08F3FFC8801"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "minecraft:warped_stem"
+			id: "704A08252D5C8DAF"
+			rewards: [{
+				id: "119E93F07CB9D121"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "incendium:inverted_forest"
+				id: "1938243040770BB8"
+				type: "biome"
+			}]
+			title: "Find Inverted Forest"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0D5BC08F3FFC8801"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "minecraft:quartz"
+			id: "43C720D297BEF334"
+			rewards: [{
+				id: "36D8B1356EAE2D9A"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "incendium:quartz_flats"
+				id: "0D1E0E5F3E57D479"
+				type: "biome"
+			}]
+			title: "Find Quartz Flats"
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0D5BC08F3FFC8801"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "minecraft:slime_ball"
+			id: "20CA5A086E5AFAD9"
+			rewards: [{
+				id: "0B13F4164E9B459F"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "incendium:toxic_heap"
+				id: "3A176FA1B2D7BE82"
+				type: "biome"
+			}]
+			title: "Find Toxic Heap"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0D5BC08F3FFC8801"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "minecraft:magma_block"
+			id: "10ED2BA9B3460E51"
+			rewards: [{
+				id: "753C09CF29F7BB11"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "incendium:volcanic_deltas"
+				id: "7B4A5A6CC844733A"
+				type: "biome"
+			}]
+			title: "Find Volcanic Deltas"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0D5BC08F3FFC8801"]
+			hide_dependency_lines: true
+			icon: "minecraft:weeping_vines"
+			id: "5B86CDBF161B0B3B"
+			rewards: [{
+				id: "35719BD2708B2EE5"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "incendium:weeping_valley"
+				id: "0E8EC9D8BF3E0685"
+				type: "biome"
+			}]
+			title: "Find Weeping Valley"
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0D5BC08F3FFC8801"]
+			hide_dependency_lines: true
+			icon: "minecraft:basalt"
+			id: "61A65EF78BFFC718"
+			rewards: [{
+				id: "7158283C9CD399E0"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "incendium:withered_forest"
+				id: "5E8D3B7BB55A5A48"
+				type: "biome"
+			}]
+			title: "Find Withered Forest"
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"024034131199604F"
+				"704A08252D5C8DAF"
+				"20CA5A086E5AFAD9"
+				"10ED2BA9B3460E51"
+				"457F80B67DD40FD6"
+				"61A65EF78BFFC718"
+				"5B86CDBF161B0B3B"
+				"43C720D297BEF334"
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2856DC94DA45B781"
+			rewards: [
+				{
+					id: "4D91ED3AB7D2CF2C"
+					item: "numismatics:crown"
+					type: "item"
+				}
+				{
+					id: "1E178A0F1573DD9F"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Explore every new Nether biome"
+			tasks: [{
+				id: "2EA2598B40FED48B"
+				type: "checkmark"
+			}]
+			title: "Agent of Heck!!"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["27EEFF4EBB5F49E3"]
+			icon: "minecraft:nether_bricks"
+			id: "4D844CCF2F4D6FF8"
+			rewards: [
+				{
+					count: 4
+					id: "33399EC858FCB523"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+				{
+					id: "7C82D22F7A645E39"
+					item: "minecraft:fire_charge"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "52A426F39381EF72"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Upgraded with Yung's Better Nether Fortresses!"
+			tasks: [{
+				id: "491B1520B3221608"
+				structure: "#betterfortresses:better_fortresses"
+				type: "structure"
+			}]
+			title: "Find a Nether Fortress"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["27EEFF4EBB5F49E3"]
+			icon: "minecraft:polished_blackstone_bricks"
+			id: "623CD53A1CD54A62"
+			rewards: [
+				{
+					count: 4
+					id: "3C549FC14673A8BB"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "446566BEF0CF07F6"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "568AE992F9A34B9F"
+				structure: "minecraft:bastion_remnant"
+				type: "structure"
+			}]
+			title: "Find a Bastion Remnant"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27EEFF4EBB5F49E3"]
+			id: "10D262D597DC0905"
+			rewards: [
+				{
+					count: 4
+					id: "60EE7B8A0D3F4A35"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "63910A18D7E944D3"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Y level 15 you schmuck"
+			tasks: [{
+				id: "05A9877BBEE6FB7F"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			icon: "createdeco:decal_warning"
+			id: "24BC9D25FA2C2DC9"
+			subtitle: "The structures have been removed"
+			tasks: [{
+				id: "0303BFFBBCCFE833"
+				type: "checkmark"
+			}]
+			title: "Incendium is biomes only!"
+			x: 0.0d
+			y: -3.5d
+		}
+	]
+	title: "Nether"
+}

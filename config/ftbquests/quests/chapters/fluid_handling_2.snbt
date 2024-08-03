@@ -1,0 +1,307 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fluid_handling_2"
+	group: "5716469554F0FE75"
+	icon: "create:fluid_tank"
+	id: "420C88A84D7B38E5"
+	images: [
+		{
+			height: 1.0d
+			image: "createdeco:block/palettes/pipes/glass_fluid_pipe"
+			rotation: 90.0d
+			width: 1.2d
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "createdeco:block/palettes/pipes/glass_fluid_pipe"
+			rotation: 90.0d
+			width: 1.2d
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "createdeco:block/palettes/pipes/glass_fluid_pipe"
+			rotation: 90.0d
+			width: 1.2d
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "createdeco:block/palettes/pipes/glass_fluid_pipe"
+			rotation: 90.0d
+			width: 1.2d
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "createdeco:block/palettes/pipes/glass_fluid_pipe"
+			rotation: 90.0d
+			width: 1.2d
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "createdeco:block/palettes/pipes/glass_fluid_pipe"
+			rotation: 90.0d
+			width: 1.2d
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "createdeco:block/palettes/pipes/glass_fluid_pipe"
+			rotation: 90.0d
+			width: 1.2d
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "createdeco:block/palettes/pipes/glass_fluid_pipe"
+			rotation: -90.0d
+			width: 1.2d
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "createdeco:block/palettes/pipes/glass_fluid_pipe"
+			rotation: -90.0d
+			width: 1.2d
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "createdeco:block/palettes/pipes/glass_fluid_pipe"
+			rotation: -90.0d
+			width: 1.2d
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "createdeco:block/palettes/pipes/glass_fluid_pipe"
+			rotation: -90.0d
+			width: 1.2d
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "createdeco:block/palettes/pipes/glass_fluid_pipe"
+			rotation: -90.0d
+			width: 1.2d
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "createdeco:block/palettes/pipes/glass_fluid_pipe"
+			rotation: -90.0d
+			width: 1.2d
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "createdeco:block/palettes/pipes/glass_fluid_pipe"
+			rotation: -90.0d
+			width: 1.2d
+			x: 3.5d
+			y: 3.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "create:fluid_tank"
+			id: "5420B7B764422E9A"
+			rewards: [{
+				count: 2
+				id: "62C4B3DAAC5C9BB2"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "6CE080203C9BBD35"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+				{
+					id: "03DC8B223A2BDB91"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+			]
+			title: "Fluid Handling"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5420B7B764422E9A"]
+			id: "11AEB5CC5826F83F"
+			rewards: [{
+				count: 2
+				id: "52343B0F10BFB1C1"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "10763EBDADA80B06"
+					item: "create:basin"
+					type: "item"
+				}
+				{
+					id: "39A807676E210757"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+				{
+					id: "792B2E1EE5E2F5FA"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+			]
+			title: "Potion Brewing Setup"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"11AEB5CC5826F83F"
+				"5420B7B764422E9A"
+			]
+			id: "40DF24C61EDF7BA1"
+			rewards: [{
+				count: 4
+				id: "45245FBD7DAE1344"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "29B18425E7F2E2D3"
+					item: "cobblemon:medicinal_leek"
+					type: "item"
+				}
+				{
+					id: "0A7C54E2B457CDC8"
+					item: "kubejs:medicinal_brew_bucket"
+					type: "item"
+				}
+			]
+			title: "Cobblemon Brewing"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5420B7B764422E9A"]
+			id: "48F2C49F0DE3930A"
+			rewards: [{
+				count: 2
+				id: "4F6ADBFB31D0391C"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6B8017CA34080E0E"
+					item: "create:steam_engine"
+					type: "item"
+				}
+				{
+					id: "0F63A295000DB34F"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			title: "Steam Engines"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["48F2C49F0DE3930A"]
+			id: "17F002DA1AD5CCE4"
+			rewards: [{
+				id: "09CCE4D0563C4CB7"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "create:steam_engine_maxed"
+				criterion: ""
+				id: "792694B5DB31E042"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5420B7B764422E9A"]
+			id: "56006508FE5DD255"
+			rewards: [{
+				id: "242AE125AB6DBBE4"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "746BD8667E8AACFB"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5420B7B764422E9A"]
+			hide_dependency_lines: true
+			id: "5AC79FB86353291A"
+			rewards: [{
+				id: "1E042CCD416A43A5"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "376D1FAFC0453118"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5420B7B764422E9A"]
+			hide_dependency_lines: true
+			id: "4B7089E4837117AF"
+			rewards: [{
+				id: "2546CD2C53851BF6"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2C9A0E65B120D75F"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+	]
+	title: "Fluid Handling"
+}

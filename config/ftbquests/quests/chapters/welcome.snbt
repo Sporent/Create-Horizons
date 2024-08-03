@@ -1,0 +1,308 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: "26A327D69CDFBE6F"
+	icon: "cobblemon:love_sweet"
+	id: "662D2CB8743D54D9"
+	images: [
+		{
+			height: 2.0d
+			image: "numismatics:item/coin/cog"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "numismatics:item/coin/sprocket"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "numismatics:item/coin/sprocket"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			height: 2.0d
+			image: "cobblemon:item/poke_balls/master_ball"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "cobblemon:item/poke_balls/poke_ball"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "cobblemon:item/poke_balls/poke_ball"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -1.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "cobblemon:love_sweet"
+			id: "2B368F5E3C003768"
+			rewards: [
+				{
+					count: 4
+					id: "1DF0239A05D0F14D"
+					item: "farmersdelight:sweet_berry_cookie"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "35888738099F5350"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Hope you enjoy the modpack <3"
+			tasks: [{
+				id: "374D5777B8D3567E"
+				type: "checkmark"
+			}]
+			title: "Welcome to Create: Horizons!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B368F5E3C003768"]
+			description: [
+				"In this modpack, there are a few major gameplay changes aside from the obvious that Create adds. "
+				""
+				"A few of these mods include:"
+				""
+				" -&6Cobblemon"
+				" -&6Enchancement"
+				" -&6Lootr"
+			]
+			icon: "createdeco:decal_warning"
+			id: "3134464E65118F8E"
+			tasks: [{
+				id: "138DB3BCE8A29B0F"
+				type: "checkmark"
+			}]
+			title: "Gameplay Changes"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3134464E65118F8E"]
+			description: [
+				"As you may have already noticed when looking around you, the Cobblemon modpack introduces pokémon into minecraft!"
+				"These pokémon can be caught during battle as a turn use, or alternatively outside of battle by throwing a pokéball with &bright click&r (though your chances are lower). &6Battles can only be fought when you have a pokémon, so make sure to choose your starter with the &b[Open Summary] &6key!"
+			]
+			icon: "cobblemon:poke_ball"
+			id: "6CC6259254B49718"
+			subtitle: "Pokémon in Minecraft!"
+			tasks: [{
+				id: "10521A8402D3FD11"
+				type: "checkmark"
+			}]
+			title: "Cobblemon"
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3134464E65118F8E"]
+			description: [
+				"The Enchancement mod completely overhauls how regular enchanting works in Minecraft!"
+				""
+				""
+				"&6All enchantments that are flat buffs have been removed (with the exception of efficiency). &rInstead, the enchancement mod adds different uniquely powerful enchantments for your tools, weapons, and armour! "
+				""
+				"No need to worry about RNG! enchancement allows you to &6pick the enchant you want &rthrough the enchantment table, &rthough only &6one can be applied per item.&r"
+				""
+				"{@pagebreak}"
+				"In addition, the &6cost &rof enchanting items has been reworked. You can now pay for enchantments using either &6lapis, experience, or the material that the item is made from. &rAdding &6bookshelves &raround the enchantment table will &6decrease the cost &rof applying an enchantment."
+				""
+				"Another huge change this mod makes is &6disabling durability, &rto make up for the loss of the unbreaking and mending enchantments among other reasons."
+				""
+				"If you aren't a fan of this and want to disable it, there is an option within the config that you can open through the \"mods\" tab in the escape menu."
+				" "
+			]
+			icon: "minecraft:enchanting_table"
+			id: "0435E6E0B46A9820"
+			subtitle: "Overhauled Enchanting"
+			tasks: [{
+				id: "04244D8F0DF7F494"
+				type: "checkmark"
+			}]
+			title: "Enchantments"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3134464E65118F8E"]
+			description: [
+				"Tired of villages being completely ransacked by other players?"
+				"Struggling to find loot that hasnt been taken?"
+				"Look no further than the Lootr mod!"
+				"With the Lootr mod, &6every loot chest/barrel has its own inventory per player!&r"
+			]
+			icon: "minecraft:chest"
+			id: "0A88867F6DCF4483"
+			subtitle: "Everyone now has a chance to get the same loot!"
+			tasks: [{
+				id: "7D3C1C69ABE1A1B7"
+				type: "checkmark"
+			}]
+			title: "Looting Structures"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2B368F5E3C003768"]
+			description: ["Additionally, here are some other mods that have been added to this modpack!"]
+			icon: "createdeco:decal_warning"
+			id: "5C67B8DFFCD46265"
+			subtitle: "Cool things :3"
+			tasks: [{
+				id: "784A4401D7E2B355"
+				type: "checkmark"
+			}]
+			title: "Custom Additions Made For This Modpack"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5C67B8DFFCD46265"]
+			description: [
+				"Added newly with this modpack and integral to the progression are &6sequenced assembly &rrecipes for every type of pokéball in the entire game, and custom recipes to allow you to automate all of the materials necessary to make them."
+				""
+				"{@pagebreak}"
+				"You can also now brew medicinal items that were previously only able to be made in a brewing stand using &6mechanical mixers &rfrom Create!"
+			]
+			icon: "kubejs:cut_red_apricorn"
+			id: "34D49DD7DACE0E44"
+			tasks: [{
+				id: "168A3DBE60D0145E"
+				type: "checkmark"
+			}]
+			title: "Create and Cobblemon Integration"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3134464E65118F8E"]
+			description: [
+				"- &6Tectonic&r is a datapack that overhauls the terrain generation of the overworld"
+				""
+				"- &6Nature's spirit &radds all of the new overworld surface biomes and many new blocks, foliage and wood types"
+				""
+				"- &6Galosphere &radds all of new the overworld cave biomes"
+				""
+				"- &6The Yung's series &rcompletely overhauls many vanilla structures"
+				""
+				"- &6Incendium &radds some new Nether biomes"
+				""
+				"- &6Nullscaped &radds a few new biomes to the End"
+			]
+			icon: "minecraft:tuff"
+			id: "3E889A49905CFA86"
+			tasks: [{
+				id: "7C2DB3F89B5A1EDE"
+				type: "checkmark"
+			}]
+			title: "Terrain Generation, Biomes, and Structures"
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3134464E65118F8E"]
+			description: [
+				"With the WATERFrAMES mod you can use Televisions and Projectors to play any video you want in game! This way you can spice up your living room, or put on some tunes in the background."
+				"&6((For large servers we recommend limiting or banning the use of WATERFrAMES items as &4they can cause heavy lag&6))"
+			]
+			icon: "waterframes:tv"
+			id: "7B747E5A9CC2D6C8"
+			subtitle: "Custom video playing in Minecraft!"
+			tasks: [{
+				id: "6AF29FB7DFA5402E"
+				type: "checkmark"
+			}]
+			title: "Waterframes"
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3134464E65118F8E"]
+			description: [
+				"There are 2 main food related mods in this modpack: &6Farmer's Delight &rand &6Bountiful Fares. &rThese mods both add a whole lot of different &6foods &rand some new &6crops &rto make them with, along with &6special effects &rfor eating certain foods."
+				""
+				"{@pagebreak}"
+				"Farmer's "
+			]
+			icon: "farmersdelight:cooking_pot"
+			id: "70F6C9696AD7188E"
+			tasks: [{
+				id: "606A39F1BD4CB7AD"
+				type: "checkmark"
+			}]
+			title: "Food and Cooking"
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3134464E65118F8E"]
+			description: ["The Create mod is a modern take on a tech mod for Minecraft that uses &6kinetic energy/rotation &ras its &6main power source. &rThere are also many &6addons &rfor Create that this modpack adds such as &6Steam 'n' Rails &rthat adds new features relating to &6trains! &rThis description doesn't really do Create much justice because it has many different features that allow you to automate pretty much anything in the game, and has many quality of life features and integration with other mods."]
+			icon: "create:wrench"
+			id: "548EE475A535F01E"
+			subtitle: "+ Addons"
+			tasks: [{
+				id: "7DF6873EC55A0704"
+				type: "checkmark"
+			}]
+			title: "The Create Mod"
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3134464E65118F8E"]
+			description: ["The Amarite mod adds a cool new material called, guess what?, Amarite! Amarite can be used to craft new weapons with unique features, and new Items to aid in exploration!"]
+			icon: "amarite:amarite_block"
+			id: "3CBE89834DB194AF"
+			tasks: [{
+				id: "3CB269C5C4D4A512"
+				type: "checkmark"
+			}]
+			title: "Amarite"
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3134464E65118F8E"]
+			icon: "sophisticatedbackpacks:backpack"
+			id: "26F5F9811B9FF7F2"
+			tasks: [{
+				id: "6BFD63767EF04437"
+				type: "checkmark"
+			}]
+			title: "Backpacks"
+			x: 3.0d
+			y: 2.5d
+		}
+	]
+	title: "Welcome!"
+}
