@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0B91F1CE1B14FDFC"
+  ],
+  "tasks": {
+    "4F4687FDF22AB4A9": {
+      "type": "heracles:item",
+      "item": "amarite:amarite_mirror"
+    }
+  },
+  "rewards": {
+    "34C6C773D273B9A0": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur",
+        "count": 4
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: amarite:amarite_mirror",
+    "description": [
+      "<task task=\"4F4687FDF22AB4A9\" quest=\"122EAD737631F7FA\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"34C6C773D273B9A0\" quest=\"122EAD737631F7FA\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "amarite:amarite_mirror"
+    },
+    "groups": {
+      "Amarite": {
+        "position": [
+          -112,
+          96
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "6257E7158511D071"
+  ],
+  "tasks": {
+    "6BAB0E2A3D21176E": {
+      "type": "heracles:item",
+      "item": "create:stockpile_switch",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "61E4AE6132228F54": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6BAB0E2A3D21176E\" quest=\"4A7B006D52DF004F\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"61E4AE6132228F54\" quest=\"4A7B006D52DF004F\"/>"
+    ],
+    "groups": {
+      "Create Technology": {
+        "position": [
+          208,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:stockpile_switch",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Acquire: create:stockpile_switch"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "dependencies": [
+    "2B368F5E3C003768"
+  ],
+  "tasks": {
+    "7E6F392458FCB5D2": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "4F791FAF8978C917": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "09FBF1C4BF75A4A7": {
+      "item": {
+        "id": "farmersdelight:sweet_berry_cookie",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Hold W while hovering over create items!"
+    },
+    "description": [
+      "<h2>Hold W while hovering over create items!</h2>",
+      "<hr/>",
+      "<task task=\"7E6F392458FCB5D2\" quest=\"160C7D730946E37F\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"09FBF1C4BF75A4A7\" quest=\"160C7D730946E37F\"/>",
+      "<reward reward=\"4F791FAF8978C917\" quest=\"160C7D730946E37F\"/>"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:brass_hand",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "Welcome to Create!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

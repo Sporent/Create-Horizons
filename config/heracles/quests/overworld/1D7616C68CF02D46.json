@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "05877FDDF85EB7F8"
+  ],
+  "tasks": {
+    "28048AD795E9EA0F": {
+      "title": "Find a Cobblemon Fossil Tree",
+      "structures": "#cobblemon:fossils/tree",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "7DF410EEECA41EF5": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"28048AD795E9EA0F\" quest=\"1D7616C68CF02D46\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7DF410EEECA41EF5\" quest=\"1D7616C68CF02D46\"/>"
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          -128,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:oak_log",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Find a Cobblemon Fossil Tree"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

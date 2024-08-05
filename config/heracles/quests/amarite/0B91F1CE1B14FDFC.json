@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5236A1627AF6F9F0"
+  ],
+  "tasks": {
+    "548987A3EAD057B2": {
+      "type": "heracles:item",
+      "item": "amarite:amarite_block"
+    }
+  },
+  "rewards": {
+    "363E772B1AE8B2B8": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Craft an Amarite Block",
+    "description": [
+      "<task task=\"548987A3EAD057B2\" quest=\"0B91F1CE1B14FDFC\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"363E772B1AE8B2B8\" quest=\"0B91F1CE1B14FDFC\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "amarite:amarite_block"
+    },
+    "groups": {
+      "Amarite": {
+        "position": [
+          -160,
+          32
+        ]
+      }
+    }
+  }
+}

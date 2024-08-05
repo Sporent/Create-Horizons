@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "70ADB65A96839EE4"
+  ],
+  "tasks": {
+    "0E48501E3E5881B6": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cabbage_leaf"
+    }
+  },
+  "rewards": {
+    "6EF73D2516BB0E21": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: farmersdelight:cabbage_leaf",
+    "description": [
+      "<task task=\"0E48501E3E5881B6\" quest=\"7BDAAA3D59A22BC0\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6EF73D2516BB0E21\" quest=\"7BDAAA3D59A22BC0\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cabbage_leaf"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "groups": {
+      "Cooking": {
+        "position": [
+          64,
+          128
+        ]
+      }
+    }
+  }
+}

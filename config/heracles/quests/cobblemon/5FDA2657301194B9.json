@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "607C7722928CA565"
+  ],
+  "tasks": {
+    "329CD6543EC7AEDA": {
+      "advancements": [
+        "cobblemon:first_evolution"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"329CD6543EC7AEDA\" quest=\"5FDA2657301194B9\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Cobblemon": {
+        "position": [
+          32,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cobblemon:poke_ball",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Evolve a pokemon"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

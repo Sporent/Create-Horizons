@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "7A215D3441ED3E14": {
+      "title": "Find Scorched Dunes",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:scorched_dunes"
+    }
+  },
+  "rewards": {
+    "6E640FCD773B0887": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Scorched Dunes",
+    "description": [
+      "<task task=\"7A215D3441ED3E14\" quest=\"752A4DCD2FEF00CB\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6E640FCD773B0887\" quest=\"752A4DCD2FEF00CB\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:red_sand"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          192,
+          176
+        ]
+      }
+    }
+  }
+}

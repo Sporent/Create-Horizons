@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "39801B3F2B238BEA": {
+      "title": "Find Snowcapped Red Peaks",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:snowcapped_red_peaks"
+    }
+  },
+  "rewards": {
+    "607193F70AA81016": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Snowcapped Red Peaks",
+    "description": [
+      "<task task=\"39801B3F2B238BEA\" quest=\"59566E1F193135A4\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"607193F70AA81016\" quest=\"59566E1F193135A4\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:snow_block"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          -48,
+          192
+        ]
+      }
+    }
+  }
+}

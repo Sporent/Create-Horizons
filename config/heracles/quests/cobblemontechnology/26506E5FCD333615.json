@@ -1,0 +1,37 @@
+{
+  "settings": {},
+  "dependencies": [
+    "47CDEBB8D36BE507"
+  ],
+  "tasks": {
+    "52E07AA62A2A0AF7": {
+      "type": "heracles:item",
+      "item": "create:golden_sheet"
+    },
+    "4D0C425A4F86AA39": {
+      "title": "Automated?",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Automate Gold Sheets",
+    "description": [
+      "<task task=\"52E07AA62A2A0AF7\" quest=\"26506E5FCD333615\"/>",
+      "<task task=\"4D0C425A4F86AA39\" quest=\"26506E5FCD333615\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:golden_sheet"
+    },
+    "groups": {
+      "Cobblemon Technology": {
+        "position": [
+          -64,
+          160
+        ]
+      }
+    }
+  }
+}

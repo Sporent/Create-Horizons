@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "6059198E7D03108C": {
+      "title": "Find Shrubby Highlands",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:shrubby_highlands"
+    }
+  },
+  "rewards": {
+    "0354A0D60F5A0FA1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Shrubby Highlands",
+    "description": [
+      "<task task=\"6059198E7D03108C\" quest=\"1EE8A68F802A0A19\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0354A0D60F5A0FA1\" quest=\"1EE8A68F802A0A19\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:saxaul_sapling"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          -144,
+          192
+        ]
+      }
+    }
+  }
+}

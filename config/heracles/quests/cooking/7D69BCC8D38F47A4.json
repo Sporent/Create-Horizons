@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "50CEE5EE1AF770EA"
+  ],
+  "tasks": {
+    "1FF50263F9D7E1BD": {
+      "type": "heracles:item",
+      "item": "farmersdelight:tatami"
+    }
+  },
+  "rewards": {
+    "279D0D4DBD3D0E6D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: farmersdelight:tatami",
+    "description": [
+      "<task task=\"1FF50263F9D7E1BD\" quest=\"7D69BCC8D38F47A4\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"279D0D4DBD3D0E6D\" quest=\"7D69BCC8D38F47A4\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:tatami"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "groups": {
+      "Cooking": {
+        "position": [
+          64,
+          -128
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "778B8887154686D7"
+  ],
+  "tasks": {
+    "0606E06190E6A337": {
+      "type": "heracles:item",
+      "item": "railways:portable_fuel_interface",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "64F03B03E3373D67": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0606E06190E6A337\" quest=\"00AA2434B9AE5A7C\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"64F03B03E3373D67\" quest=\"00AA2434B9AE5A7C\"/>"
+    ],
+    "groups": {
+      "Trains!!!!": {
+        "position": [
+          192,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "railways:portable_fuel_interface",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Acquire: railways:portable_fuel_interface"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

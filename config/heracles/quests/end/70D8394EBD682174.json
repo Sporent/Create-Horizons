@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "59C94BEC6C243AA0"
+  ],
+  "tasks": {
+    "125CBC16E0BD89AA": {
+      "type": "heracles:biome",
+      "biomes": "nullscape:void_barrens"
+    }
+  },
+  "rewards": {
+    "3741383B43A8897A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur",
+        "count": 2
+      }
+    }
+  },
+  "display": {
+    "title": "Visit Void Barrens",
+    "description": [
+      "<task task=\"125CBC16E0BD89AA\" quest=\"70D8394EBD682174\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3741383B43A8897A\" quest=\"70D8394EBD682174\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:blackstone"
+    },
+    "groups": {
+      "End": {
+        "position": [
+          32,
+          64
+        ]
+      }
+    }
+  }
+}

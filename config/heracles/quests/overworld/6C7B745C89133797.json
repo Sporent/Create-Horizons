@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "7A4F0656811CC6BE": {
+      "title": "Find Flowering Shrubland",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:flowering_shrubland"
+    }
+  },
+  "rewards": {
+    "613E5A99BBC1F0C5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Flowering Shrubland",
+    "description": [
+      "<task task=\"7A4F0656811CC6BE\" quest=\"6C7B745C89133797\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"613E5A99BBC1F0C5\" quest=\"6C7B745C89133797\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:silverbush"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          -192,
+          176
+        ]
+      }
+    }
+  }
+}

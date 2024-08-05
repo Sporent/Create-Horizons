@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "08E95C3F52213237"
+  ],
+  "tasks": {
+    "6E1190461E5DC36F": {
+      "type": "heracles:item",
+      "item": "numismatics:crown"
+    }
+  },
+  "rewards": {
+    "0E4CE39D648E16D2": {
+      "type": "heracles:item",
+      "item": {
+        "id": "farmersdelight:kelp_roll"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: numismatics:crown",
+    "description": [
+      "<task task=\"6E1190461E5DC36F\" quest=\"418D5FDBF18D3CA0\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0E4CE39D648E16D2\" quest=\"418D5FDBF18D3CA0\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "numismatics:crown"
+    },
+    "groups": {
+      "Economy (Create: Numismatics)": {
+        "position": [
+          192,
+          0
+        ]
+      }
+    }
+  }
+}

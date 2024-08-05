@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "3D413EA300CD4B23"
+  ],
+  "tasks": {
+    "1CCC381289364C0C": {
+      "type": "heracles:item",
+      "item": "#farmersdelight:cabinets",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Any #farmersdelight:cabinets"
+    }
+  },
+  "rewards": {
+    "539696C8A201D767": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "The Farmers alternative storage"
+    },
+    "description": [
+      "<h2>The Farmers alternative storage</h2>",
+      "<hr/>",
+      "<task task=\"1CCC381289364C0C\" quest=\"461ED96D34DE81DD\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"539696C8A201D767\" quest=\"461ED96D34DE81DD\"/>"
+    ],
+    "groups": {
+      "Cooking": {
+        "position": [
+          0,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:oak_cabinet",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Craft a Cabinet"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

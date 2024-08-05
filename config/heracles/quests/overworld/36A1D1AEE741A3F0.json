@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "05877FDDF85EB7F8"
+  ],
+  "tasks": {
+    "6095106FBDE4360F": {
+      "title": "Find a Cobblemon Fossil Vent",
+      "structures": "#cobblemon:fossils/vent",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "08D3A96244EE0EB6": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6095106FBDE4360F\" quest=\"36A1D1AEE741A3F0\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"08D3A96244EE0EB6\" quest=\"36A1D1AEE741A3F0\"/>"
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          -176,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:magma_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Find a Cobblemon Fossil Vent"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

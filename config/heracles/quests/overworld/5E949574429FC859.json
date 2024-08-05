@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "42AC022AE3A663C7"
+  ],
+  "tasks": {
+    "32099E51F4132E89": {
+      "title": "Find a Stronghold",
+      "structures": "betterstrongholds:stronghold",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "5EDB9F76A7C557A8": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"32099E51F4132E89\" quest=\"5E949574429FC859\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5EDB9F76A7C557A8\" quest=\"5E949574429FC859\"/>"
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          160,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:ender_eye",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Find a Stronghold"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

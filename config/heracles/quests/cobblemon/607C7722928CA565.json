@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "43B7C179A8020948"
+  ],
+  "tasks": {
+    "738FCC4741053049": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "1BAACC2097E07505": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Catch a pokemon by using §bright click §rto throw pokeballs at it"
+    },
+    "description": [
+      "<h2>Catch a pokemon by using &&bright click &&rto throw pokeballs at it</h2>",
+      "<hr/>",
+      "<task task=\"738FCC4741053049\" quest=\"607C7722928CA565\"/>",
+      "<hr/>",
+      "To catch a pokemon you can either start a battle with it by pressing &&bR &&rto throw out your pokemon infront of it, then choosing the &&bcatch &&roption in the battle menu, or you can throw a ball at the pokemon without battling it Legends Arceus style",
+      "{@pagebreak}",
+      "(it says catch 2x pokemon because your first pokemon caught is your starter :p)",
+      "<hr/>",
+      "<reward reward=\"1BAACC2097E07505\" quest=\"607C7722928CA565\"/>"
+    ],
+    "groups": {
+      "Cobblemon": {
+        "position": [
+          0,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cobblemon:poke_ball",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Catch your first pokemon!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

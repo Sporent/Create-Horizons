@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "5420B7B764422E9A"
+  ],
+  "tasks": {
+    "39A807676E210757": {
+      "type": "heracles:item",
+      "item": "create:blaze_burner",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "10763EBDADA80B06": {
+      "type": "heracles:item",
+      "item": "create:basin",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "792B2E1EE5E2F5FA": {
+      "type": "heracles:item",
+      "item": "create:mechanical_mixer",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "52343B0F10BFB1C1": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"10763EBDADA80B06\" quest=\"11AEB5CC5826F83F\"/>",
+      "<task task=\"39A807676E210757\" quest=\"11AEB5CC5826F83F\"/>",
+      "<task task=\"792B2E1EE5E2F5FA\" quest=\"11AEB5CC5826F83F\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"52343B0F10BFB1C1\" quest=\"11AEB5CC5826F83F\"/>"
+    ],
+    "groups": {
+      "Fluid Handling": {
+        "position": [
+          0,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:mechanical_mixer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Potion Brewing Setup"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

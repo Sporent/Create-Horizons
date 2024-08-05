@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "4C48998B6629A3A8": {
+      "title": "Find Dusty Slopes",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:dusty_slopes"
+    }
+  },
+  "rewards": {
+    "42C2B5556DDFD660": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Dusty Slopes",
+    "description": [
+      "<task task=\"4C48998B6629A3A8\" quest=\"6AEC50E584219B3B\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"42C2B5556DDFD660\" quest=\"6AEC50E584219B3B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:sandy_soil"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          80,
+          160
+        ]
+      }
+    }
+  }
+}

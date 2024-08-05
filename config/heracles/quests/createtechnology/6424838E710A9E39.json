@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "03479EFD2E2B610D"
+  ],
+  "tasks": {
+    "0E4D2355D78262DC": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "222D727DF2645940": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0E4D2355D78262DC\" quest=\"6424838E710A9E39\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"222D727DF2645940\" quest=\"6424838E710A9E39\"/>"
+    ],
+    "groups": {
+      "Create Technology": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:large_cogwheel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "Get started with Create Automation"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

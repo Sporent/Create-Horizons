@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "17FA00EA38A585D9"
+  ],
+  "tasks": {
+    "38D1A6EE1F4AA9E7": {
+      "type": "heracles:item",
+      "item": "create:basin",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "22AC5ACA50034A6D": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"38D1A6EE1F4AA9E7\" quest=\"3EC6E14796A7C7E3\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"22AC5ACA50034A6D\" quest=\"3EC6E14796A7C7E3\"/>"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          208,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:basin",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Craft a Basin"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

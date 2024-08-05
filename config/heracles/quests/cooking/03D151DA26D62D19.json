@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "42A8917032C0FB21"
+  ],
+  "tasks": {
+    "063329E8553B67D8": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cooked_mutton_chops"
+    }
+  },
+  "rewards": {
+    "3C6C5709F3EC873C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: farmersdelight:cooked_mutton_chops",
+    "description": [
+      "<task task=\"063329E8553B67D8\" quest=\"03D151DA26D62D19\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3C6C5709F3EC873C\" quest=\"03D151DA26D62D19\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cooked_mutton_chops"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "groups": {
+      "Cooking": {
+        "position": [
+          -96,
+          128
+        ]
+      }
+    }
+  }
+}

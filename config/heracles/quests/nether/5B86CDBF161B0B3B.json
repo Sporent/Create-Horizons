@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "0D5BC08F3FFC8801"
+  ],
+  "tasks": {
+    "0E8EC9D8BF3E0685": {
+      "biomes": "incendium:weeping_valley",
+      "type": "heracles:biome"
+    }
+  },
+  "rewards": {
+    "35719BD2708B2EE5": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0E8EC9D8BF3E0685\" quest=\"5B86CDBF161B0B3B\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"35719BD2708B2EE5\" quest=\"5B86CDBF161B0B3B\"/>"
+    ],
+    "groups": {
+      "Nether": {
+        "position": [
+          -16,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:weeping_vines",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Find Weeping Valley"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

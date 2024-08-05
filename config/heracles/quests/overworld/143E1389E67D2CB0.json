@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "79CA7FBA72C7E600": {
+      "title": "Find Lavender Fields",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:lavender_fields"
+    }
+  },
+  "rewards": {
+    "2E9AD44B853587D1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Lavender Fields",
+    "description": [
+      "<task task=\"79CA7FBA72C7E600\" quest=\"143E1389E67D2CB0\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2E9AD44B853587D1\" quest=\"143E1389E67D2CB0\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:lavender"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          -96,
+          176
+        ]
+      }
+    }
+  }
+}

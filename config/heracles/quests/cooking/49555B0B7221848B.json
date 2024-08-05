@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "41FFA676BC0FFA02"
+  ],
+  "tasks": {
+    "7BAA0F13D12CC833": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cooking_pot"
+    }
+  },
+  "rewards": {
+    "55D0B0BA89C723BC": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Craft a Cooking pot",
+    "description": [
+      "<h2>Dinner's Served!</h2>",
+      "<hr/>",
+      "<task task=\"7BAA0F13D12CC833\" quest=\"49555B0B7221848B\"/>",
+      "<hr/>",
+      "Place on top of a campfire or stove.",
+      "<hr/>",
+      "<reward reward=\"55D0B0BA89C723BC\" quest=\"49555B0B7221848B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cooking_pot"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "subtitle": {
+      "text": "Dinner's Served!"
+    },
+    "groups": {
+      "Cooking": {
+        "position": [
+          -64,
+          -64
+        ]
+      }
+    }
+  }
+}

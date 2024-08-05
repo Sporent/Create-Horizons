@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5C60D1F26F41B0E5"
+  ],
+  "tasks": {
+    "4AD00E49DF737DC2": {
+      "title": "Find the Pink Salt Shrine",
+      "type": "heracles:structure",
+      "structures": "galosphere:pink_salt_shrine"
+    }
+  },
+  "rewards": {
+    "6562C9D8E5B2046E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:cog",
+        "count": 2
+      }
+    },
+    "62AC4DF573ED18DA": {
+      "type": "heracles:item",
+      "item": {
+        "id": "galosphere:cured_membrane",
+        "count": 8
+      }
+    }
+  },
+  "display": {
+    "title": "Find the Pink Salt Shrine",
+    "description": [
+      "<task task=\"4AD00E49DF737DC2\" quest=\"50D594DF1814613D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6562C9D8E5B2046E\" quest=\"50D594DF1814613D\"/>",
+      "<reward reward=\"62AC4DF573ED18DA\" quest=\"50D594DF1814613D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "galosphere:saltbound_tablet"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          64,
+          -128
+        ]
+      }
+    }
+  }
+}

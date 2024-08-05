@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "2B368F5E3C003768"
+  ],
+  "tasks": {
+    "784A4401D7E2B355": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Cool things :3"
+    },
+    "description": [
+      "<h2>Cool things :3</h2>",
+      "<hr/>",
+      "<task task=\"784A4401D7E2B355\" quest=\"5C67B8DFFCD46265\"/>",
+      "<hr/>",
+      "Additionally, here are some other mods that have been added to this modpack!"
+    ],
+    "groups": {
+      "Welcome!": {
+        "position": [
+          0,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "createdeco:decal_warning",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Custom Additions Made For This Modpack"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

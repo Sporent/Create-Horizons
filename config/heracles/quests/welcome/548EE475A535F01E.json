@@ -1,0 +1,37 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3134464E65118F8E"
+  ],
+  "tasks": {
+    "7DF6873EC55A0704": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "The Create Mod",
+    "description": [
+      "<h2>+ Addons</h2>",
+      "<hr/>",
+      "<task task=\"7DF6873EC55A0704\" quest=\"548EE475A535F01E\"/>",
+      "<hr/>",
+      "The Create mod is a modern take on a tech mod for Minecraft that uses &&6kinetic energy/rotation &&ras its &&6main power source. &&rThere are also many &&6addons &&rfor Create that this modpack adds such as &&6Steam 'n' Rails &&rthat adds new features relating to &&6trains! &&rThis description doesn't really do Create much justice because it has many different features that allow you to automate pretty much anything in the game, and has many quality of life features and integration with other mods."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:wrench"
+    },
+    "subtitle": {
+      "text": "+ Addons"
+    },
+    "groups": {
+      "Welcome!": {
+        "position": [
+          0,
+          176
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "27EEFF4EBB5F49E3"
+  ],
+  "tasks": {
+    "2155E4CE5B49AF8E": {
+      "type": "heracles:changed_dimension",
+      "from": "minecraft:overworld",
+      "to": "minecraft:the_nether"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Incendium",
+    "description": [
+      "<h2>8 New Biomes</h2>",
+      "<hr/>",
+      "<task task=\"2155E4CE5B49AF8E\" quest=\"0D5BC08F3FFC8801\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:map"
+    },
+    "subtitle": {
+      "text": "8 New Biomes"
+    },
+    "groups": {
+      "Nether": {
+        "position": [
+          0,
+          64
+        ]
+      }
+    }
+  }
+}

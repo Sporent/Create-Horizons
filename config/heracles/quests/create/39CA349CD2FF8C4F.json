@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "17FA00EA38A585D9"
+  ],
+  "tasks": {
+    "0E21D73C1FFE73AE": {
+      "type": "heracles:item",
+      "item": "create:depot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "594E82A031BCC35A": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0E21D73C1FFE73AE\" quest=\"39CA349CD2FF8C4F\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"594E82A031BCC35A\" quest=\"39CA349CD2FF8C4F\"/>"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          208,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:depot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Craft a Depot"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "70ADB65A96839EE4"
+  ],
+  "tasks": {
+    "0BC27439B817CE05": {
+      "type": "heracles:item",
+      "item": "farmersdelight:chicken_cuts"
+    }
+  },
+  "rewards": {
+    "5EF093E09799C39A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: farmersdelight:chicken_cuts",
+    "description": [
+      "<task task=\"0BC27439B817CE05\" quest=\"50D694E6B2593272\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5EF093E09799C39A\" quest=\"50D694E6B2593272\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:chicken_cuts"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "groups": {
+      "Cooking": {
+        "position": [
+          128,
+          64
+        ]
+      }
+    }
+  }
+}

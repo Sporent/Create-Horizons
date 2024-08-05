@@ -1,0 +1,50 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "3735555DA6BB98CF": {
+      "advancements": [
+        "minecraft:story/root"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<h2>All quests are hidden until completed!</h2>",
+      "<hr/>",
+      "<task task=\"3735555DA6BB98CF\" quest=\"165A5C62C520FB96\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:grass_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "Overworld Exploration"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

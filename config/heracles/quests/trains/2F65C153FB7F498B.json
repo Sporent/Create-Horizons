@@ -1,0 +1,82 @@
+{
+  "dependencies": [
+    "778B8887154686D7"
+  ],
+  "tasks": {
+    "0384E86885A5129C": {
+      "type": "heracles:item",
+      "item": "#create:seats",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Any #create:seats"
+    },
+    "4ACBF530FA733D87": {
+      "type": "heracles:item",
+      "item": "create:controls",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "19BB6D48FB7673E3": {
+      "type": "heracles:item",
+      "item": "create:track_station",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "1D67B59FF79322AC": {
+      "type": "heracles:item",
+      "item": "create:super_glue",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "25CEAF96681F1D72": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4ACBF530FA733D87\" quest=\"2F65C153FB7F498B\"/>",
+      "<task task=\"19BB6D48FB7673E3\" quest=\"2F65C153FB7F498B\"/>",
+      "<task task=\"1D67B59FF79322AC\" quest=\"2F65C153FB7F498B\"/>",
+      "<task task=\"0384E86885A5129C\" quest=\"2F65C153FB7F498B\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"25CEAF96681F1D72\" quest=\"2F65C153FB7F498B\"/>"
+    ],
+    "groups": {
+      "Trains!!!!": {
+        "position": [
+          128,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:controls",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Craft Train Components"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "3D413EA300CD4B23"
+  ],
+  "tasks": {
+    "4D184DAEF6D040AF": {
+      "type": "heracles:item",
+      "item": "#farmersdelight:tools/knives",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Any #farmersdelight:tools/knives"
+    }
+  },
+  "rewards": {
+    "77D7CCF1695A456D": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Dangerous cutlery"
+    },
+    "description": [
+      "<h2>Dangerous cutlery</h2>",
+      "<hr/>",
+      "<task task=\"4D184DAEF6D040AF\" quest=\"7557128DCC6A1B88\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"77D7CCF1695A456D\" quest=\"7557128DCC6A1B88\"/>"
+    ],
+    "groups": {
+      "Cooking": {
+        "position": [
+          64,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:flint_knife",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Craft a Knife"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

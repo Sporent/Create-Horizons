@@ -1,0 +1,86 @@
+{
+  "dependencies": [
+    "6424838E710A9E39"
+  ],
+  "tasks": {
+    "6F5C5DD1040000AF": {
+      "type": "heracles:item",
+      "item": "create:netherite_diving_helmet",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "3F75591D637A6BDA": {
+      "type": "heracles:item",
+      "item": "create:netherite_diving_boots",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "444698CEBD561F2A": {
+      "type": "heracles:item",
+      "item": "minecraft:netherite_leggings",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "5A557D8418BF7C0A": {
+      "type": "heracles:item",
+      "item": "create:netherite_backtank",
+      "nbt": {
+        "Air": 900
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "18D16A6835FEECBC": {
+      "item": {
+        "id": "numismatics:cog",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "You can now safely swim in lava!"
+    },
+    "description": [
+      "<h2>You can now safely swim in lava!</h2>",
+      "<hr/>",
+      "<task task=\"6F5C5DD1040000AF\" quest=\"18B6455CCE1CC15F\"/>",
+      "<task task=\"5A557D8418BF7C0A\" quest=\"18B6455CCE1CC15F\"/>",
+      "<task task=\"444698CEBD561F2A\" quest=\"18B6455CCE1CC15F\"/>",
+      "<task task=\"3F75591D637A6BDA\" quest=\"18B6455CCE1CC15F\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"18D16A6835FEECBC\" quest=\"18B6455CCE1CC15F\"/>"
+    ],
+    "groups": {
+      "Create Technology": {
+        "position": [
+          0,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:netherite_backtank",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Helldiver"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

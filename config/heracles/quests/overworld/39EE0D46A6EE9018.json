@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "660C7314822DAF17": {
+      "title": "Find Sugi Forest",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:sugi_forest"
+    }
+  },
+  "rewards": {
+    "6455ED817D17737D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Sugi Forest",
+    "description": [
+      "<task task=\"660C7314822DAF17\" quest=\"39EE0D46A6EE9018\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6455ED817D17737D\" quest=\"39EE0D46A6EE9018\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:sugi_sapling"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          112,
+          192
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17FA00EA38A585D9"
+  ],
+  "tasks": {
+    "37F12B99903CBBCD": {
+      "type": "heracles:item",
+      "item": "create:empty_blaze_burner"
+    }
+  },
+  "rewards": {
+    "502EF57186E672BA": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Getting Advanced",
+    "description": [
+      "<task task=\"37F12B99903CBBCD\" quest=\"03479EFD2E2B610D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"502EF57186E672BA\" quest=\"03479EFD2E2B610D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:empty_blaze_burner"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          192,
+          64
+        ]
+      }
+    }
+  }
+}

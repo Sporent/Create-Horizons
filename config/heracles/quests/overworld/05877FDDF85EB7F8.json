@@ -1,0 +1,39 @@
+{
+  "settings": {},
+  "dependencies": [
+    "165A5C62C520FB96"
+  ],
+  "tasks": {
+    "2123590CAF770B9C": {
+      "type": "heracles:advancement",
+      "advancements": [
+        "minecraft:story/root"
+      ]
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Cobblemon Structures",
+    "description": [
+      "<h2>8 new types of structures</h2>",
+      "<hr/>",
+      "<task task=\"2123590CAF770B9C\" quest=\"05877FDDF85EB7F8\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:map"
+    },
+    "subtitle": {
+      "text": "8 new types of structures"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          -64,
+          0
+        ]
+      }
+    }
+  }
+}

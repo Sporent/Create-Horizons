@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "165A5C62C520FB96"
+  ],
+  "tasks": {
+    "283313E5B5CEF23F": {
+      "advancements": [
+        "minecraft:story/root"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "51 new types of biomes to explore"
+    },
+    "description": [
+      "<h2>51 new types of biomes to explore</h2>",
+      "<hr/>",
+      "<task task=\"283313E5B5CEF23F\" quest=\"00AB58E71EBD192C\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          0,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Natures Spirit"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0B91F1CE1B14FDFC"
+  ],
+  "tasks": {
+    "29C98CF6FEB2E67C": {
+      "type": "heracles:item",
+      "item": "amarite:amarite_longsword"
+    }
+  },
+  "rewards": {
+    "1DF505032DE2E1BF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur",
+        "count": 4
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: amarite:amarite_longsword",
+    "description": [
+      "<task task=\"29C98CF6FEB2E67C\" quest=\"1999449BBC6BBC8D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1DF505032DE2E1BF\" quest=\"1999449BBC6BBC8D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "amarite:amarite_longsword"
+    },
+    "groups": {
+      "Amarite": {
+        "position": [
+          -208,
+          96
+        ]
+      }
+    }
+  }
+}

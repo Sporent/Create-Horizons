@@ -1,0 +1,65 @@
+{
+  "dependencies": [
+    "2B368F5E3C003768"
+  ],
+  "tasks": {
+    "46DA6D69EE732FC5": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "511DBE2935F900BD": {
+      "item": {
+        "id": "farmersdelight:sweet_berry_cookie",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "2934C76CB0B8D36C": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"46DA6D69EE732FC5\" quest=\"3D413EA300CD4B23\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"511DBE2935F900BD\" quest=\"3D413EA300CD4B23\"/>",
+      "<reward reward=\"2934C76CB0B8D36C\" quest=\"3D413EA300CD4B23\"/>"
+    ],
+    "groups": {
+      "Cooking": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:cooking_pot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "Welcome to Farmers Delight!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

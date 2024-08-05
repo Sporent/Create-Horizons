@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "6424838E710A9E39"
+  ],
+  "tasks": {
+    "044B8202B6C29FA0": {
+      "type": "heracles:item",
+      "item": "create:netherite_diving_helmet",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "78B8194126D67350": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"044B8202B6C29FA0\" quest=\"6F5BB3EA2DE99BED\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"78B8194126D67350\" quest=\"6F5BB3EA2DE99BED\"/>"
+    ],
+    "groups": {
+      "Create Technology": {
+        "position": [
+          -92,
+          -14
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:netherite_diving_helmet",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Acquire: create:netherite_diving_helmet"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

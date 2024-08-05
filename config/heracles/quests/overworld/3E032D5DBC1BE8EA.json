@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "4AD72198C32D646B": {
+      "title": "Find Tundra",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:tundra"
+    }
+  },
+  "rewards": {
+    "657A23FCF0DD7DDC": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Tundra",
+    "description": [
+      "<task task=\"4AD72198C32D646B\" quest=\"3E032D5DBC1BE8EA\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"657A23FCF0DD7DDC\" quest=\"3E032D5DBC1BE8EA\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:red_moss_block"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          -64,
+          208
+        ]
+      }
+    }
+  }
+}

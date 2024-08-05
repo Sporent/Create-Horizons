@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "502FA381C42B6305": {
+      "title": "Find Blooming Sugi Forest",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:blooming_sugi_forest"
+    }
+  },
+  "rewards": {
+    "7A6C4332596A8DFE": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Blooming Sugi Forest",
+    "description": [
+      "<task task=\"502FA381C42B6305\" quest=\"7E43008493E8EB2B\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7A6C4332596A8DFE\" quest=\"7E43008493E8EB2B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:cherry_sapling"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          -112,
+          160
+        ]
+      }
+    }
+  }
+}

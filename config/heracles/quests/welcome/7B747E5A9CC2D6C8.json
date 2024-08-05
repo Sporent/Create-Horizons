@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3134464E65118F8E"
+  ],
+  "tasks": {
+    "6AF29FB7DFA5402E": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Waterframes",
+    "description": [
+      "<h2>Custom video playing in Minecraft!</h2>",
+      "<hr/>",
+      "<task task=\"6AF29FB7DFA5402E\" quest=\"7B747E5A9CC2D6C8\"/>",
+      "<hr/>",
+      "With the WATERFrAMES mod you can use Televisions and Projectors to play any video you want in game! This way you can spice up your living room, or put on some tunes in the background.",
+      "&&6((For large servers we recommend limiting or banning the use of WATERFrAMES items as &&4they can cause heavy lag&&6))"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "waterframes:tv"
+    },
+    "subtitle": {
+      "text": "Custom video playing in Minecraft!"
+    },
+    "groups": {
+      "Welcome!": {
+        "position": [
+          112,
+          128
+        ]
+      }
+    }
+  }
+}

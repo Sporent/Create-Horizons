@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "7D845C460D9D40BC": {
+      "title": "Find Xeric Plains",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:xeric_plains"
+    }
+  },
+  "rewards": {
+    "064CA36B05E601D5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Xeric Plains",
+    "description": [
+      "<task task=\"7D845C460D9D40BC\" quest=\"7320214A60B15A6D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"064CA36B05E601D5\" quest=\"7320214A60B15A6D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:olive_sapling"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          128,
+          208
+        ]
+      }
+    }
+  }
+}

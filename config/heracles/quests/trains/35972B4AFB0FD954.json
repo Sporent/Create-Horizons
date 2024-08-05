@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "6C0AF5DBE0C19608"
+  ],
+  "tasks": {
+    "077F0EEA84BA285D": {
+      "type": "heracles:item",
+      "item": "#railways:train_tracks",
+      "amount": 250,
+      "collection": "AUTOMATIC",
+      "title": "Any #railways:train_tracks"
+    }
+  },
+  "rewards": {
+    "44376BEF16FAE2D7": {
+      "item": {
+        "id": "numismatics:cog",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Time to build a railway"
+    },
+    "description": [
+      "<h2>Time to build a railway</h2>",
+      "<hr/>",
+      "<task task=\"077F0EEA84BA285D\" quest=\"35972B4AFB0FD954\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"44376BEF16FAE2D7\" quest=\"35972B4AFB0FD954\"/>"
+    ],
+    "groups": {
+      "Trains!!!!": {
+        "position": [
+          0,
+          -129
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:track",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Make a whole lotta tracks"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "68C04ED266103B58"
+  ],
+  "tasks": {
+    "207F55D856734FA6": {
+      "type": "heracles:item",
+      "item": "minecraft:brush"
+    },
+    "0167F08B591F01B2": {
+      "title": "Any #cobblemon:tumblestones",
+      "type": "heracles:item",
+      "item": "#cobblemon:tumblestones"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Excavate Cobblemon Ruins",
+    "description": [
+      "<task task=\"207F55D856734FA6\" quest=\"50613F926FF0B536\"/>",
+      "<task task=\"0167F08B591F01B2\" quest=\"50613F926FF0B536\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:brush"
+    },
+    "groups": {
+      "Cobblemon Technology": {
+        "position": [
+          192,
+          160
+        ]
+      }
+    }
+  }
+}

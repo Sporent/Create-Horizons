@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6257E7158511D071",
+    "5576F5A0C98D643D"
+  ],
+  "tasks": {
+    "569E5533AB464B2E": {
+      "type": "heracles:item",
+      "amount": 2,
+      "item": "create:crushing_wheel"
+    }
+  },
+  "rewards": {
+    "1DD4F2508ADF47C3": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur",
+        "count": 2
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: create:crushing_wheel",
+    "description": [
+      "<task task=\"569E5533AB464B2E\" quest=\"1ACA4690BEAA4C73\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1DD4F2508ADF47C3\" quest=\"1ACA4690BEAA4C73\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:crushing_wheel"
+    },
+    "groups": {
+      "Create Technology": {
+        "position": [
+          256,
+          0
+        ]
+      }
+    }
+  }
+}

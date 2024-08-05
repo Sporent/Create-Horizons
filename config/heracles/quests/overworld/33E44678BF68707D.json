@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "6D254F42202A4BAA": {
+      "title": "Find Alpine Highlands",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:alpine_highlands"
+    }
+  },
+  "rewards": {
+    "70FD2FB9ED5B8B80": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Alpine Highlands",
+    "description": [
+      "<task task=\"6D254F42202A4BAA\" quest=\"33E44678BF68707D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"70FD2FB9ED5B8B80\" quest=\"33E44678BF68707D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:larch_sapling"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          -96,
+          144
+        ]
+      }
+    }
+  }
+}

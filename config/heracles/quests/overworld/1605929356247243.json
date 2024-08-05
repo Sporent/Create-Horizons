@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "32E1FE1FA332A1F0": {
+      "title": "Find Tropical Basin",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:tropical_basin"
+    }
+  },
+  "rewards": {
+    "3CB191F3D1B33DDD": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Tropical Basin",
+    "description": [
+      "<task task=\"32E1FE1FA332A1F0\" quest=\"1605929356247243\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3CB191F3D1B33DDD\" quest=\"1605929356247243\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:helvola_flower"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          144,
+          192
+        ]
+      }
+    }
+  }
+}

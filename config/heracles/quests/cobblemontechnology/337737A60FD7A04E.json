@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "41E27A41083089BB"
+  ],
+  "tasks": {
+    "28E0302133F486B8": {
+      "type": "heracles:item",
+      "item": "create:copper_sheet",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "122EA002C65AB203": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"28E0302133F486B8\" quest=\"337737A60FD7A04E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"122EA002C65AB203\" quest=\"337737A60FD7A04E\"/>"
+    ],
+    "groups": {
+      "Cobblemon Technology": {
+        "position": [
+          0,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:copper_sheet",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Acquire: create:copper_sheet"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "598A5EE74B87806A": {
+      "title": "Find Floral Ridges",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:floral_ridges"
+    }
+  },
+  "rewards": {
+    "08A60889E79C9A01": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Floral Ridges",
+    "description": [
+      "<task task=\"598A5EE74B87806A\" quest=\"38D3838AC8FF7620\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"08A60889E79C9A01\" quest=\"38D3838AC8FF7620\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:blue_wisteria_sapling"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          144,
+          160
+        ]
+      }
+    }
+  }
+}

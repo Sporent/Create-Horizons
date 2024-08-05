@@ -1,0 +1,55 @@
+{
+  "settings": {},
+  "dependencies": [
+    "27EEFF4EBB5F49E3"
+  ],
+  "tasks": {
+    "05A9877BBEE6FB7F": {
+      "type": "heracles:item",
+      "item": "minecraft:ancient_debris"
+    }
+  },
+  "rewards": {
+    "60EE7B8A0D3F4A35": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:gold_ingot",
+        "count": 4
+      }
+    },
+    "63910A18D7E944D3": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur",
+        "count": 2
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: minecraft:ancient_debris",
+    "description": [
+      "<h2>Y level 15 you schmuck</h2>",
+      "<hr/>",
+      "<task task=\"05A9877BBEE6FB7F\" quest=\"10D262D597DC0905\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"60EE7B8A0D3F4A35\" quest=\"10D262D597DC0905\"/>",
+      "<reward reward=\"63910A18D7E944D3\" quest=\"10D262D597DC0905\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:ancient_debris"
+    },
+    "subtitle": {
+      "text": "Y level 15 you schmuck"
+    },
+    "groups": {
+      "Nether": {
+        "position": [
+          64,
+          0
+        ]
+      }
+    }
+  }
+}

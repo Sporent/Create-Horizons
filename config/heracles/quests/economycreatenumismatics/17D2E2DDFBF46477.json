@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "08E95C3F52213237"
+  ],
+  "tasks": {
+    "58443E74BB9E4E88": {
+      "type": "heracles:item",
+      "item": "numismatics:sun"
+    }
+  },
+  "rewards": {
+    "0B63B554ECA037D0": {
+      "type": "heracles:item",
+      "item": {
+        "id": "bountifulfares:ancient_custard"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: numismatics:sun",
+    "description": [
+      "<task task=\"58443E74BB9E4E88\" quest=\"17D2E2DDFBF46477\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0B63B554ECA037D0\" quest=\"17D2E2DDFBF46477\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "numismatics:sun"
+    },
+    "groups": {
+      "Economy (Create: Numismatics)": {
+        "position": [
+          224,
+          0
+        ]
+      }
+    }
+  }
+}

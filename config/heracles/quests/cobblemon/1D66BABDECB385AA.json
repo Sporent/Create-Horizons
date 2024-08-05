@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "43B7C179A8020948"
+  ],
+  "tasks": {
+    "1743B1FE50C129B2": {
+      "type": "heracles:item",
+      "item": "#cobblemon:berries",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Any #cobblemon:berries"
+    }
+  },
+  "rewards": {
+    "1AB99123FC25CB3A": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§bRight click §ra berry plant to get its berries to drop"
+    },
+    "description": [
+      "<h2>&&bRight click &&ra berry plant to get its berries to drop</h2>",
+      "<hr/>",
+      "<task task=\"1743B1FE50C129B2\" quest=\"1D66BABDECB385AA\"/>",
+      "<hr/>",
+      "&&bRight click &&ra berry plant to get its berries to drop",
+      "<hr/>",
+      "<reward reward=\"1AB99123FC25CB3A\" quest=\"1D66BABDECB385AA\"/>"
+    ],
+    "groups": {
+      "Cobblemon": {
+        "position": [
+          64,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cobblemon:razz_berry",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Harvest a berry"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

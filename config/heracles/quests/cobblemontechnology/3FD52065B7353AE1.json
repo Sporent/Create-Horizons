@@ -1,0 +1,37 @@
+{
+  "settings": {},
+  "dependencies": [
+    "366885A52ED05F2B"
+  ],
+  "tasks": {
+    "1F9DB54901124997": {
+      "type": "heracles:item",
+      "item": "minecraft:copper_ingot"
+    },
+    "4877B45F5F98E51E": {
+      "title": "Automated?",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Automate Copper Ingots",
+    "description": [
+      "<task task=\"1F9DB54901124997\" quest=\"3FD52065B7353AE1\"/>",
+      "<task task=\"4877B45F5F98E51E\" quest=\"3FD52065B7353AE1\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:copper_ingot"
+    },
+    "groups": {
+      "Cobblemon Technology": {
+        "position": [
+          -128,
+          96
+        ]
+      }
+    }
+  }
+}

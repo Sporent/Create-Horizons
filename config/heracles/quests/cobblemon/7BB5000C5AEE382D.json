@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1D66BABDECB385AA"
+  ],
+  "tasks": {
+    "77DD94A0CA441C54": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "4176AD33B6E314EC": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Plant a Berry in Tilled Soil",
+    "description": [
+      "<h2>Can be harvested using creat harvesters</h2>",
+      "<hr/>",
+      "<task task=\"77DD94A0CA441C54\" quest=\"7BB5000C5AEE382D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4176AD33B6E314EC\" quest=\"7BB5000C5AEE382D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:stone_hoe"
+    },
+    "subtitle": {
+      "text": "Can be harvested using creat harvesters"
+    },
+    "groups": {
+      "Cobblemon": {
+        "position": [
+          128,
+          -64
+        ]
+      }
+    }
+  }
+}

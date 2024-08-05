@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7557128DCC6A1B88"
+  ],
+  "tasks": {
+    "421B05465A38F431": {
+      "type": "heracles:item",
+      "item": "farmersdelight:straw"
+    }
+  },
+  "rewards": {
+    "4EFA5EDA009D9F35": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Harvest Straw",
+    "description": [
+      "<h2>Use your knife on grass!</h2>",
+      "<hr/>",
+      "<task task=\"421B05465A38F431\" quest=\"50CEE5EE1AF770EA\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4EFA5EDA009D9F35\" quest=\"50CEE5EE1AF770EA\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:straw"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "subtitle": {
+      "text": "Use your knife on grass!"
+    },
+    "groups": {
+      "Cooking": {
+        "position": [
+          64,
+          -64
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "393D0A386B916235": {
+      "title": "Find Blooming Dunes",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:blooming_dunes"
+    }
+  },
+  "rewards": {
+    "55FD71A2252842CA": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Blooming Dunes",
+    "description": [
+      "<task task=\"393D0A386B916235\" quest=\"7285589086C31403\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"55FD71A2252842CA\" quest=\"7285589086C31403\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:palo_verde_sapling"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          96,
+          144
+        ]
+      }
+    }
+  }
+}

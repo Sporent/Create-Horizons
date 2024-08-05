@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "5420B7B764422E9A"
+  ],
+  "tasks": {
+    "2C9A0E65B120D75F": {
+      "type": "heracles:item",
+      "item": "create:hose_pulley",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "2546CD2C53851BF6": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2C9A0E65B120D75F\" quest=\"4B7089E4837117AF\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2546CD2C53851BF6\" quest=\"4B7089E4837117AF\"/>"
+    ],
+    "groups": {
+      "Fluid Handling": {
+        "position": [
+          64,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:hose_pulley",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Acquire: create:hose_pulley"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

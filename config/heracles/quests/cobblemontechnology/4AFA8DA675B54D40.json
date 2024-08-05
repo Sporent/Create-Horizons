@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "41E27A41083089BB"
+  ],
+  "tasks": {
+    "764CE6F219CBA27D": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "But heavily recommended!"
+    },
+    "description": [
+      "<h2>But heavily recommended!</h2>",
+      "<hr/>",
+      "<task task=\"764CE6F219CBA27D\" quest=\"4AFA8DA675B54D40\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Cobblemon Technology": {
+        "position": [
+          64,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "createdeco:decal_warning",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Automation Is optional!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

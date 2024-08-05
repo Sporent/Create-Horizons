@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "49555B0B7221848B"
+  ],
+  "tasks": {
+    "39D6E1048EFEDFB2": {
+      "type": "heracles:item",
+      "item": "farmersdelight:tomato_sauce"
+    }
+  },
+  "rewards": {
+    "4614576A999252A9": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Cook Tomato Sauce",
+    "description": [
+      "<task task=\"39D6E1048EFEDFB2\" quest=\"3807CC7A09A4E4B7\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4614576A999252A9\" quest=\"3807CC7A09A4E4B7\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:tomato_sauce"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "groups": {
+      "Cooking": {
+        "position": [
+          -128,
+          -64
+        ]
+      }
+    }
+  }
+}

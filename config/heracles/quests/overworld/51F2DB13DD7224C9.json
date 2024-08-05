@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "6B9DF078A03C0C0C": {
+      "title": "Find Shrubland",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:shrubland"
+    }
+  },
+  "rewards": {
+    "5B975EB86967FD9B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Shrubland",
+    "description": [
+      "<task task=\"6B9DF078A03C0C0C\" quest=\"51F2DB13DD7224C9\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5B975EB86967FD9B\" quest=\"51F2DB13DD7224C9\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:tall_melic_grass"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          -112,
+          192
+        ]
+      }
+    }
+  }
+}

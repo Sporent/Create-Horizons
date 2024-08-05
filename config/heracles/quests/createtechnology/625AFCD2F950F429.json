@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "6257E7158511D071"
+  ],
+  "tasks": {
+    "188CE96740298D30": {
+      "type": "heracles:item",
+      "item": "create:display_link",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "772FE53415F22A26": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"188CE96740298D30\" quest=\"625AFCD2F950F429\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"772FE53415F22A26\" quest=\"625AFCD2F950F429\"/>"
+    ],
+    "groups": {
+      "Create Technology": {
+        "position": [
+          224,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:display_link",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Acquire: create:display_link"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "41E27A41083089BB"
+  ],
+  "tasks": {
+    "230C0B2489B9417F": {
+      "type": "heracles:item",
+      "item": "cobblemon:healing_machine",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"230C0B2489B9417F\" quest=\"7D037F38D33E4292\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Cobblemon Technology": {
+        "position": [
+          64,
+          -192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cobblemon:healing_machine",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Craft a Healing Machine"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

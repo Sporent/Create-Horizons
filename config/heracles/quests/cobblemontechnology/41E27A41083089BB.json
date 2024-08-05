@@ -1,0 +1,47 @@
+{
+  "dependencies": [
+    "2D33F080ABA9A632"
+  ],
+  "tasks": {
+    "757BBD232611A81F": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"757BBD232611A81F\" quest=\"41E27A41083089BB\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Cobblemon Technology": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "kubejs:ancient_heavy_pokeball_template",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "Get started with Cobblemon Technology and Automation"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2574E2BECB8553E2"
+  ],
+  "tasks": {
+    "7EE8C3515DE8FDB8": {
+      "type": "heracles:item",
+      "item": "create:brass_ingot"
+    }
+  },
+  "rewards": {
+    "45001E24E4C8D588": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    },
+    "099BA3B423C7D547": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:bevel"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: create:brass_ingot",
+    "description": [
+      "<task task=\"7EE8C3515DE8FDB8\" quest=\"276FEDFF63BC84E3\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"45001E24E4C8D588\" quest=\"276FEDFF63BC84E3\"/>",
+      "<reward reward=\"099BA3B423C7D547\" quest=\"276FEDFF63BC84E3\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:brass_ingot"
+    },
+    "groups": {
+      "Create Technology": {
+        "position": [
+          128,
+          0
+        ]
+      }
+    }
+  }
+}

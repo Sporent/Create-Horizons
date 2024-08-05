@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "337737A60FD7A04E"
+  ],
+  "tasks": {
+    "7EC38CD0AEE92D9C": {
+      "type": "heracles:item",
+      "item": "create:golden_sheet",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "43B6A9884254B4F0": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7EC38CD0AEE92D9C\" quest=\"6CCCD02B989BC88C\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"43B6A9884254B4F0\" quest=\"6CCCD02B989BC88C\"/>"
+    ],
+    "groups": {
+      "Cobblemon Technology": {
+        "position": [
+          -32,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:golden_sheet",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Acquire: create:golden_sheet"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

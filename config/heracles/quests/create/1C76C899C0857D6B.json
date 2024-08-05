@@ -1,0 +1,65 @@
+{
+  "dependencies": [
+    "160C7D730946E37F"
+  ],
+  "tasks": {
+    "35645F2E945650D9": {
+      "type": "heracles:item",
+      "item": "create:copper_backtank",
+      "nbt": {
+        "Air": 900
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "572C284574C2F1B1": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Huff and Puff"
+    },
+    "description": [
+      "<h2>Huff and Puff</h2>",
+      "<hr/>",
+      "<task task=\"35645F2E945650D9\" quest=\"1C76C899C0857D6B\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"572C284574C2F1B1\" quest=\"1C76C899C0857D6B\"/>"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -64,
+          14
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:copper_backtank",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Craft the Copper Backtank"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "6257E7158511D071"
+  ],
+  "tasks": {
+    "5553D3349305DAF2": {
+      "type": "heracles:item",
+      "item": "create:mechanical_crafter",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "0B3B7262E942CC0C": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5553D3349305DAF2\" quest=\"5576F5A0C98D643D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0B3B7262E942CC0C\" quest=\"5576F5A0C98D643D\"/>"
+    ],
+    "groups": {
+      "Create Technology": {
+        "position": [
+          192,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:mechanical_crafter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Acquire: create:mechanical_crafter"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

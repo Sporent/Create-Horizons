@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "6257E7158511D071"
+  ],
+  "tasks": {
+    "37387937F8E1B6CC": {
+      "type": "heracles:item",
+      "item": "create:sequenced_gearshift",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "40B6E0C90F7B3ED2": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"37387937F8E1B6CC\" quest=\"236B98B21C8454E4\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"40B6E0C90F7B3ED2\" quest=\"236B98B21C8454E4\"/>"
+    ],
+    "groups": {
+      "Create Technology": {
+        "position": [
+          224,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:sequenced_gearshift",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Acquire: create:sequenced_gearshift"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

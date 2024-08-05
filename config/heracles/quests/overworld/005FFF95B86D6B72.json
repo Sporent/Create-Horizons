@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "48DEE86780E6C658": {
+      "title": "Find Lively Dunes",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:lively_dunes"
+    }
+  },
+  "rewards": {
+    "0607EC4AEEB1FC4C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Lively Dunes",
+    "description": [
+      "<task task=\"48DEE86780E6C658\" quest=\"005FFF95B86D6B72\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0607EC4AEEB1FC4C\" quest=\"005FFF95B86D6B72\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:joshua_sapling"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          -64,
+          176
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "5C67B8DFFCD46265"
+  ],
+  "tasks": {
+    "168A3DBE60D0145E": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"168A3DBE60D0145E\" quest=\"34D49DD7DACE0E44\"/>",
+      "<hr/>",
+      "Added newly with this modpack and integral to the progression are &&6sequenced assembly &&rrecipes for every type of pokéball in the entire game, and custom recipes to allow you to automate all of the materials necessary to make them.",
+      "<br/>",
+      "You can also now brew medicinal items that were previously only able to be made in a brewing stand using &&6mechanical mixers &&rfrom Create!"
+    ],
+    "groups": {
+      "Welcome!": {
+        "position": [
+          0,
+          -144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "kubejs:cut_red_apricorn",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Create and Cobblemon Integration"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

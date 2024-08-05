@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "42AC022AE3A663C7"
+  ],
+  "tasks": {
+    "3BD0B8CC842FE7F3": {
+      "title": "Find an Ocean Monument",
+      "structures": "betteroceanmonuments:ocean_monument",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "023B40A8CA44701D": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3BD0B8CC842FE7F3\" quest=\"715ACEF64F8E4A04\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"023B40A8CA44701D\" quest=\"715ACEF64F8E4A04\"/>"
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          176,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:prismarine_bricks",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Find an Ocean Monument"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

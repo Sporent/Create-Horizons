@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "276A54FC5EF07C30",
+    "41E27A41083089BB"
+  ],
+  "tasks": {
+    "7E4013B7BF888D2A": {
+      "type": "heracles:item",
+      "item": "cobblemon:master_ball",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "7949F9A4F5AEE679": {
+      "item": {
+        "id": "numismatics:crown",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Cobblemon Mastery"
+    },
+    "description": [
+      "<h2>Cobblemon Mastery</h2>",
+      "<hr/>",
+      "<task task=\"7E4013B7BF888D2A\" quest=\"7363BBEAEF567C56\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7949F9A4F5AEE679\" quest=\"7363BBEAEF567C56\"/>"
+    ],
+    "groups": {
+      "Cobblemon Technology": {
+        "position": [
+          -64,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cobblemon:master_ball",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Greatest of Them All"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

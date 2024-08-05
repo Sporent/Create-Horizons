@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "4AC8EF0751897816": {
+      "title": "Find Marsh",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:marsh"
+    }
+  },
+  "rewards": {
+    "73D5F5F4C779B8A3": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Marsh",
+    "description": [
+      "<task task=\"4AC8EF0751897816\" quest=\"60443732E60800DD\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"73D5F5F4C779B8A3\" quest=\"60443732E60800DD\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:tall_sedge_grass"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          32,
+          176
+        ]
+      }
+    }
+  }
+}

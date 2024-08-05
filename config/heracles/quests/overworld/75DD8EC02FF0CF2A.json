@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "2F10E3B91B12AF05": {
+      "title": "Find Tropical Woods",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:tropical_woods"
+    }
+  },
+  "rewards": {
+    "499D50650E2F9CE1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Tropical Woods",
+    "description": [
+      "<task task=\"2F10E3B91B12AF05\" quest=\"75DD8EC02FF0CF2A\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"499D50650E2F9CE1\" quest=\"75DD8EC02FF0CF2A\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:mahogany_sapling"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          -96,
+          208
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4E5E169D28F773A3"
+  ],
+  "tasks": {
+    "51586D61CED7BF77": {
+      "type": "heracles:item",
+      "item": "create:iron_sheet"
+    },
+    "0ED75603B1B143CB": {
+      "title": "Automated?",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Automate Iron Sheets",
+    "description": [
+      "<task task=\"51586D61CED7BF77\" quest=\"41D80E1747C50377\"/>",
+      "<task task=\"0ED75603B1B143CB\" quest=\"41D80E1747C50377\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:iron_sheet"
+    },
+    "groups": {
+      "Cobblemon Technology": {
+        "position": [
+          -64,
+          128
+        ]
+      }
+    }
+  }
+}

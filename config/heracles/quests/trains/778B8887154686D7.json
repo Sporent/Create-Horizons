@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "24B27824948D894B"
+  ],
+  "tasks": {
+    "1FD9BC98502E46EC": {
+      "type": "heracles:item",
+      "item": "create:railway_casing"
+    }
+  },
+  "rewards": {
+    "5C860E0059240026": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Make Train Casing",
+    "description": [
+      "<task task=\"1FD9BC98502E46EC\" quest=\"778B8887154686D7\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5C860E0059240026\" quest=\"778B8887154686D7\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:railway_casing"
+    },
+    "groups": {
+      "Trains!!!!": {
+        "position": [
+          128,
+          0
+        ]
+      }
+    }
+  }
+}

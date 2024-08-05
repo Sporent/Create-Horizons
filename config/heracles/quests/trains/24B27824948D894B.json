@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "13BE64685ABA5A24"
+  ],
+  "tasks": {
+    "09DF9029A5B69542": {
+      "type": "heracles:item",
+      "item": "create:sturdy_sheet"
+    }
+  },
+  "rewards": {
+    "70EC1DA952933B2E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur",
+        "count": 4
+      }
+    }
+  },
+  "display": {
+    "title": "Assemble a Sturdy Sheet",
+    "description": [
+      "<task task=\"09DF9029A5B69542\" quest=\"24B27824948D894B\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"70EC1DA952933B2E\" quest=\"24B27824948D894B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:sturdy_sheet"
+    },
+    "groups": {
+      "Trains!!!!": {
+        "position": [
+          64,
+          0
+        ]
+      }
+    }
+  }
+}

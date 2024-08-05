@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "42A8917032C0FB21"
+  ],
+  "tasks": {
+    "1D2E942C57DC96F5": {
+      "type": "heracles:item",
+      "item": "farmersdelight:beef_patty"
+    }
+  },
+  "rewards": {
+    "234149BCD8F37078": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: farmersdelight:beef_patty",
+    "description": [
+      "<task task=\"1D2E942C57DC96F5\" quest=\"04561A44673CD195\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"234149BCD8F37078\" quest=\"04561A44673CD195\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:beef_patty"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "groups": {
+      "Cooking": {
+        "position": [
+          -128,
+          96
+        ]
+      }
+    }
+  }
+}

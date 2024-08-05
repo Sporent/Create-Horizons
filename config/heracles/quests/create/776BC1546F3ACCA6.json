@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "17FA00EA38A585D9"
+  ],
+  "tasks": {
+    "50E6B3CFC87E33C4": {
+      "type": "heracles:item",
+      "item": "create:mechanical_saw",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "4F009BA60C2BEE80": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"50E6B3CFC87E33C4\" quest=\"776BC1546F3ACCA6\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4F009BA60C2BEE80\" quest=\"776BC1546F3ACCA6\"/>"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          160,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:mechanical_saw",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Craft a Mechanical Saw"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

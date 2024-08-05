@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "5576F5A0C98D643D",
+    "6424838E710A9E39"
+  ],
+  "tasks": {
+    "7EE8B25B5EFDDF31": {
+      "type": "heracles:item",
+      "item": "create:extendo_grip",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "27EE13D0A84661E6": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7EE8B25B5EFDDF31\" quest=\"0CB05C3064401C68\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"27EE13D0A84661E6\" quest=\"0CB05C3064401C68\"/>"
+    ],
+    "groups": {
+      "Create Technology": {
+        "position": [
+          -92,
+          14
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:extendo_grip",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Acquire: create:extendo_grip"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

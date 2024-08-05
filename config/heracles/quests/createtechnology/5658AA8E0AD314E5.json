@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "6257E7158511D071"
+  ],
+  "tasks": {
+    "4E03BDE3181055D8": {
+      "type": "heracles:item",
+      "item": "create:brass_tunnel",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "1227C05372725F83": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4E03BDE3181055D8\" quest=\"5658AA8E0AD314E5\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1227C05372725F83\" quest=\"5658AA8E0AD314E5\"/>"
+    ],
+    "groups": {
+      "Create Technology": {
+        "position": [
+          160,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:brass_tunnel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Acquire: create:brass_tunnel"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

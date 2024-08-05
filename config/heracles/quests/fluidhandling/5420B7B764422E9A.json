@@ -1,0 +1,65 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "6CE080203C9BBD35": {
+      "type": "heracles:item",
+      "item": "create:fluid_tank",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "03DC8B223A2BDB91": {
+      "type": "heracles:item",
+      "item": "create:mechanical_pump",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "62C4B3DAAC5C9BB2": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6CE080203C9BBD35\" quest=\"5420B7B764422E9A\"/>",
+      "<task task=\"03DC8B223A2BDB91\" quest=\"5420B7B764422E9A\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"62C4B3DAAC5C9BB2\" quest=\"5420B7B764422E9A\"/>"
+    ],
+    "groups": {
+      "Fluid Handling": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:fluid_tank",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "Fluid Handling"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

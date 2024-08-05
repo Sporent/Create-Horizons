@@ -1,0 +1,37 @@
+{
+  "settings": {},
+  "dependencies": [
+    "50613F926FF0B536"
+  ],
+  "tasks": {
+    "4DECA4D942C497B2": {
+      "type": "heracles:item",
+      "item": "minecraft:lava_bucket"
+    },
+    "65AAEB82BC1DB3F5": {
+      "title": "Automated?",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Automate Lava",
+    "description": [
+      "<task task=\"4DECA4D942C497B2\" quest=\"52B0CABF2D7CE731\"/>",
+      "<task task=\"65AAEB82BC1DB3F5\" quest=\"52B0CABF2D7CE731\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:lava_bucket"
+    },
+    "groups": {
+      "Cobblemon Technology": {
+        "position": [
+          128,
+          160
+        ]
+      }
+    }
+  }
+}

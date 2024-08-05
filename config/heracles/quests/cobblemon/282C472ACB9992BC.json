@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "1D66BABDECB385AA"
+  ],
+  "tasks": {
+    "2BB7BEA9463C3BCF": {
+      "type": "heracles:item",
+      "item": "cobblemon:medicinal_brew",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "33C1B827D45E070F": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Use a big root in a furnace"
+    },
+    "description": [
+      "<h2>Use a big root in a furnace</h2>",
+      "<hr/>",
+      "<task task=\"2BB7BEA9463C3BCF\" quest=\"282C472ACB9992BC\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"33C1B827D45E070F\" quest=\"282C472ACB9992BC\"/>"
+    ],
+    "groups": {
+      "Cobblemon": {
+        "position": [
+          80,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cobblemon:remedy",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Create a Remedy"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

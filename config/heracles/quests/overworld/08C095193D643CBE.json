@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "5C59C790420D93BE": {
+      "title": "Find Amber Covert",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:amber_covert"
+    }
+  },
+  "rewards": {
+    "556E066F4C8F085A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Amber Covert",
+    "description": [
+      "<task task=\"5C59C790420D93BE\" quest=\"08C095193D643CBE\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"556E066F4C8F085A\" quest=\"08C095193D643CBE\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:yellow_larch_sapling"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          -64,
+          144
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "70ADB65A96839EE4"
+  ],
+  "tasks": {
+    "7B946B0F5E06B8F6": {
+      "type": "heracles:item",
+      "item": "farmersdelight:mutton_chops"
+    }
+  },
+  "rewards": {
+    "336E26743F4470EE": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: farmersdelight:mutton_chops",
+    "description": [
+      "<task task=\"7B946B0F5E06B8F6\" quest=\"2666E8A5001CC1FE\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"336E26743F4470EE\" quest=\"2666E8A5001CC1FE\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:mutton_chops"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "groups": {
+      "Cooking": {
+        "position": [
+          96,
+          128
+        ]
+      }
+    }
+  }
+}

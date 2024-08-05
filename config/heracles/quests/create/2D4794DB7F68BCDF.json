@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "17FA00EA38A585D9"
+  ],
+  "tasks": {
+    "27B0D4D8308E1FAB": {
+      "type": "heracles:item",
+      "item": "create:millstone",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "6530EADBF3030784": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"27B0D4D8308E1FAB\" quest=\"2D4794DB7F68BCDF\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6530EADBF3030784\" quest=\"2D4794DB7F68BCDF\"/>"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          192,
+          -96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:millstone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Craft a Millstone"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

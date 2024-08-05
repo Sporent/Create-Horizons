@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "797437070C4CCF91": {
+      "title": "Find Stratified Desert",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:stratified_desert"
+    }
+  },
+  "rewards": {
+    "17B12695601E9971": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Stratified Desert",
+    "description": [
+      "<task task=\"797437070C4CCF91\" quest=\"130A8C9753F77424\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"17B12695601E9971\" quest=\"130A8C9753F77424\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:kaolin"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          80,
+          192
+        ]
+      }
+    }
+  }
+}

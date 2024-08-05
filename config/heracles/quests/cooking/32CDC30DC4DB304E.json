@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7557128DCC6A1B88"
+  ],
+  "tasks": {
+    "31D9A84364FB2A08": {
+      "type": "heracles:item",
+      "item": "farmersdelight:rope"
+    }
+  },
+  "rewards": {
+    "21AAEBBADF0552E9": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Craft Rope",
+    "description": [
+      "<h2>Escape plan</h2>",
+      "<hr/>",
+      "<task task=\"31D9A84364FB2A08\" quest=\"32CDC30DC4DB304E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"21AAEBBADF0552E9\" quest=\"32CDC30DC4DB304E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:rope"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "subtitle": {
+      "text": "Escape plan"
+    },
+    "groups": {
+      "Cooking": {
+        "position": [
+          128,
+          0
+        ]
+      }
+    }
+  }
+}

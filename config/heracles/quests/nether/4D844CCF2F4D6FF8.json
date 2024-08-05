@@ -1,0 +1,62 @@
+{
+  "settings": {},
+  "dependencies": [
+    "27EEFF4EBB5F49E3"
+  ],
+  "tasks": {
+    "491B1520B3221608": {
+      "type": "heracles:structure",
+      "structures": "#betterfortresses:better_fortresses"
+    }
+  },
+  "rewards": {
+    "33399EC858FCB523": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:blaze_powder",
+        "count": 4
+      }
+    },
+    "7C82D22F7A645E39": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:fire_charge"
+      }
+    },
+    "52A426F39381EF72": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur",
+        "count": 2
+      }
+    }
+  },
+  "display": {
+    "title": "Find a Nether Fortress",
+    "description": [
+      "<h2>Upgraded with Yung's Better Nether Fortresses!</h2>",
+      "<hr/>",
+      "<task task=\"491B1520B3221608\" quest=\"4D844CCF2F4D6FF8\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"33399EC858FCB523\" quest=\"4D844CCF2F4D6FF8\"/>",
+      "<reward reward=\"7C82D22F7A645E39\" quest=\"4D844CCF2F4D6FF8\"/>",
+      "<reward reward=\"52A426F39381EF72\" quest=\"4D844CCF2F4D6FF8\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:nether_bricks"
+    },
+    "subtitle": {
+      "text": "Upgraded with Yung's Better Nether Fortresses!"
+    },
+    "groups": {
+      "Nether": {
+        "position": [
+          0,
+          -64
+        ]
+      }
+    }
+  }
+}

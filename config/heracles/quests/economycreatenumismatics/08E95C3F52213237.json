@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "2B368F5E3C003768"
+  ],
+  "tasks": {
+    "25C5B6EA4962F55C": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "593945743F3F7AB5": {
+      "item": {
+        "id": "numismatics:cog",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"25C5B6EA4962F55C\" quest=\"08E95C3F52213237\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"593945743F3F7AB5\" quest=\"08E95C3F52213237\"/>"
+    ],
+    "groups": {
+      "Economy (Create: Numismatics)": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "numismatics:cog",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "Welcome to Numismatics!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

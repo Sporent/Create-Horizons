@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "778B8887154686D7"
+  ],
+  "tasks": {
+    "7C7AB3042BAB7B9E": {
+      "type": "heracles:item",
+      "item": "railways:track_coupler",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "65F171C12156E380": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7C7AB3042BAB7B9E\" quest=\"0E9DBCFBE842861B\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"65F171C12156E380\" quest=\"0E9DBCFBE842861B\"/>"
+    ],
+    "groups": {
+      "Trains!!!!": {
+        "position": [
+          208,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "railways:track_coupler",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Acquire: railways:track_coupler"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

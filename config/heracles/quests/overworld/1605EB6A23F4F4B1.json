@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "42AC022AE3A663C7"
+  ],
+  "tasks": {
+    "1D9DA45871D614C5": {
+      "title": "Find a Mineshaft",
+      "structures": "#bettermineshafts:better_mineshafts",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "25988ED8478EAD84": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1D9DA45871D614C5\" quest=\"1605EB6A23F4F4B1\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"25988ED8478EAD84\" quest=\"1605EB6A23F4F4B1\"/>"
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          160,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:minecart",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Find a Mineshaft"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

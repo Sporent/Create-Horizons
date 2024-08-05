@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "7C22F12B68F727FC": {
+      "title": "Find Bamboo Wetlands",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:bamboo_wetlands"
+    }
+  },
+  "rewards": {
+    "3BF9C4805184AFF5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Bamboo Wetlands",
+    "description": [
+      "<task task=\"7C22F12B68F727FC\" quest=\"675F6B315C95EDD4\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3BF9C4805184AFF5\" quest=\"675F6B315C95EDD4\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:bamboo"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          64,
+          144
+        ]
+      }
+    }
+  }
+}

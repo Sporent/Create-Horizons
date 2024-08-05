@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "02A6A5EE9CD11E8F": {
+      "title": "Find Tropical Shores",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:tropical_shores"
+    }
+  },
+  "rewards": {
+    "76810CA4F266A3D7": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Tropical Shores",
+    "description": [
+      "<task task=\"02A6A5EE9CD11E8F\" quest=\"478F95CF85B6C07B\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"76810CA4F266A3D7\" quest=\"478F95CF85B6C07B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:pink_sand"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          -128,
+          208
+        ]
+      }
+    }
+  }
+}

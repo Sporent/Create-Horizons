@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "07740DBE4FDB1C09"
+  ],
+  "tasks": {
+    "2A39D1EEED6C7534": {
+      "title": "Find Lichen Caves",
+      "type": "heracles:biome",
+      "biomes": "galosphere:lichen_caves"
+    }
+  },
+  "rewards": {
+    "6E7CF119F9F548B3": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Lichen Caves",
+    "description": [
+      "<task task=\"2A39D1EEED6C7534\" quest=\"64B734082D3D5603\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6E7CF119F9F548B3\" quest=\"64B734082D3D5603\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "galosphere:bowl_lichen"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          -32,
+          -128
+        ]
+      }
+    }
+  }
+}

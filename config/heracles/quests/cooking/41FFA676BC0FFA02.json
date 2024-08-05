@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3D413EA300CD4B23"
+  ],
+  "tasks": {
+    "31A1E343629B1BEF": {
+      "type": "heracles:item",
+      "item": "minecraft:campfire"
+    }
+  },
+  "rewards": {
+    "59DCE6A03EEC4510": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Craft a Campfire",
+    "description": [
+      "<h2>Bonfire Lit</h2>",
+      "<hr/>",
+      "<task task=\"31A1E343629B1BEF\" quest=\"41FFA676BC0FFA02\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"59DCE6A03EEC4510\" quest=\"41FFA676BC0FFA02\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:campfire"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "subtitle": {
+      "text": "Bonfire Lit"
+    },
+    "groups": {
+      "Cooking": {
+        "position": [
+          -64,
+          0
+        ]
+      }
+    }
+  }
+}

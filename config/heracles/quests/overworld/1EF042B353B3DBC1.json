@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "67FDD1F77F204D6D": {
+      "title": "Find Sleeted Slopes",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:sleeted_slopes"
+    }
+  },
+  "rewards": {
+    "6565040B86BA0E55": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Sleeted Slopes",
+    "description": [
+      "<task task=\"67FDD1F77F204D6D\" quest=\"1EF042B353B3DBC1\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6565040B86BA0E55\" quest=\"1EF042B353B3DBC1\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:snow_block"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          -80,
+          192
+        ]
+      }
+    }
+  }
+}

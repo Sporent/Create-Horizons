@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "05877FDDF85EB7F8"
+  ],
+  "tasks": {
+    "63B20ADB615B78F0": {
+      "title": "Find a Cobblemon Arch",
+      "structures": "#cobblemon:ruins/arch",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "5E1A54032E54D065": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"63B20ADB615B78F0\" quest=\"13AF6EEFE9C8E85A\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5E1A54032E54D065\" quest=\"13AF6EEFE9C8E85A\"/>"
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          -144,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:suspicious_gravel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Find a Cobblemon Arch"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

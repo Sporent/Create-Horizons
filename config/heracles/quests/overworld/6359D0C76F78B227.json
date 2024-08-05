@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "10A86C44D5EE0A52": {
+      "title": "Find Wooded Drylands",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:wooded_drylands"
+    }
+  },
+  "rewards": {
+    "3F48E35C56C99882": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Wooded Drylands",
+    "description": [
+      "<task task=\"10A86C44D5EE0A52\" quest=\"6359D0C76F78B227\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3F48E35C56C99882\" quest=\"6359D0C76F78B227\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:pink_sandstone"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          64,
+          208
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "3D413EA300CD4B23"
+  ],
+  "tasks": {
+    "7465C06C1250757A": {
+      "type": "heracles:item",
+      "item": "#c:seeds",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Any #c:seeds"
+    }
+  },
+  "rewards": {
+    "24DC44F05AD9B902": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Humble beginnings"
+    },
+    "description": [
+      "<h2>Humble beginnings</h2>",
+      "<hr/>",
+      "<task task=\"7465C06C1250757A\" quest=\"198B5658BF346DD1\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"24DC44F05AD9B902\" quest=\"198B5658BF346DD1\"/>"
+    ],
+    "groups": {
+      "Cooking": {
+        "position": [
+          0,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:wheat_seeds",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Collect some Seeds"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

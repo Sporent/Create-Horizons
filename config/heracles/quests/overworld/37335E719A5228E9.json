@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "05877FDDF85EB7F8"
+  ],
+  "tasks": {
+    "3D9E8EC55065261F": {
+      "title": "Find Cobblemon Ruins",
+      "structures": "#cobblemon:ruins/misc",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "060963A88A5A0283": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3D9E8EC55065261F\" quest=\"37335E719A5228E9\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"060963A88A5A0283\" quest=\"37335E719A5228E9\"/>"
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          -176,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cobblemon:relic_coin_pouch",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Find Cobblemon Ruins"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

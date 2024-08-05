@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "49555B0B7221848B"
+  ],
+  "tasks": {
+    "4EFA37C33D521383": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cooked_rice"
+    }
+  },
+  "rewards": {
+    "54D5977C1E42B3E1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Cook Rice",
+    "description": [
+      "<task task=\"4EFA37C33D521383\" quest=\"4069B20B8B0DACD8\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"54D5977C1E42B3E1\" quest=\"4069B20B8B0DACD8\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cooked_rice"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "groups": {
+      "Cooking": {
+        "position": [
+          -128,
+          -128
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "dependencies": [
+    "5420B7B764422E9A"
+  ],
+  "tasks": {
+    "6B8017CA34080E0E": {
+      "type": "heracles:item",
+      "item": "create:steam_engine",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "0F63A295000DB34F": {
+      "type": "heracles:item",
+      "item": "create:blaze_burner",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "4F6ADBFB31D0391C": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6B8017CA34080E0E\" quest=\"48F2C49F0DE3930A\"/>",
+      "<task task=\"0F63A295000DB34F\" quest=\"48F2C49F0DE3930A\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4F6ADBFB31D0391C\" quest=\"48F2C49F0DE3930A\"/>"
+    ],
+    "groups": {
+      "Fluid Handling": {
+        "position": [
+          0,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:steam_engine",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Steam Engines"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

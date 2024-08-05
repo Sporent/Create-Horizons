@@ -1,0 +1,37 @@
+{
+  "settings": {},
+  "dependencies": [
+    "68C04ED266103B58"
+  ],
+  "tasks": {
+    "6FCA9FF975C9675C": {
+      "type": "heracles:item",
+      "item": "minecraft:clay_ball"
+    },
+    "0232356E7C4C7AEB": {
+      "title": "Automated?",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Automate Clay Balls",
+    "description": [
+      "<task task=\"6FCA9FF975C9675C\" quest=\"366885A52ED05F2B\"/>",
+      "<task task=\"0232356E7C4C7AEB\" quest=\"366885A52ED05F2B\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:clay_ball"
+    },
+    "groups": {
+      "Cobblemon Technology": {
+        "position": [
+          -192,
+          96
+        ]
+      }
+    }
+  }
+}

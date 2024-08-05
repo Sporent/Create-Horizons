@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3134464E65118F8E"
+  ],
+  "tasks": {
+    "3CB269C5C4D4A512": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Amarite",
+    "description": [
+      "<task task=\"3CB269C5C4D4A512\" quest=\"3CBE89834DB194AF\"/>",
+      "<hr/>",
+      "The Amarite mod adds a cool new material called, guess what?, Amarite! Amarite can be used to craft new weapons with unique features, and new Items to aid in exploration!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "amarite:amarite_block"
+    },
+    "groups": {
+      "Welcome!": {
+        "position": [
+          -96,
+          80
+        ]
+      }
+    }
+  }
+}

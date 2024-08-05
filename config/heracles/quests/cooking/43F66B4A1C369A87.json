@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "49555B0B7221848B"
+  ],
+  "tasks": {
+    "7B993F270275E618": {
+      "type": "heracles:item",
+      "item": "bountifulfares:custard"
+    }
+  },
+  "rewards": {
+    "20313BBB501FDDA0": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Cook Custard",
+    "description": [
+      "<task task=\"7B993F270275E618\" quest=\"43F66B4A1C369A87\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"20313BBB501FDDA0\" quest=\"43F66B4A1C369A87\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bountifulfares:custard"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "groups": {
+      "Cooking": {
+        "position": [
+          -64,
+          -128
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "114A367DCD10B7A9": {
+      "title": "Find Snowy Fir Forest",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:snowy_fir_forest"
+    }
+  },
+  "rewards": {
+    "64962340B506F4B9": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Snowy Fir Forest",
+    "description": [
+      "<task task=\"114A367DCD10B7A9\" quest=\"51D1460D66D8B504\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"64962340B506F4B9\" quest=\"51D1460D66D8B504\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:frosty_fir_leaves"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          -16,
+          192
+        ]
+      }
+    }
+  }
+}

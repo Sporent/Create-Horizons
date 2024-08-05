@@ -1,0 +1,37 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2B44BC22C2E95B82"
+  ],
+  "tasks": {
+    "788EFFD92DD9C43A": {
+      "type": "heracles:item",
+      "item": "galosphere:silver_nugget"
+    },
+    "6A5DC7E54A9BCDDD": {
+      "title": "Automated?",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Automate Silver Nuggets",
+    "description": [
+      "<task task=\"788EFFD92DD9C43A\" quest=\"6DAA63E8E68C380B\"/>",
+      "<task task=\"6A5DC7E54A9BCDDD\" quest=\"6DAA63E8E68C380B\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "galosphere:silver_nugget"
+    },
+    "groups": {
+      "Cobblemon Technology": {
+        "position": [
+          64,
+          96
+        ]
+      }
+    }
+  }
+}

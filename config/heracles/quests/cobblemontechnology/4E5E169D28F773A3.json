@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "68C04ED266103B58",
+    "2B44BC22C2E95B82"
+  ],
+  "tasks": {
+    "33FBC1BDE60158FB": {
+      "type": "heracles:item",
+      "item": "minecraft:iron_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "0360B2F217561FD1": {
+      "title": "Automated?",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"33FBC1BDE60158FB\" quest=\"4E5E169D28F773A3\"/>",
+      "<task task=\"0360B2F217561FD1\" quest=\"4E5E169D28F773A3\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Cobblemon Technology": {
+        "position": [
+          -128,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Automate Iron Ingots"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "42AC022AE3A663C7"
+  ],
+  "tasks": {
+    "53E50846794D0843": {
+      "title": "Find a Small Dungeon",
+      "structures": "betterdungeons:small_dungeon",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "738D9C025597BD6B": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"53E50846794D0843\" quest=\"14674068FC7F7E45\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"738D9C025597BD6B\" quest=\"14674068FC7F7E45\"/>"
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          144,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:stone_bricks",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Find a Small Dungeon"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

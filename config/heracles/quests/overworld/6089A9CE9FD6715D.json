@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "42AC022AE3A663C7"
+  ],
+  "tasks": {
+    "59481666777AFE4E": {
+      "title": "Find a Jungle Temple",
+      "structures": "betterjungletemples:jungle_temple",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "4AED2F186F3F2740": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"59481666777AFE4E\" quest=\"6089A9CE9FD6715D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4AED2F186F3F2740\" quest=\"6089A9CE9FD6715D\"/>"
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          192,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:mossy_cobblestone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Find a Jungle Temple"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

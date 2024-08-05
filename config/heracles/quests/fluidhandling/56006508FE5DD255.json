@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "5420B7B764422E9A"
+  ],
+  "tasks": {
+    "746BD8667E8AACFB": {
+      "type": "heracles:item",
+      "item": "create:item_drain",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "242AE125AB6DBBE4": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"746BD8667E8AACFB\" quest=\"56006508FE5DD255\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"242AE125AB6DBBE4\" quest=\"56006508FE5DD255\"/>"
+    ],
+    "groups": {
+      "Fluid Handling": {
+        "position": [
+          80,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:item_drain",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Acquire: create:item_drain"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

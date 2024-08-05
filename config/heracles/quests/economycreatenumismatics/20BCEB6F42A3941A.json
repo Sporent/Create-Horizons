@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "08E95C3F52213237"
+  ],
+  "tasks": {
+    "5A07EAD27A549E6D": {
+      "type": "heracles:item",
+      "item": "numismatics:cog"
+    }
+  },
+  "rewards": {
+    "65F1313F1E47DCD9": {
+      "type": "heracles:item",
+      "item": {
+        "id": "farmersdelight:bacon_sandwich"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: numismatics:cog",
+    "description": [
+      "<task task=\"5A07EAD27A549E6D\" quest=\"20BCEB6F42A3941A\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"65F1313F1E47DCD9\" quest=\"20BCEB6F42A3941A\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "numismatics:cog"
+    },
+    "groups": {
+      "Economy (Create: Numismatics)": {
+        "position": [
+          160,
+          0
+        ]
+      }
+    }
+  }
+}

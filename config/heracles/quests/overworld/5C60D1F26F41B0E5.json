@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "07740DBE4FDB1C09"
+  ],
+  "tasks": {
+    "3F745D0C87734F2F": {
+      "title": "Find Pink Salt Caves",
+      "type": "heracles:biome",
+      "biomes": "galosphere:pink_salt_caves"
+    }
+  },
+  "rewards": {
+    "7D84A23CE26F9194": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Pink Salt Caves",
+    "description": [
+      "<task task=\"3F745D0C87734F2F\" quest=\"5C60D1F26F41B0E5\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7D84A23CE26F9194\" quest=\"5C60D1F26F41B0E5\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "galosphere:pink_salt_shard"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          32,
+          -128
+        ]
+      }
+    }
+  }
+}

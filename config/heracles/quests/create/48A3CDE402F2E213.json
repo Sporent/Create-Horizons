@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "611AC4E3CE095710"
+  ],
+  "tasks": {
+    "0555D3300B4AD524": {
+      "type": "heracles:item",
+      "item": "create:andesite_alloy"
+    }
+  },
+  "rewards": {
+    "1916F9BA9DCCE38A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur",
+        "count": 4
+      }
+    }
+  },
+  "display": {
+    "title": "Craft Andesite Alloy",
+    "description": [
+      "<h2>Now we're getting started!</h2>",
+      "<hr/>",
+      "<task task=\"0555D3300B4AD524\" quest=\"48A3CDE402F2E213\"/>",
+      "<hr/>",
+      "You can use iron or zinc nuggets with andesite to craft andesite alloy",
+      "<hr/>",
+      "<reward reward=\"1916F9BA9DCCE38A\" quest=\"48A3CDE402F2E213\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:andesite_alloy"
+    },
+    "subtitle": {
+      "text": "Now we're getting started!"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          128,
+          0
+        ]
+      }
+    }
+  }
+}

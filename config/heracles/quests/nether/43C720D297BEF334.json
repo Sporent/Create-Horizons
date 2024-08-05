@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "0D5BC08F3FFC8801"
+  ],
+  "tasks": {
+    "0D1E0E5F3E57D479": {
+      "biomes": "incendium:quartz_flats",
+      "type": "heracles:biome"
+    }
+  },
+  "rewards": {
+    "36D8B1356EAE2D9A": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0D1E0E5F3E57D479\" quest=\"43C720D297BEF334\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"36D8B1356EAE2D9A\" quest=\"43C720D297BEF334\"/>"
+    ],
+    "groups": {
+      "Nether": {
+        "position": [
+          -32,
+          160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:quartz",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Find Quartz Flats"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

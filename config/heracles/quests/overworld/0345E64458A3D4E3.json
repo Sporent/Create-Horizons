@@ -1,0 +1,59 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6A453E049C38D98F",
+    "64B734082D3D5603",
+    "5C60D1F26F41B0E5"
+  ],
+  "tasks": {
+    "59D85646C02974C3": {
+      "title": "Congratulations!",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "43074230BD97F848": {
+      "type": "heracles:item",
+      "item": {
+        "id": "galosphere:silver_upgrade_smithing_template"
+      }
+    },
+    "6F5B053269F1DF66": {
+      "type": "heracles:item",
+      "item": {
+        "id": "galosphere:silver_ingot",
+        "count": 16
+      }
+    },
+    "7EBE939902D1BFDF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:cog",
+        "count": 2
+      }
+    }
+  },
+  "display": {
+    "title": "Spelunker",
+    "description": [
+      "<task task=\"59D85646C02974C3\" quest=\"0345E64458A3D4E3\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"43074230BD97F848\" quest=\"0345E64458A3D4E3\"/>",
+      "<reward reward=\"6F5B053269F1DF66\" quest=\"0345E64458A3D4E3\"/>",
+      "<reward reward=\"7EBE939902D1BFDF\" quest=\"0345E64458A3D4E3\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:iron_boots"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          0,
+          -192
+        ]
+      }
+    }
+  }
+}

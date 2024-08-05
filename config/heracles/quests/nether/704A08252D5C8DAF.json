@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "0D5BC08F3FFC8801"
+  ],
+  "tasks": {
+    "1938243040770BB8": {
+      "biomes": "incendium:inverted_forest",
+      "type": "heracles:biome"
+    }
+  },
+  "rewards": {
+    "119E93F07CB9D121": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1938243040770BB8\" quest=\"704A08252D5C8DAF\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"119E93F07CB9D121\" quest=\"704A08252D5C8DAF\"/>"
+    ],
+    "groups": {
+      "Nether": {
+        "position": [
+          32,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:warped_stem",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Find Inverted Forest"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

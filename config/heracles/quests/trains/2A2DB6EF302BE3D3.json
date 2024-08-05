@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "778B8887154686D7"
+  ],
+  "tasks": {
+    "64F7F608E189B638": {
+      "type": "heracles:item",
+      "item": "create:track_observer",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "0368531AEEDFC4E1": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"64F7F608E189B638\" quest=\"2A2DB6EF302BE3D3\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0368531AEEDFC4E1\" quest=\"2A2DB6EF302BE3D3\"/>"
+    ],
+    "groups": {
+      "Trains!!!!": {
+        "position": [
+          192,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:track_observer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Acquire: create:track_observer"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

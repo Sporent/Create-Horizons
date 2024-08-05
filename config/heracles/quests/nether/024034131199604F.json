@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "0D5BC08F3FFC8801"
+  ],
+  "tasks": {
+    "23F4D7F71D72D63D": {
+      "biomes": "incendium:ash_barrens",
+      "type": "heracles:biome"
+    }
+  },
+  "rewards": {
+    "5DBC1A0D56CE1F5A": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"23F4D7F71D72D63D\" quest=\"024034131199604F\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5DBC1A0D56CE1F5A\" quest=\"024034131199604F\"/>"
+    ],
+    "groups": {
+      "Nether": {
+        "position": [
+          -32,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:smooth_basalt",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Find Ash Barrens"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

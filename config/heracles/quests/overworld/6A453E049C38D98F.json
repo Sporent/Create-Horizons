@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "07740DBE4FDB1C09"
+  ],
+  "tasks": {
+    "67CE8BE4E117ECFC": {
+      "title": "Find Crystal Canyons",
+      "type": "heracles:biome",
+      "biomes": "galosphere:crystal_canyons"
+    }
+  },
+  "rewards": {
+    "47280E27F5E38DFC": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Crystal Canyons",
+    "description": [
+      "<task task=\"67CE8BE4E117ECFC\" quest=\"6A453E049C38D98F\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"47280E27F5E38DFC\" quest=\"6A453E049C38D98F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "galosphere:allurite_shard"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          0,
+          -128
+        ]
+      }
+    }
+  }
+}

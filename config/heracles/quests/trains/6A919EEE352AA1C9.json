@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2F65C153FB7F498B",
+    "6C0AF5DBE0C19608"
+  ],
+  "tasks": {
+    "550E13D50B7C6C30": {
+      "type": "heracles:item",
+      "item": "railways:handcar"
+    }
+  },
+  "rewards": {
+    "15DFE98BD6B75565": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Assemble a Train for the First Time!",
+    "description": [
+      "<task task=\"550E13D50B7C6C30\" quest=\"6A919EEE352AA1C9\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"15DFE98BD6B75565\" quest=\"6A919EEE352AA1C9\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "railways:handcar"
+    },
+    "groups": {
+      "Trains!!!!": {
+        "position": [
+          64,
+          -64
+        ]
+      }
+    }
+  }
+}

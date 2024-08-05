@@ -1,0 +1,68 @@
+{
+  "dependencies": [
+    "11AEB5CC5826F83F",
+    "5420B7B764422E9A"
+  ],
+  "tasks": {
+    "0A7C54E2B457CDC8": {
+      "type": "heracles:item",
+      "item": "kubejs:medicinal_brew_bucket",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "29B18425E7F2E2D3": {
+      "type": "heracles:item",
+      "item": "cobblemon:medicinal_leek",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "45245FBD7DAE1344": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"29B18425E7F2E2D3\" quest=\"40DF24C61EDF7BA1\"/>",
+      "<task task=\"0A7C54E2B457CDC8\" quest=\"40DF24C61EDF7BA1\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"45245FBD7DAE1344\" quest=\"40DF24C61EDF7BA1\"/>"
+    ],
+    "groups": {
+      "Fluid Handling": {
+        "position": [
+          64,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cobblemon:medicinal_brew",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cobblemon Brewing"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

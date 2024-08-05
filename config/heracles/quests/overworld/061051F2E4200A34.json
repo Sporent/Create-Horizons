@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "42AC022AE3A663C7"
+  ],
+  "tasks": {
+    "19E261599BEFC098": {
+      "title": "Find a Spider Dungeon",
+      "structures": "betterdungeons:spider_dungeon",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "50C8D10FBEDA48DA": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"19E261599BEFC098\" quest=\"061051F2E4200A34\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"50C8D10FBEDA48DA\" quest=\"061051F2E4200A34\"/>"
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          160,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:cobweb",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Find a Spider Dungeon"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

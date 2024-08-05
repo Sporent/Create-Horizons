@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "42AC022AE3A663C7"
+  ],
+  "tasks": {
+    "1D2A71F34885C379": {
+      "title": "Find a Skeleton Dungeon",
+      "structures": "betterdungeons:skeleton_dungeon",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "49EB397F8051F761": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1D2A71F34885C379\" quest=\"5E41676655FE1366\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"49EB397F8051F761\" quest=\"5E41676655FE1366\"/>"
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          176,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:skeleton_skull",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Find a Skeleton Dungeon"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

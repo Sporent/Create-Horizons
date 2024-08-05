@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "33459C63B09C81A6": {
+      "title": "Find Oak Savanna",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:oak_savanna"
+    }
+  },
+  "rewards": {
+    "5EB09FB1574A87AD": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Oak Savanna",
+    "description": [
+      "<task task=\"33459C63B09C81A6\" quest=\"687EF252F1469372\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5EB09FB1574A87AD\" quest=\"687EF252F1469372\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:tall_oat_grass"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          64,
+          176
+        ]
+      }
+    }
+  }
+}

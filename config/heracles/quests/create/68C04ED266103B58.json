@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17FA00EA38A585D9"
+  ],
+  "tasks": {
+    "1B7764ADEAE3BD8F": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "432C38EC74F3E237": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Ready to move on?",
+    "description": [
+      "<h2>Full-on automation ahead!</h2>",
+      "<hr/>",
+      "<task task=\"1B7764ADEAE3BD8F\" quest=\"68C04ED266103B58\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"432C38EC74F3E237\" quest=\"68C04ED266103B58\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:green_wool"
+    },
+    "subtitle": {
+      "text": "Full-on automation ahead!"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          272,
+          0
+        ]
+      }
+    }
+  }
+}

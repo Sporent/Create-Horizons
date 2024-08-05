@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "08E95C3F52213237"
+  ],
+  "tasks": {
+    "36BBDDD7948FD524": {
+      "type": "heracles:item",
+      "item": "numismatics:sprocket"
+    }
+  },
+  "rewards": {
+    "6829C77998B415EF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "farmersdelight:glow_berry_custard"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: numismatics:sprocket",
+    "description": [
+      "<task task=\"36BBDDD7948FD524\" quest=\"216B7DF52A74BC36\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6829C77998B415EF\" quest=\"216B7DF52A74BC36\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "numismatics:sprocket"
+    },
+    "groups": {
+      "Economy (Create: Numismatics)": {
+        "position": [
+          128,
+          0
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "13BE64685ABA5A24"
+  ],
+  "tasks": {
+    "4C22A3C265E52A13": {
+      "type": "heracles:item",
+      "item": "#railways:train_tracks",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Any #railways:train_tracks"
+    }
+  },
+  "rewards": {
+    "33462C0F5F14D8B3": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4C22A3C265E52A13\" quest=\"6C0AF5DBE0C19608\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"33462C0F5F14D8B3\" quest=\"6C0AF5DBE0C19608\"/>"
+    ],
+    "groups": {
+      "Trains!!!!": {
+        "position": [
+          0,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:track",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Assemble a Train Track"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

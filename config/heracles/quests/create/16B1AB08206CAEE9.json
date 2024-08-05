@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "160C7D730946E37F"
+  ],
+  "tasks": {
+    "62FEFF7E94381A5E": {
+      "type": "heracles:item",
+      "item": "#create:toolboxes",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Any #create:toolboxes"
+    }
+  },
+  "rewards": {
+    "2DC23011F41B4BF5": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Stackable tools?!"
+    },
+    "description": [
+      "<h2>Stackable tools?!</h2>",
+      "<hr/>",
+      "<task task=\"62FEFF7E94381A5E\" quest=\"16B1AB08206CAEE9\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2DC23011F41B4BF5\" quest=\"16B1AB08206CAEE9\"/>"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -92,
+          14
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:brown_toolbox",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Craft a Toolbox"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

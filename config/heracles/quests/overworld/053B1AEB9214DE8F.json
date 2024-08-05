@@ -1,0 +1,92 @@
+{
+  "dependencies": [
+    "673EFCB56077C2A1",
+    "36A1D1AEE741A3F0",
+    "37335E719A5228E9",
+    "62D2E52009E30CB2",
+    "1D7616C68CF02D46",
+    "5C364D867CD62CA7",
+    "13AF6EEFE9C8E85A",
+    "50CC28EF1329B398"
+  ],
+  "tasks": {
+    "39F6681F40A5BFE6": {
+      "title": "Congratulations!",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "4567FC3F09AE6EE5": {
+      "item": {
+        "id": "cobblemon:pep_up_flower",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "150AA97CA29B3568": {
+      "item": {
+        "id": "cobblemon:relic_coin_sack",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "429F891892A73D7D": {
+      "item": {
+        "id": "numismatics:crown",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "673AE0B73A340255": {
+      "item": {
+        "id": "cobblemon:vivichoke",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"39F6681F40A5BFE6\" quest=\"053B1AEB9214DE8F\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"150AA97CA29B3568\" quest=\"053B1AEB9214DE8F\"/>",
+      "<reward reward=\"4567FC3F09AE6EE5\" quest=\"053B1AEB9214DE8F\"/>",
+      "<reward reward=\"673AE0B73A340255\" quest=\"053B1AEB9214DE8F\"/>",
+      "<reward reward=\"429F891892A73D7D\" quest=\"053B1AEB9214DE8F\"/>"
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          -256,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:diamond_boots",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Archaeologist"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

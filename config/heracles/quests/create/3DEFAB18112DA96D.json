@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "17FA00EA38A585D9"
+  ],
+  "tasks": {
+    "6CC36A6333757682": {
+      "type": "heracles:item",
+      "item": "create:mechanical_mixer",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "3F986D729D08CB66": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6CC36A6333757682\" quest=\"3DEFAB18112DA96D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3F986D729D08CB66\" quest=\"3DEFAB18112DA96D\"/>"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          176,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:mechanical_mixer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Craft a Mechanical Mixer"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "3134464E65118F8E"
+  ],
+  "tasks": {
+    "04244D8F0DF7F494": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Overhauled Enchanting"
+    },
+    "description": [
+      "<h2>Overhauled Enchanting</h2>",
+      "<hr/>",
+      "<task task=\"04244D8F0DF7F494\" quest=\"0435E6E0B46A9820\"/>",
+      "<hr/>",
+      "The Enchancement mod completely overhauls how regular enchanting works in Minecraft!",
+      "<br/>",
+      "<br/>",
+      "&&6All enchantments that are flat buffs have been removed (with the exception of efficiency). &&rInstead, the enchancement mod adds different uniquely powerful enchantments for your tools, weapons, and armour! ",
+      "<br/>",
+      "No need to worry about RNG! enchancement allows you to &&6pick the enchant you want &&rthrough the enchantment table, &&rthough only &&6one can be applied per item.&&r",
+      "<br/>",
+      "In addition, the &&6cost &&rof enchanting items has been reworked. You can now pay for enchantments using either &&6lapis, experience, or the material that the item is made from. &&rAdding &&6bookshelves &&raround the enchantment table will &&6decrease the cost &&rof applying an enchantment.",
+      "<br/>",
+      "Another huge change this mod makes is &&6disabling durability, &&rto make up for the loss of the unbreaking and mending enchantments among other reasons.",
+      "<br/>",
+      "If you aren't a fan of this and want to disable it, there is an option within the config that you can open through the \"mods\" tab in the escape menu.",
+      " "
+    ],
+    "groups": {
+      "Welcome!": {
+        "position": [
+          48,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:enchanting_table",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Enchantments"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

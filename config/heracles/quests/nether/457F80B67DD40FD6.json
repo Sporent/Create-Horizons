@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "0D5BC08F3FFC8801"
+  ],
+  "tasks": {
+    "1FE94BF49C6E92D6": {
+      "biomes": "incendium:infernal_dunes",
+      "type": "heracles:biome"
+    }
+  },
+  "rewards": {
+    "54B05ACBE94907A0": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1FE94BF49C6E92D6\" quest=\"457F80B67DD40FD6\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"54B05ACBE94907A0\" quest=\"457F80B67DD40FD6\"/>"
+    ],
+    "groups": {
+      "Nether": {
+        "position": [
+          0,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:red_sand",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Find Infernal Dunes"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

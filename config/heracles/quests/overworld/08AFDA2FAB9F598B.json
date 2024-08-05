@@ -1,0 +1,124 @@
+{
+  "dependencies": [
+    "64B734082D3D5603",
+    "4CBB8618FC11B551",
+    "1EF042B353B3DBC1",
+    "51D1460D66D8B504",
+    "7D500A7E4AFA31EA",
+    "1605929356247243",
+    "76610A4B0121BEE6",
+    "6359D0C76F78B227",
+    "3F4711B134BBD4B1",
+    "46E1843E089EFD8A",
+    "091264EE9730E504",
+    "7285589086C31403",
+    "130A8C9753F77424",
+    "5CAD0D330F4593CE",
+    "687EF252F1469372",
+    "458D0AF39DFE5B71",
+    "38D3838AC8FF7620",
+    "59566E1F193135A4",
+    "6A453E049C38D98F",
+    "1069E2AB154A10E4",
+    "36C4257D3876C0E7",
+    "7A70A244ED448033",
+    "6003586A17D2D018",
+    "478F95CF85B6C07B",
+    "5C60D1F26F41B0E5",
+    "4135CC4325449666",
+    "51F2DB13DD7224C9",
+    "60443732E60800DD",
+    "143E1389E67D2CB0",
+    "7320214A60B15A6D",
+    "752A4DCD2FEF00CB",
+    "39EE0D46A6EE9018",
+    "75DD8EC02FF0CF2A",
+    "7DE106400DA4D99D",
+    "33E44678BF68707D",
+    "6C7B745C89133797",
+    "2A299FE4E412386D",
+    "3E9FAE519D80C7F5",
+    "495D73E000225C88",
+    "60DEDBA65612735C",
+    "559F6C6756AE9782",
+    "1EE8A68F802A0A19",
+    "143763945CE40A72",
+    "29F799F78D8941AA",
+    "5AE9E05F6A5A9216",
+    "71028127593D1B21",
+    "3E032D5DBC1BE8EA",
+    "42D067ADB29EAF53",
+    "675F6B315C95EDD4",
+    "6AEC50E584219B3B",
+    "08C095193D643CBE",
+    "7E43008493E8EB2B",
+    "005FFF95B86D6B72"
+  ],
+  "tasks": {
+    "178FC3BC1D66685E": {
+      "title": "Found them dummy give me my reward",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "73CBEC5080BEFF88": {
+      "item": {
+        "id": "numismatics:sun",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "1A763C85071778B9": {
+      "item": {
+        "id": "cobblemon:master_ball",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"178FC3BC1D66685E\" quest=\"08AFDA2FAB9F598B\"/>",
+      "<hr/>",
+      "Find all of the overworld biomes added by this modpack!",
+      "{@pagebreak}",
+      "Spoiler alert there are 53 of them and you will have to travel 10s of thousands of blocks to find them all.. that's why this quest is optional. Good luck!",
+      "<hr/>",
+      "<reward reward=\"1A763C85071778B9\" quest=\"08AFDA2FAB9F598B\"/>",
+      "<reward reward=\"73CBEC5080BEFF88\" quest=\"08AFDA2FAB9F598B\"/>"
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          0,
+          256
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:netherite_boots",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "A True Adventurer"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

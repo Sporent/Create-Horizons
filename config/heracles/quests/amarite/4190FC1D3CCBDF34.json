@@ -1,0 +1,45 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "6EFD073E8187576E": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Place a raw gold block on each of the 4 sides of the budding amethyst, then place a magma block below the amethyst and leave the block above open to air."
+    },
+    "description": [
+      "<task task=\"6EFD073E8187576E\" quest=\"4190FC1D3CCBDF34\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Amarite": {
+        "position": [
+          -96,
+          -160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "createdeco:decal_warning",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "How to make the setup"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

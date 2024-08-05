@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "0D5BC08F3FFC8801"
+  ],
+  "tasks": {
+    "3A176FA1B2D7BE82": {
+      "biomes": "incendium:toxic_heap",
+      "type": "heracles:biome"
+    }
+  },
+  "rewards": {
+    "0B13F4164E9B459F": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3A176FA1B2D7BE82\" quest=\"20CA5A086E5AFAD9\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0B13F4164E9B459F\" quest=\"20CA5A086E5AFAD9\"/>"
+    ],
+    "groups": {
+      "Nether": {
+        "position": [
+          0,
+          160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:slime_ball",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Find Toxic Heap"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

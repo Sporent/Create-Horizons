@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "722B52B296744ED2": {
+      "title": "Find Carnation Fields",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:carnation_fields"
+    }
+  },
+  "rewards": {
+    "62A0942572B47D52": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Carnation Fields",
+    "description": [
+      "<task task=\"722B52B296744ED2\" quest=\"42D067ADB29EAF53\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"62A0942572B47D52\" quest=\"42D067ADB29EAF53\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:carnation"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          -80,
+          160
+        ]
+      }
+    }
+  }
+}

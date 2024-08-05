@@ -123,8 +123,7 @@ LootJS.modifiers((event) => {
 
         addHighTierPokeballsToLootTable(lootTable, 0.11)
     }
-
-    addLowTierLootToLootTable(/.*chests.*.village.*/)
+    
     addLowTierLootToLootTable("minecraft:chests/igloo_chest")
     addLowTierLootToLootTable("minecraft:chests/pillager_outpost")
     addLowTierLootToLootTable("minecraft:chests/ruined_portal")

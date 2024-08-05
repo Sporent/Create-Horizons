@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "17FA00EA38A585D9"
+  ],
+  "tasks": {
+    "6BA5613A9C9CE69C": {
+      "type": "heracles:item",
+      "item": "create:mechanical_press",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "4C422C757DCEB842": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6BA5613A9C9CE69C\" quest=\"742F1D3500D8D9CF\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4C422C757DCEB842\" quest=\"742F1D3500D8D9CF\"/>"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          176,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:mechanical_press",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Craft a Mechanical Press"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

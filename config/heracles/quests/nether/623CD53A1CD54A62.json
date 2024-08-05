@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "27EEFF4EBB5F49E3"
+  ],
+  "tasks": {
+    "568AE992F9A34B9F": {
+      "type": "heracles:structure",
+      "structures": "minecraft:bastion_remnant"
+    }
+  },
+  "rewards": {
+    "3C549FC14673A8BB": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:gold_ingot",
+        "count": 4
+      }
+    },
+    "446566BEF0CF07F6": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur",
+        "count": 2
+      }
+    }
+  },
+  "display": {
+    "title": "Find a Bastion Remnant",
+    "description": [
+      "<task task=\"568AE992F9A34B9F\" quest=\"623CD53A1CD54A62\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3C549FC14673A8BB\" quest=\"623CD53A1CD54A62\"/>",
+      "<reward reward=\"446566BEF0CF07F6\" quest=\"623CD53A1CD54A62\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:polished_blackstone_bricks"
+    },
+    "groups": {
+      "Nether": {
+        "position": [
+          -64,
+          0
+        ]
+      }
+    }
+  }
+}

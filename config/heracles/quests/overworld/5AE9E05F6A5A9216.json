@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "7491209B2AC6DEAE": {
+      "title": "Find Alpine Clearings",
+      "biomes": "natures_spirit:alpine_clearings",
+      "type": "heracles:biome"
+    }
+  },
+  "rewards": {
+    "0D0977842634A882": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7491209B2AC6DEAE\" quest=\"5AE9E05F6A5A9216\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0D0977842634A882\" quest=\"5AE9E05F6A5A9216\"/>"
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          -128,
+          144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "natures_spirit:larch_sapling",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Find Alpine Clearings"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

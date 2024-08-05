@@ -1,0 +1,37 @@
+{
+  "settings": {},
+  "dependencies": [
+    "68C04ED266103B58"
+  ],
+  "tasks": {
+    "700048FB3A11009A": {
+      "type": "heracles:item",
+      "item": "minecraft:gravel"
+    },
+    "34E8259F0F3EE676": {
+      "title": "Automated?",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Automate Gravel",
+    "description": [
+      "<task task=\"700048FB3A11009A\" quest=\"376C266F7EDF092E\"/>",
+      "<task task=\"34E8259F0F3EE676\" quest=\"376C266F7EDF092E\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:gravel"
+    },
+    "groups": {
+      "Cobblemon Technology": {
+        "position": [
+          192,
+          96
+        ]
+      }
+    }
+  }
+}

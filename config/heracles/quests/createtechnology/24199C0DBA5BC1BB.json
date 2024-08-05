@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "6424838E710A9E39"
+  ],
+  "tasks": {
+    "191AFF4A2E529C43": {
+      "type": "heracles:item",
+      "item": "create:netherite_backtank",
+      "nbt": {
+        "Air": 900
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "722A74A188E73DBA": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"191AFF4A2E529C43\" quest=\"24199C0DBA5BC1BB\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"722A74A188E73DBA\" quest=\"24199C0DBA5BC1BB\"/>"
+    ],
+    "groups": {
+      "Create Technology": {
+        "position": [
+          -64,
+          14
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:netherite_backtank",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Acquire: create:netherite_backtank"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

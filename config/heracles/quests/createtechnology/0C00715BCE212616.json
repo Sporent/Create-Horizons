@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1ACA4690BEAA4C73"
+  ],
+  "tasks": {
+    "48D43C82C2AA0D14": {
+      "type": "heracles:item",
+      "item": "create:powdered_obsidian"
+    }
+  },
+  "rewards": {
+    "7E638B9C94EC9175": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: create:powdered_obsidian",
+    "description": [
+      "<task task=\"48D43C82C2AA0D14\" quest=\"0C00715BCE212616\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7E638B9C94EC9175\" quest=\"0C00715BCE212616\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:powdered_obsidian"
+    },
+    "groups": {
+      "Create Technology": {
+        "position": [
+          320,
+          0
+        ]
+      }
+    }
+  }
+}

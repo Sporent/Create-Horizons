@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3134464E65118F8E"
+  ],
+  "tasks": {
+    "10521A8402D3FD11": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Cobblemon",
+    "description": [
+      "<h2>Pokémon in Minecraft!</h2>",
+      "<hr/>",
+      "<task task=\"10521A8402D3FD11\" quest=\"6CC6259254B49718\"/>",
+      "<hr/>",
+      "As you may have already noticed when looking around you, the Cobblemon modpack introduces pokémon into minecraft!",
+      "These pokémon can be caught during battle as a turn use, or alternatively outside of battle by throwing a pokéball with &&bright click&&r (though your chances are lower). &&6Battles can only be fought when you have a pokémon, so make sure to choose your starter with the &&b[Open Summary] &&6key!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "cobblemon:poke_ball"
+    },
+    "subtitle": {
+      "text": "Pokémon in Minecraft!"
+    },
+    "groups": {
+      "Welcome!": {
+        "position": [
+          -48,
+          192
+        ]
+      }
+    }
+  }
+}

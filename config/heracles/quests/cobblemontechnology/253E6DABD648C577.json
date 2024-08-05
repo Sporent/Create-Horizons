@@ -1,0 +1,37 @@
+{
+  "settings": {},
+  "dependencies": [
+    "68C04ED266103B58"
+  ],
+  "tasks": {
+    "1716788857089DA9": {
+      "type": "heracles:item",
+      "item": "minecraft:soul_sand"
+    },
+    "16C21BB675310662": {
+      "title": "Automated?",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Automate Soul Sand",
+    "description": [
+      "<task task=\"1716788857089DA9\" quest=\"253E6DABD648C577\"/>",
+      "<task task=\"16C21BB675310662\" quest=\"253E6DABD648C577\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:soul_sand"
+    },
+    "groups": {
+      "Cobblemon Technology": {
+        "position": [
+          -192,
+          160
+        ]
+      }
+    }
+  }
+}

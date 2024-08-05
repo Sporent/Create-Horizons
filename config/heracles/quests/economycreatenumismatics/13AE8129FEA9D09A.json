@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "08E95C3F52213237"
+  ],
+  "tasks": {
+    "2EE2CCF22BC78D04": {
+      "type": "heracles:item",
+      "item": "numismatics:spur",
+      "amount": 16,
+      "collection": "MANUAL"
+    }
+  },
+  "rewards": {
+    "486C2CB2A2C7BBC3": {
+      "item": {
+        "id": "numismatics:bank_terminal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Convert your Currency"
+    },
+    "description": [
+      "<h2>Convert your Currency</h2>",
+      "<hr/>",
+      "<task task=\"2EE2CCF22BC78D04\" quest=\"13AE8129FEA9D09A\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"486C2CB2A2C7BBC3\" quest=\"13AE8129FEA9D09A\"/>"
+    ],
+    "groups": {
+      "Economy (Create: Numismatics)": {
+        "position": [
+          176,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "numismatics:bank_terminal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Bank for Sale!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "05877FDDF85EB7F8"
+  ],
+  "tasks": {
+    "6C79930E8F8A5AA5": {
+      "title": "Find a Cobblemon Gimmighoul Tower",
+      "structures": "#cobblemon:ruins/tower",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "1067A05822AF503D": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6C79930E8F8A5AA5\" quest=\"673EFCB56077C2A1\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1067A05822AF503D\" quest=\"673EFCB56077C2A1\"/>"
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          -160,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cobblemon:gimmighoul_chest",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Find a Cobblemon Gimmighoul Tower"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

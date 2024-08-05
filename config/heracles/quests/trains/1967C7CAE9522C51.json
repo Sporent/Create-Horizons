@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "24B27824948D894B"
+  ],
+  "tasks": {
+    "3193DE1AF4E4AE2B": {
+      "type": "heracles:item",
+      "item": "railways:fuel_tank"
+    }
+  },
+  "rewards": {
+    "3D51E4FEAB9FE761": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: railways:fuel_tank",
+    "description": [
+      "<task task=\"3193DE1AF4E4AE2B\" quest=\"1967C7CAE9522C51\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3D51E4FEAB9FE761\" quest=\"1967C7CAE9522C51\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "railways:fuel_tank"
+    },
+    "groups": {
+      "Trains!!!!": {
+        "position": [
+          80,
+          48
+        ]
+      }
+    }
+  }
+}

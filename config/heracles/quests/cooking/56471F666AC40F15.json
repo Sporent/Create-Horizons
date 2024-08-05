@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "70ADB65A96839EE4"
+  ],
+  "tasks": {
+    "499C68028C965741": {
+      "type": "heracles:item",
+      "item": "farmersdelight:minced_beef"
+    }
+  },
+  "rewards": {
+    "5C0FD4B89B5CA0C7": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: farmersdelight:minced_beef",
+    "description": [
+      "<task task=\"499C68028C965741\" quest=\"56471F666AC40F15\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5C0FD4B89B5CA0C7\" quest=\"56471F666AC40F15\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:minced_beef"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "groups": {
+      "Cooking": {
+        "position": [
+          128,
+          96
+        ]
+      }
+    }
+  }
+}

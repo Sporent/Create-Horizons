@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "44ADD0DA0C4D69C9": {
+      "title": "Find Redwood Forest",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:redwood_forest"
+    }
+  },
+  "rewards": {
+    "33F4CC4DC4AD4621": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Redwood Forest",
+    "description": [
+      "<task task=\"44ADD0DA0C4D69C9\" quest=\"71028127593D1B21\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"33F4CC4DC4AD4621\" quest=\"71028127593D1B21\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:redwood_sapling"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          160,
+          176
+        ]
+      }
+    }
+  }
+}

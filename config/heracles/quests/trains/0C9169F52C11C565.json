@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "778B8887154686D7"
+  ],
+  "tasks": {
+    "00E0F3E826D0ACF9": {
+      "type": "heracles:item",
+      "item": "create:track_signal",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "6162C931263BF9CE": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"00E0F3E826D0ACF9\" quest=\"0C9169F52C11C565\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6162C931263BF9CE\" quest=\"0C9169F52C11C565\"/>"
+    ],
+    "groups": {
+      "Trains!!!!": {
+        "position": [
+          176,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:track_signal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Acquire: create:track_signal"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

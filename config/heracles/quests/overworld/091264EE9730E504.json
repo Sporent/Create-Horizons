@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "204FF3DD71E9ACA6": {
+      "title": "Find Wisteria Forest",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:wisteria_forest"
+    }
+  },
+  "rewards": {
+    "1FFC6358F7466FEA": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Wisteria Forest",
+    "description": [
+      "<task task=\"204FF3DD71E9ACA6\" quest=\"091264EE9730E504\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1FFC6358F7466FEA\" quest=\"091264EE9730E504\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:pink_wisteria_sapling"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          32,
+          208
+        ]
+      }
+    }
+  }
+}

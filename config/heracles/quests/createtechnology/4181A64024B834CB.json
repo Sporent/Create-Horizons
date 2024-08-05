@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "6257E7158511D071"
+  ],
+  "tasks": {
+    "2953DF48EE1E5BC0": {
+      "type": "heracles:item",
+      "item": "create:smart_chute",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "2B29C578B5EB84CC": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2953DF48EE1E5BC0\" quest=\"4181A64024B834CB\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2B29C578B5EB84CC\" quest=\"4181A64024B834CB\"/>"
+    ],
+    "groups": {
+      "Create Technology": {
+        "position": [
+          144,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:smart_chute",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Acquire: create:smart_chute"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

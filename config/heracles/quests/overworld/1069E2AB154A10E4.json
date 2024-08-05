@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "757C2D29CF33E943": {
+      "title": "Find Prairie",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:prairie"
+    }
+  },
+  "rewards": {
+    "061FE5A24B315C56": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Prairie",
+    "description": [
+      "<task task=\"757C2D29CF33E943\" quest=\"1069E2AB154A10E4\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"061FE5A24B315C56\" quest=\"1069E2AB154A10E4\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:tall_frigid_grass"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          96,
+          176
+        ]
+      }
+    }
+  }
+}

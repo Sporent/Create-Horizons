@@ -1,0 +1,47 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "28DA8D8892D1EC81": {
+      "from": "minecraft:overworld",
+      "to": "minecraft:the_nether",
+      "type": "heracles:changed_dimension"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"28DA8D8892D1EC81\" quest=\"27EEFF4EBB5F49E3\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Nether": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:netherrack",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "Visit The Nether"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

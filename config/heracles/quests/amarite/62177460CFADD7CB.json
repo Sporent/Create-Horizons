@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "5236A1627AF6F9F0"
+  ],
+  "tasks": {
+    "43128EAF44ECF799": {
+      "type": "heracles:item",
+      "item": "minecraft:potion",
+      "nbt": {
+        "Potion": "spelunker:spelunker"
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "0D799CE9F3F3CF2C": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"43128EAF44ECF799\" quest=\"62177460CFADD7CB\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0D799CE9F3F3CF2C\" quest=\"62177460CFADD7CB\"/>"
+    ],
+    "groups": {
+      "Amarite": {
+        "position": [
+          -224,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:potion",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Make a spelunker potion"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

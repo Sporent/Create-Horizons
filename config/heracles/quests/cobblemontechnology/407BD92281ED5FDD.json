@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "337737A60FD7A04E"
+  ],
+  "tasks": {
+    "2B55AADEAD1175D8": {
+      "type": "heracles:item",
+      "item": "create:iron_sheet",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "0364E4CFFA7CBEC9": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2B55AADEAD1175D8\" quest=\"407BD92281ED5FDD\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0364E4CFFA7CBEC9\" quest=\"407BD92281ED5FDD\"/>"
+    ],
+    "groups": {
+      "Cobblemon Technology": {
+        "position": [
+          32,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:iron_sheet",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Acquire: create:iron_sheet"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

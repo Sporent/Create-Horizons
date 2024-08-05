@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "05877FDDF85EB7F8"
+  ],
+  "tasks": {
+    "2DAF4B397D737D95": {
+      "title": "Find a Cobblemon Fossil Den",
+      "structures": "#cobblemon:fossils/den",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "72BA8EEEDC1C51FA": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2DAF4B397D737D95\" quest=\"62D2E52009E30CB2\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"72BA8EEEDC1C51FA\" quest=\"62D2E52009E30CB2\"/>"
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          -192,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:pointed_dripstone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Find a Cobblemon Fossil Den"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

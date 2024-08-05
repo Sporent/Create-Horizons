@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "08E95C3F52213237"
+  ],
+  "tasks": {
+    "31916E844EA8E907": {
+      "type": "heracles:item",
+      "item": "numismatics:bevel"
+    }
+  },
+  "rewards": {
+    "563DF8FAC3391313": {
+      "type": "heracles:item",
+      "item": {
+        "id": "create:sweet_roll"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: numismatics:bevel",
+    "description": [
+      "<task task=\"31916E844EA8E907\" quest=\"200C27BECF13E76F\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"563DF8FAC3391313\" quest=\"200C27BECF13E76F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "numismatics:bevel"
+    },
+    "groups": {
+      "Economy (Create: Numismatics)": {
+        "position": [
+          96,
+          0
+        ]
+      }
+    }
+  }
+}

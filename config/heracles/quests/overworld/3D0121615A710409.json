@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "42AC022AE3A663C7"
+  ],
+  "tasks": {
+    "27622B8F0842B0DB": {
+      "title": "Find a Witch Hut",
+      "structures": "betterwitchhuts:witch_hut",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "4314AE7C0AF27AD2": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"27622B8F0842B0DB\" quest=\"3D0121615A710409\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4314AE7C0AF27AD2\" quest=\"3D0121615A710409\"/>"
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          128,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:cauldron",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Find a Witch Hut"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

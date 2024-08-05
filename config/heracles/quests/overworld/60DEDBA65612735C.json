@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "10D4D91E50EF03EF": {
+      "title": "Find Golden Wilds",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:golden_wilds"
+    }
+  },
+  "rewards": {
+    "4FDC41D8BA389316": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Golden Wilds",
+    "description": [
+      "<task task=\"10D4D91E50EF03EF\" quest=\"60DEDBA65612735C\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4FDC41D8BA389316\" quest=\"60DEDBA65612735C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:flaxen_fern"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          -160,
+          176
+        ]
+      }
+    }
+  }
+}

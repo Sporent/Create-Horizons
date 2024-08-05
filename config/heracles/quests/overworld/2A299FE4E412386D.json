@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "10959EECC4FFF129": {
+      "title": "Find Woody Highlands",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:woody_highlands"
+    }
+  },
+  "rewards": {
+    "49A84FEC46392747": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Woody Highlands",
+    "description": [
+      "<task task=\"10959EECC4FFF129\" quest=\"2A299FE4E412386D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"49A84FEC46392747\" quest=\"2A299FE4E412386D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:saxaul_sapling"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          96,
+          208
+        ]
+      }
+    }
+  }
+}

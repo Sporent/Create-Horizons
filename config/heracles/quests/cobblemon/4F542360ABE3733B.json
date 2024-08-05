@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "43B7C179A8020948"
+  ],
+  "tasks": {
+    "131F8B05A7606490": {
+      "type": "heracles:item",
+      "item": "#cobblemon:apricorns",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Any #cobblemon:apricorns"
+    }
+  },
+  "rewards": {
+    "7042CB5959DD2D44": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§bRight click §ron an apricorn growing on a tree to harvest it"
+    },
+    "description": [
+      "<h2>&&bRight click &&ron an apricorn growing on a tree to harvest it</h2>",
+      "<hr/>",
+      "<task task=\"131F8B05A7606490\" quest=\"4F542360ABE3733B\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7042CB5959DD2D44\" quest=\"4F542360ABE3733B\"/>"
+    ],
+    "groups": {
+      "Cobblemon": {
+        "position": [
+          -64,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cobblemon:red_apricorn",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Harvest an apricorn"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

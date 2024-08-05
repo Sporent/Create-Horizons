@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "41A3D69CEDB5495B": {
+      "title": "Find Sparse Tropical Woods",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:sparse_tropical_woods"
+    }
+  },
+  "rewards": {
+    "43E9C2A9F6CF4250": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Sparse Tropical Woods",
+    "description": [
+      "<task task=\"41A3D69CEDB5495B\" quest=\"3F4711B134BBD4B1\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"43E9C2A9F6CF4250\" quest=\"3F4711B134BBD4B1\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:lush_fern"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          48,
+          192
+        ]
+      }
+    }
+  }
+}

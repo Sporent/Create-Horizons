@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "42AC022AE3A663C7"
+  ],
+  "tasks": {
+    "6ACF639E6A3438B1": {
+      "title": "Find a Desert Temple",
+      "structures": "betterdeserttemples:desert_temple",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "1A31F58E2721299F": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6ACF639E6A3438B1\" quest=\"5564797F87BDF5FD\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1A31F58E2721299F\" quest=\"5564797F87BDF5FD\"/>"
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          144,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:sandstone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Find a Desert Temple"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

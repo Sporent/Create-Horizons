@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "48A3CDE402F2E213"
+  ],
+  "tasks": {
+    "63FA3726411E4535": {
+      "type": "heracles:item",
+      "item": "create:andesite_casing"
+    }
+  },
+  "rewards": {
+    "4180A8F5A9742707": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur",
+        "count": 2
+      }
+    }
+  },
+  "display": {
+    "title": "Craft Andesite Casings",
+    "description": [
+      "<h2>Read the description for this one!</h2>",
+      "<hr/>",
+      "<task task=\"63FA3726411E4535\" quest=\"17FA00EA38A585D9\"/>",
+      "<hr/>",
+      "Andesite casings arent crafted normally, to make andesite casings, first &&6strip a log, then &&bright click &&6on it with andesite alloy &&rThe same applies for all the other casings in the mod.",
+      "&&c(Andesite Casings use Andesite alloy)",
+      "&&c(Copper Casings use Copper ingots)",
+      "&&c(Brass Casings use Brass ingots)",
+      "&&c(Train Casings use Sturdy sheets)",
+      "<hr/>",
+      "<reward reward=\"4180A8F5A9742707\" quest=\"17FA00EA38A585D9\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:andesite_casing"
+    },
+    "subtitle": {
+      "text": "Read the description for this one!"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          192,
+          0
+        ]
+      }
+    }
+  }
+}

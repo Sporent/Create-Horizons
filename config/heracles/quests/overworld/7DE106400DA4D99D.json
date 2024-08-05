@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "799C660BA9B867AA": {
+      "title": "Find Marigold Meadows",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:marigold_meadows"
+    }
+  },
+  "rewards": {
+    "6A4A770CF027438B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Marigold Meadows",
+    "description": [
+      "<task task=\"799C660BA9B867AA\" quest=\"7DE106400DA4D99D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6A4A770CF027438B\" quest=\"7DE106400DA4D99D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:marigold"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          0,
+          176
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "3E322999AC0FA68E": {
+      "title": "Find Heather Fields",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:heather_fields"
+    }
+  },
+  "rewards": {
+    "1EE768EE554F872D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Heather Fields",
+    "description": [
+      "<task task=\"3E322999AC0FA68E\" quest=\"7A70A244ED448033\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1EE768EE554F872D\" quest=\"7A70A244ED448033\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:red_heather"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          -128,
+          176
+        ]
+      }
+    }
+  }
+}

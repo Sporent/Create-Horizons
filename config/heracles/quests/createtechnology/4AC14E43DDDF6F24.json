@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6424838E710A9E39"
+  ],
+  "tasks": {
+    "221962A6323FFC99": {
+      "type": "heracles:item",
+      "item": "create:copper_casing"
+    }
+  },
+  "rewards": {
+    "3BA641E5CA37B0A0": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur",
+        "count": 2
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: create:copper_casing",
+    "description": [
+      "<task task=\"221962A6323FFC99\" quest=\"4AC14E43DDDF6F24\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3BA641E5CA37B0A0\" quest=\"4AC14E43DDDF6F24\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:copper_casing"
+    },
+    "groups": {
+      "Create Technology": {
+        "position": [
+          0,
+          -64
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "0C00715BCE212616"
+  ],
+  "tasks": {
+    "696D24F5974AD6C2": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "7C8D01340FC0EAEE": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"696D24F5974AD6C2\" quest=\"13BE64685ABA5A24\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7C8D01340FC0EAEE\" quest=\"13BE64685ABA5A24\"/>"
+    ],
+    "groups": {
+      "Trains!!!!": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:track_station",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "Get Started with Create Trains!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

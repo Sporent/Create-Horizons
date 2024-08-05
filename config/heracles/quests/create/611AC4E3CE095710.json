@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "160C7D730946E37F"
+  ],
+  "tasks": {
+    "4A23F8AE8CD695F4": {
+      "type": "heracles:item",
+      "amount": 32,
+      "item": "minecraft:andesite"
+    }
+  },
+  "rewards": {
+    "1EADA8C5C3C08E6E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Mine some Andesite",
+    "description": [
+      "<h2>The base resource for all of Create</h2>",
+      "<hr/>",
+      "<task task=\"4A23F8AE8CD695F4\" quest=\"611AC4E3CE095710\"/>",
+      "<hr/>",
+      "I recommend finding a large cave with a lot of exposed andesite, you'll need a lot",
+      "<hr/>",
+      "<reward reward=\"1EADA8C5C3C08E6E\" quest=\"611AC4E3CE095710\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:andesite"
+    },
+    "subtitle": {
+      "text": "The base resource for all of Create"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          64,
+          0
+        ]
+      }
+    }
+  }
+}

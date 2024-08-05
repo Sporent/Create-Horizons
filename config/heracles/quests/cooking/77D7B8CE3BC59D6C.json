@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "50CEE5EE1AF770EA"
+  ],
+  "tasks": {
+    "011F684C58FC5A3A": {
+      "type": "heracles:item",
+      "item": "farmersdelight:canvas_rug"
+    }
+  },
+  "rewards": {
+    "16A1BE887A4302A4": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: farmersdelight:canvas_rug",
+    "description": [
+      "<task task=\"011F684C58FC5A3A\" quest=\"77D7B8CE3BC59D6C\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"16A1BE887A4302A4\" quest=\"77D7B8CE3BC59D6C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:canvas_rug"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "groups": {
+      "Cooking": {
+        "position": [
+          128,
+          -64
+        ]
+      }
+    }
+  }
+}

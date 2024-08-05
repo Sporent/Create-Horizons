@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6424838E710A9E39"
+  ],
+  "tasks": {
+    "63F4DD585D62FDB9": {
+      "type": "heracles:item",
+      "item": "create:blaze_burner"
+    },
+    "5FB849C140B97F33": {
+      "title": "Visit the Nether",
+      "type": "heracles:changed_dimension",
+      "from": "minecraft:overworld",
+      "to": "minecraft:the_nether"
+    }
+  },
+  "rewards": {
+    "5464D34574ED6508": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur",
+        "count": 2
+      }
+    }
+  },
+  "display": {
+    "title": "The Essence of Heat",
+    "description": [
+      "<task task=\"63F4DD585D62FDB9\" quest=\"2574E2BECB8553E2\"/>",
+      "<task task=\"5FB849C140B97F33\" quest=\"2574E2BECB8553E2\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5464D34574ED6508\" quest=\"2574E2BECB8553E2\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:blaze_burner"
+    },
+    "groups": {
+      "Create Technology": {
+        "position": [
+          64,
+          0
+        ]
+      }
+    }
+  }
+}

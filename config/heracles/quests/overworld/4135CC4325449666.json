@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "6703F6976E39098E": {
+      "title": "Find White Cliffs",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:white_cliffs"
+    }
+  },
+  "rewards": {
+    "5D7C05E1A71012E1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find White Cliffs",
+    "description": [
+      "<task task=\"6703F6976E39098E\" quest=\"4135CC4325449666\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5D7C05E1A71012E1\" quest=\"4135CC4325449666\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:white_chalk"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          -32,
+          208
+        ]
+      }
+    }
+  }
+}

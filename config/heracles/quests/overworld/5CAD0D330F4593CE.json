@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "4B6D223B4CD53417": {
+      "title": "Find Arid Highlands",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:arid_highlands"
+    }
+  },
+  "rewards": {
+    "08B1613DB52A199D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Arid Highlands",
+    "description": [
+      "<task task=\"4B6D223B4CD53417\" quest=\"5CAD0D330F4593CE\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"08B1613DB52A199D\" quest=\"5CAD0D330F4593CE\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:chert"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          -32,
+          144
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "3F64CF3A51E8033E": {
+      "title": "Find Boreal Taiga",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:boreal_taiga"
+    }
+  },
+  "rewards": {
+    "526295AB25A2A9BF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Boreal Taiga",
+    "description": [
+      "<task task=\"3F64CF3A51E8033E\" quest=\"46E1843E089EFD8A\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"526295AB25A2A9BF\" quest=\"46E1843E089EFD8A\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:red_moss_block"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          -144,
+          160
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "41FFA676BC0FFA02"
+  ],
+  "tasks": {
+    "25633341B2F8C7BB": {
+      "type": "heracles:item",
+      "item": "farmersdelight:skillet"
+    }
+  },
+  "rewards": {
+    "1F0D1753F52215B2": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Craft a Skillet",
+    "description": [
+      "<h2>Time for flippin'</h2>",
+      "<hr/>",
+      "<task task=\"25633341B2F8C7BB\" quest=\"42A8917032C0FB21\"/>",
+      "<hr/>",
+      "Place on top of a campfire or stove.",
+      "<hr/>",
+      "<reward reward=\"1F0D1753F52215B2\" quest=\"42A8917032C0FB21\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:skillet"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "subtitle": {
+      "text": "Time for flippin'"
+    },
+    "groups": {
+      "Cooking": {
+        "position": [
+          -64,
+          64
+        ]
+      }
+    }
+  }
+}

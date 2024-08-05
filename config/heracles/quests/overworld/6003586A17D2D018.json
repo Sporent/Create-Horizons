@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "15A43F49DBB658BB": {
+      "title": "Find Cypress Fields",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:cypress_fields"
+    }
+  },
+  "rewards": {
+    "56A2085A246BB52C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Cypress Fields",
+    "description": [
+      "<task task=\"15A43F49DBB658BB\" quest=\"6003586A17D2D018\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"56A2085A246BB52C\" quest=\"6003586A17D2D018\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:cypress_sapling"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          16,
+          160
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "4BDD5F62A1F502A0": {
+      "title": "Find Windswept Sugi Forest",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:windswept_sugi_forest"
+    }
+  },
+  "rewards": {
+    "0D28C2680FFAD899": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Windswept Sugi Forest",
+    "description": [
+      "<task task=\"4BDD5F62A1F502A0\" quest=\"458D0AF39DFE5B71\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0D28C2680FFAD899\" quest=\"458D0AF39DFE5B71\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:sugi_sapling"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          0,
+          208
+        ]
+      }
+    }
+  }
+}

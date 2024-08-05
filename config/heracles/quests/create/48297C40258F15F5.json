@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "160C7D730946E37F"
+  ],
+  "tasks": {
+    "5050D43077B5FE40": {
+      "type": "heracles:item",
+      "item": "create:goggles",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "6A55C694462FCC16": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Visualise stress"
+    },
+    "description": [
+      "<h2>Visualise stress</h2>",
+      "<hr/>",
+      "<task task=\"5050D43077B5FE40\" quest=\"48297C40258F15F5\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6A55C694462FCC16\" quest=\"48297C40258F15F5\"/>"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -64,
+          -14
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:goggles",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Craft the Mechanical Goggles"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

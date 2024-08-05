@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3134464E65118F8E"
+  ],
+  "tasks": {
+    "7D3C1C69ABE1A1B7": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Looting Structures",
+    "description": [
+      "<h2>Everyone now has a chance to get the same loot!</h2>",
+      "<hr/>",
+      "<task task=\"7D3C1C69ABE1A1B7\" quest=\"0A88867F6DCF4483\"/>",
+      "<hr/>",
+      "Tired of villages being completely ransacked by other players?",
+      "Struggling to find loot that hasnt been taken?",
+      "Look no further than the Lootr mod!",
+      "With the Lootr mod, &&6every loot chest/barrel has its own inventory per player!&&r"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:chest"
+    },
+    "subtitle": {
+      "text": "Everyone now has a chance to get the same loot!"
+    },
+    "groups": {
+      "Welcome!": {
+        "position": [
+          64,
+          144
+        ]
+      }
+    }
+  }
+}

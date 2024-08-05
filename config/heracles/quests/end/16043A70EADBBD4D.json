@@ -1,0 +1,36 @@
+{
+  "settings": {},
+  "dependencies": [
+    "59C94BEC6C243AA0"
+  ],
+  "tasks": {
+    "68868AA99B6D2638": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "ELYTRAS ARE DISABLED",
+    "description": [
+      "<h2>Use trains instead :)</h2>",
+      "<hr/>",
+      "<task task=\"68868AA99B6D2638\" quest=\"16043A70EADBBD4D\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "createdeco:decal_warning"
+    },
+    "subtitle": {
+      "text": "Use trains instead :)"
+    },
+    "groups": {
+      "End": {
+        "position": [
+          0,
+          -64
+        ]
+      }
+    }
+  }
+}

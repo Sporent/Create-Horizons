@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "4F542360ABE3733B"
+  ],
+  "tasks": {
+    "02DBF3CAE6C509CD": {
+      "type": "heracles:item",
+      "item": "#cobblemon:cut_apricorns",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Any #cobblemon:cut_apricorns"
+    }
+  },
+  "rewards": {
+    "57E05771E6DD3B5F": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Two for the price of one!"
+    },
+    "description": [
+      "<h2>Two for the price of one!</h2>",
+      "<hr/>",
+      "<task task=\"02DBF3CAE6C509CD\" quest=\"2D33F080ABA9A632\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"57E05771E6DD3B5F\" quest=\"2D33F080ABA9A632\"/>"
+    ],
+    "groups": {
+      "Cobblemon": {
+        "position": [
+          -80,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "kubejs:cut_red_apricorn",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Use a Create Saw to Cut an apricorn"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

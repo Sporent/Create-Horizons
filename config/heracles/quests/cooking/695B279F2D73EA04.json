@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "dependencies": [
+    "41FFA676BC0FFA02"
+  ],
+  "tasks": {
+    "6C4D3EFE71BC1EC9": {
+      "type": "heracles:item",
+      "item": "farmersdelight:stove"
+    }
+  },
+  "rewards": {
+    "1D1CAA54137A24AA": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Craft the Stove",
+    "description": [
+      "<h2>The upgrade to the campfire</h2>",
+      "<hr/>",
+      "<task task=\"6C4D3EFE71BC1EC9\" quest=\"695B279F2D73EA04\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1D1CAA54137A24AA\" quest=\"695B279F2D73EA04\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:stove"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "subtitle": {
+      "text": "The upgrade to the campfire"
+    },
+    "groups": {
+      "Cooking": {
+        "position": [
+          -128,
+          0
+        ]
+      }
+    }
+  }
+}

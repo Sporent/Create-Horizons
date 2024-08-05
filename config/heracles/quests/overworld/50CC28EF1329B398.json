@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "05877FDDF85EB7F8"
+  ],
+  "tasks": {
+    "20AC1A7ED0A7C0FC": {
+      "title": "Find a Cobblemon Fossil Pit",
+      "structures": "#cobblemon:fossils/pit",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "5E51FF6142381F0E": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"20AC1A7ED0A7C0FC\" quest=\"50CC28EF1329B398\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5E51FF6142381F0E\" quest=\"50CC28EF1329B398\"/>"
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          -144,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:stone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Find a Cobblemon Fossil Pit"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

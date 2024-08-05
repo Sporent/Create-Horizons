@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "160C7D730946E37F"
+  ],
+  "tasks": {
+    "61521EECB6853A5B": {
+      "type": "heracles:item",
+      "item": "create:wrench"
+    }
+  },
+  "rewards": {
+    "0997E4642BB43359": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur",
+        "count": 2
+      }
+    }
+  },
+  "display": {
+    "title": "Craft The Wrench",
+    "description": [
+      "<h2>Its Trademarked</h2>",
+      "<hr/>",
+      "<task task=\"61521EECB6853A5B\" quest=\"24E1F27221044923\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0997E4642BB43359\" quest=\"24E1F27221044923\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:wrench"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "subtitle": {
+      "text": "Its Trademarked"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          0,
+          -64
+        ]
+      }
+    }
+  }
+}

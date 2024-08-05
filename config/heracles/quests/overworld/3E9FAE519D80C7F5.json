@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "14205EA23771DDFD": {
+      "title": "Find Fir Forest",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:fir_forest"
+    }
+  },
+  "rewards": {
+    "7AF5A6B4C2E94A97": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Fir Forest",
+    "description": [
+      "<task task=\"14205EA23771DDFD\" quest=\"3E9FAE519D80C7F5\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7AF5A6B4C2E94A97\" quest=\"3E9FAE519D80C7F5\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:fir_sapling"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          112,
+          160
+        ]
+      }
+    }
+  }
+}

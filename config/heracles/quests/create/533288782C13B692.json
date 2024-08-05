@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "17FA00EA38A585D9"
+  ],
+  "tasks": {
+    "74D6FE8B8AC3D4AB": {
+      "type": "heracles:item",
+      "item": "create:hand_crank",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "1515D06A8B5ED326": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"74D6FE8B8AC3D4AB\" quest=\"533288782C13B692\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1515D06A8B5ED326\" quest=\"533288782C13B692\"/>"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          192,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:hand_crank",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Craft a Hand Crank"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

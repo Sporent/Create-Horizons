@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "7D70DEA1EE2ECC26": {
+      "title": "Find Coniferous Covert",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:coniferous_covert"
+    }
+  },
+  "rewards": {
+    "22057552C80B8EDE": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Coniferous Covert",
+    "description": [
+      "<task task=\"7D70DEA1EE2ECC26\" quest=\"7D500A7E4AFA31EA\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"22057552C80B8EDE\" quest=\"7D500A7E4AFA31EA\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:larch_sapling"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          -16,
+          160
+        ]
+      }
+    }
+  }
+}

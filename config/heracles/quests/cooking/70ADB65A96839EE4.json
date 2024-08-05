@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7557128DCC6A1B88"
+  ],
+  "tasks": {
+    "471C65C83C2E749A": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cutting_board"
+    }
+  },
+  "rewards": {
+    "16D762645FFCCC67": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Craft a Cutting Board",
+    "description": [
+      "<h2>Mind the fingers</h2>",
+      "<hr/>",
+      "<task task=\"471C65C83C2E749A\" quest=\"70ADB65A96839EE4\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"16D762645FFCCC67\" quest=\"70ADB65A96839EE4\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cutting_board"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "subtitle": {
+      "text": "Mind the fingers"
+    },
+    "groups": {
+      "Cooking": {
+        "position": [
+          64,
+          64
+        ]
+      }
+    }
+  }
+}

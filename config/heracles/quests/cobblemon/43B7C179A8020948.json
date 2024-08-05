@@ -1,0 +1,78 @@
+{
+  "dependencies": [
+    "2B368F5E3C003768"
+  ],
+  "tasks": {
+    "08795EF01ACDB3D5": {
+      "advancements": [
+        "cobblemon:root"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "103ADE1C820311B3": {
+      "item": {
+        "id": "farmersdelight:sweet_berry_cookie",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "1E592BE7A9A375A2": {
+      "item": {
+        "id": "cobblemon:poke_ball",
+        "count": 10
+      },
+      "type": "heracles:item"
+    },
+    "0693E3D2B92B9DF4": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Use the §b[Open Summary] §rkey to collect your starter!"
+    },
+    "description": [
+      "<h2>Use the &&b[Open Summary] &&rkey to collect your starter!</h2>",
+      "<hr/>",
+      "<task task=\"08795EF01ACDB3D5\" quest=\"43B7C179A8020948\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"103ADE1C820311B3\" quest=\"43B7C179A8020948\"/>",
+      "<reward reward=\"1E592BE7A9A375A2\" quest=\"43B7C179A8020948\"/>",
+      "<reward reward=\"0693E3D2B92B9DF4\" quest=\"43B7C179A8020948\"/>"
+    ],
+    "groups": {
+      "Cobblemon": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cobblemon:master_ball",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "Welcome to Cobblemon!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

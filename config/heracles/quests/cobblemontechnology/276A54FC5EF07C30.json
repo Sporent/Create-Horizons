@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "1D60BE8DC551965F"
+  ],
+  "tasks": {
+    "20A5F04CEA7A40E7": {
+      "type": "heracles:item",
+      "item": "#cobblemon:poke_balls",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Any #cobblemon:poke_balls"
+    },
+    "3AD9169554526758": {
+      "title": "Automated?",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"20A5F04CEA7A40E7\" quest=\"276A54FC5EF07C30\"/>",
+      "<task task=\"3AD9169554526758\" quest=\"276A54FC5EF07C30\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Cobblemon Technology": {
+        "position": [
+          0,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cobblemon:poke_ball",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Automate Pokeballs"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

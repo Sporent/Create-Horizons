@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "2B368F5E3C003768"
+  ],
+  "tasks": {
+    "138DB3BCE8A29B0F": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"138DB3BCE8A29B0F\" quest=\"3134464E65118F8E\"/>",
+      "<hr/>",
+      "In this modpack, there are a few major gameplay changes aside from the obvious that Create adds. ",
+      "<br/>",
+      "A few of these mods include:",
+      "<br/>",
+      " -&&6Cobblemon",
+      " -&&6Enchancement",
+      " -&&6Lootr"
+    ],
+    "groups": {
+      "Welcome!": {
+        "position": [
+          0,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "createdeco:decal_warning",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Gameplay Changes"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

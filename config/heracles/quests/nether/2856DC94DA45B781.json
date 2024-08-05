@@ -1,0 +1,80 @@
+{
+  "dependencies": [
+    "704A08252D5C8DAF",
+    "20CA5A086E5AFAD9",
+    "61A65EF78BFFC718",
+    "5B86CDBF161B0B3B",
+    "024034131199604F",
+    "457F80B67DD40FD6",
+    "10ED2BA9B3460E51",
+    "43C720D297BEF334"
+  ],
+  "tasks": {
+    "2EA2598B40FED48B": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "4D91ED3AB7D2CF2C": {
+      "item": {
+        "id": "numismatics:crown",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "1E178A0F1573DD9F": {
+      "item": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "nbt": {
+          "Potion": "minecraft:long_fire_resistance"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Explore every new Nether biome"
+    },
+    "description": [
+      "<h2>Explore every new Nether biome</h2>",
+      "<hr/>",
+      "<task task=\"2EA2598B40FED48B\" quest=\"2856DC94DA45B781\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4D91ED3AB7D2CF2C\" quest=\"2856DC94DA45B781\"/>",
+      "<reward reward=\"1E178A0F1573DD9F\" quest=\"2856DC94DA45B781\"/>"
+    ],
+    "groups": {
+      "Nether": {
+        "position": [
+          0,
+          240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:diamond_boots",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Agent of Heck!!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

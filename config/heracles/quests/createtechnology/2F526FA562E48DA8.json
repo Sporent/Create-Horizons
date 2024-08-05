@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "6257E7158511D071"
+  ],
+  "tasks": {
+    "126A6A0EC617392E": {
+      "type": "heracles:item",
+      "item": "create:elevator_pulley",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "6172D2D416051719": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"126A6A0EC617392E\" quest=\"2F526FA562E48DA8\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6172D2D416051719\" quest=\"2F526FA562E48DA8\"/>"
+    ],
+    "groups": {
+      "Create Technology": {
+        "position": [
+          240,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:elevator_pulley",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Acquire: create:elevator_pulley"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

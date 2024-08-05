@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "276FEDFF63BC84E3"
+  ],
+  "tasks": {
+    "03A1BF8B9A84F0C9": {
+      "type": "heracles:item",
+      "item": "create:brass_casing"
+    }
+  },
+  "rewards": {
+    "0F75057C9912F774": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur",
+        "count": 2
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: create:brass_casing",
+    "description": [
+      "<task task=\"03A1BF8B9A84F0C9\" quest=\"6257E7158511D071\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0F75057C9912F774\" quest=\"6257E7158511D071\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:brass_casing"
+    },
+    "groups": {
+      "Create Technology": {
+        "position": [
+          192,
+          0
+        ]
+      }
+    }
+  }
+}

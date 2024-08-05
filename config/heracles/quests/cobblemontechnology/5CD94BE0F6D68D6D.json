@@ -1,0 +1,37 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3FD52065B7353AE1"
+  ],
+  "tasks": {
+    "77AAF298C4873638": {
+      "type": "heracles:item",
+      "item": "create:copper_sheet"
+    },
+    "6E8B408DB9C232CA": {
+      "title": "Automated?",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Automate Copper Sheets",
+    "description": [
+      "<task task=\"77AAF298C4873638\" quest=\"5CD94BE0F6D68D6D\"/>",
+      "<task task=\"6E8B408DB9C232CA\" quest=\"5CD94BE0F6D68D6D\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:copper_sheet"
+    },
+    "groups": {
+      "Cobblemon Technology": {
+        "position": [
+          -64,
+          96
+        ]
+      }
+    }
+  }
+}

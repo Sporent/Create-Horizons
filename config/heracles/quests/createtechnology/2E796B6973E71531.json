@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "5576F5A0C98D643D",
+    "6424838E710A9E39"
+  ],
+  "tasks": {
+    "1CE2433DE405762F": {
+      "type": "heracles:item",
+      "item": "create:potato_cannon",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "6271B094E358AF8F": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1CE2433DE405762F\" quest=\"2E796B6973E71531\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6271B094E358AF8F\" quest=\"2E796B6973E71531\"/>"
+    ],
+    "groups": {
+      "Create Technology": {
+        "position": [
+          -64,
+          -14
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:potato_cannon",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Acquire: create:potato_cannon"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

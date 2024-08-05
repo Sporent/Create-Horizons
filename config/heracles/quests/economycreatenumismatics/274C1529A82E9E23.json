@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "08E95C3F52213237"
+  ],
+  "tasks": {
+    "26A6B1A19D969A58": {
+      "type": "heracles:item",
+      "item": "numismatics:spur",
+      "amount": 16,
+      "collection": "MANUAL"
+    }
+  },
+  "rewards": {
+    "557E9F7D9581A954": {
+      "item": {
+        "id": "numismatics:vendor",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Remember to toggle between Buy and Sell!"
+    },
+    "description": [
+      "<h2>Remember to toggle between Buy and Sell!</h2>",
+      "<hr/>",
+      "<task task=\"26A6B1A19D969A58\" quest=\"274C1529A82E9E23\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"557E9F7D9581A954\" quest=\"274C1529A82E9E23\"/>"
+    ],
+    "groups": {
+      "Economy (Create: Numismatics)": {
+        "position": [
+          112,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "numismatics:vendor",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Vendor for Sale!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

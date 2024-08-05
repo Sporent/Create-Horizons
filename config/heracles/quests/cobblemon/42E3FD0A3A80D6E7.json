@@ -1,0 +1,47 @@
+{
+  "dependencies": [
+    "607C7722928CA565"
+  ],
+  "tasks": {
+    "3E3BE757B3D17E8F": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3E3BE757B3D17E8F\" quest=\"42E3FD0A3A80D6E7\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Cobblemon": {
+        "position": [
+          -32,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cobblemon:poke_ball",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Win a battle against a pokemon"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

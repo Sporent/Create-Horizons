@@ -1,0 +1,37 @@
+{
+  "settings": {},
+  "dependencies": [
+    "253E6DABD648C577"
+  ],
+  "tasks": {
+    "2837DE2C8FF03E91": {
+      "type": "heracles:item",
+      "item": "minecraft:gold_ingot"
+    },
+    "791C02DA42D1EAF4": {
+      "title": "Automated?",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Automate Gold Ingots",
+    "description": [
+      "<task task=\"2837DE2C8FF03E91\" quest=\"47CDEBB8D36BE507\"/>",
+      "<task task=\"791C02DA42D1EAF4\" quest=\"47CDEBB8D36BE507\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:gold_ingot"
+    },
+    "groups": {
+      "Cobblemon Technology": {
+        "position": [
+          -128,
+          160
+        ]
+      }
+    }
+  }
+}

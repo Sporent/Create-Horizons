@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "08E95C3F52213237"
+  ],
+  "tasks": {
+    "56C8974F32AE4CA8": {
+      "type": "heracles:item",
+      "item": "numismatics:spur"
+    }
+  },
+  "rewards": {
+    "7E54C37A7CCA6FBB": {
+      "type": "heracles:item",
+      "item": {
+        "id": "farmersdelight:sweet_berry_cookie"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: numismatics:spur",
+    "description": [
+      "<task task=\"56C8974F32AE4CA8\" quest=\"722404A831D215CF\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7E54C37A7CCA6FBB\" quest=\"722404A831D215CF\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "numismatics:spur"
+    },
+    "groups": {
+      "Economy (Create: Numismatics)": {
+        "position": [
+          64,
+          0
+        ]
+      }
+    }
+  }
+}

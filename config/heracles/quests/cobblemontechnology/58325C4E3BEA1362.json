@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "41E27A41083089BB"
+  ],
+  "tasks": {
+    "1C5AA5431A96E85A": {
+      "type": "heracles:item",
+      "item": "cobblemon:pc",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Use to store your pokemon"
+    },
+    "description": [
+      "<h2>Use to store your pokemon</h2>",
+      "<hr/>",
+      "<task task=\"1C5AA5431A96E85A\" quest=\"58325C4E3BEA1362\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Cobblemon Technology": {
+        "position": [
+          -64,
+          -192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cobblemon:pc",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Craft a PC"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

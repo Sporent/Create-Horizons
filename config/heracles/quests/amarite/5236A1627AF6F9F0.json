@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "7CF65B9CAC3B0337"
+  ],
+  "tasks": {
+    "6D1AEA7325FEBD2C": {
+      "type": "heracles:item",
+      "item": "amarite:amarite_shard",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "36C352246BA7DF65": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6D1AEA7325FEBD2C\" quest=\"5236A1627AF6F9F0\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"36C352246BA7DF65\" quest=\"5236A1627AF6F9F0\"/>"
+    ],
+    "groups": {
+      "Amarite": {
+        "position": [
+          -160,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "amarite:amarite_shard",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Harvest an Amarite Shard"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

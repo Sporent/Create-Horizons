@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "5E41676655FE1366",
+    "14674068FC7F7E45",
+    "6089A9CE9FD6715D",
+    "061051F2E4200A34",
+    "5E949574429FC859",
+    "1605EB6A23F4F4B1",
+    "67A27B309590E6E2",
+    "3D0121615A710409",
+    "285922AFD1836418",
+    "715ACEF64F8E4A04",
+    "5564797F87BDF5FD"
+  ],
+  "tasks": {
+    "5AC327020C7ACE74": {
+      "title": "Congratulations!",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "361A398846235C76": {
+      "item": {
+        "id": "minecraft:golden_apple",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "41909785B068A873": {
+      "item": {
+        "id": "numismatics:crown",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "6EB3764A511E4BF6": {
+      "item": {
+        "id": "create:experience_nugget",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5AC327020C7ACE74\" quest=\"08475E4BC63ACD07\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6EB3764A511E4BF6\" quest=\"08475E4BC63ACD07\"/>",
+      "<reward reward=\"361A398846235C76\" quest=\"08475E4BC63ACD07\"/>",
+      "<reward reward=\"41909785B068A873\" quest=\"08475E4BC63ACD07\"/>"
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          256,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:diamond_boots",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Dungeon Master"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

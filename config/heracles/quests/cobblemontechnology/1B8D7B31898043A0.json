@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "129CCC377E50BFB7"
+  ],
+  "tasks": {
+    "0431E24D96CBC634": {
+      "type": "heracles:item",
+      "item": "createdeco:netherite_sheet",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "185E4B65085FB610": {
+      "item": {
+        "id": "numismatics:cog",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0431E24D96CBC634\" quest=\"1B8D7B31898043A0\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"185E4B65085FB610\" quest=\"1B8D7B31898043A0\"/>"
+    ],
+    "groups": {
+      "Cobblemon Technology": {
+        "position": [
+          -32,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "createdeco:netherite_sheet",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Acquire: createdeco:netherite_sheet"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

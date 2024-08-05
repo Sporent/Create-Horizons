@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "4CEC41C63E504C68": {
+      "from": "minecraft:overworld",
+      "to": "minecraft:the_end",
+      "title": "Visit The End",
+      "type": "heracles:changed_dimension"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4CEC41C63E504C68\" quest=\"59C94BEC6C243AA0\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "End": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:end_stone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "Visit The End"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

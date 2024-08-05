@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "0D5BC08F3FFC8801"
+  ],
+  "tasks": {
+    "7B4A5A6CC844733A": {
+      "biomes": "incendium:volcanic_deltas",
+      "type": "heracles:biome"
+    }
+  },
+  "rewards": {
+    "753C09CF29F7BB11": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7B4A5A6CC844733A\" quest=\"10ED2BA9B3460E51\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"753C09CF29F7BB11\" quest=\"10ED2BA9B3460E51\"/>"
+    ],
+    "groups": {
+      "Nether": {
+        "position": [
+          32,
+          160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:magma_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Find Volcanic Deltas"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

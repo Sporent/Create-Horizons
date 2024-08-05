@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "05877FDDF85EB7F8"
+  ],
+  "tasks": {
+    "5F5C0CC03933C977": {
+      "title": "Find a Cobblemon Fossil Pond",
+      "structures": "#cobblemon:fossils/pond",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "5F0FE484297D618D": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5F5C0CC03933C977\" quest=\"5C364D867CD62CA7\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5F0FE484297D618D\" quest=\"5C364D867CD62CA7\"/>"
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          -160,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:moss_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Find a Cobblemon Fossil Pond"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "6257E7158511D071"
+  ],
+  "tasks": {
+    "6F6B9C44D1BC510D": {
+      "type": "heracles:item",
+      "item": "create:rotation_speed_controller",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "439A544FB1374E92": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6F6B9C44D1BC510D\" quest=\"772F56785B40EC4C\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"439A544FB1374E92\" quest=\"772F56785B40EC4C\"/>"
+    ],
+    "groups": {
+      "Create Technology": {
+        "position": [
+          160,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:rotation_speed_controller",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Acquire: create:rotation_speed_controller"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

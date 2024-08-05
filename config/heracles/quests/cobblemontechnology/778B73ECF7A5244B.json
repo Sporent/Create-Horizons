@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "41E27A41083089BB"
+  ],
+  "tasks": {
+    "128383BD5FDB55E9": {
+      "type": "heracles:item",
+      "item": "#cobblemon:cut_apricorns",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Any #cobblemon:cut_apricorns"
+    },
+    "694D7156E9619B66": {
+      "title": "Automated?",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"128383BD5FDB55E9\" quest=\"778B73ECF7A5244B\"/>",
+      "<task task=\"694D7156E9619B66\" quest=\"778B73ECF7A5244B\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Cobblemon Technology": {
+        "position": [
+          0,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "kubejs:cut_red_apricorn",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Automated Cutting Apricorns"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

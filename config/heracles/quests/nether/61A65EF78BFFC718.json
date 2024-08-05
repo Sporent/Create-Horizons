@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "0D5BC08F3FFC8801"
+  ],
+  "tasks": {
+    "5E8D3B7BB55A5A48": {
+      "biomes": "incendium:withered_forest",
+      "type": "heracles:biome"
+    }
+  },
+  "rewards": {
+    "7158283C9CD399E0": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5E8D3B7BB55A5A48\" quest=\"61A65EF78BFFC718\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7158283C9CD399E0\" quest=\"61A65EF78BFFC718\"/>"
+    ],
+    "groups": {
+      "Nether": {
+        "position": [
+          16,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:basalt",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Find Withered Forest"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

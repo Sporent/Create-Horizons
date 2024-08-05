@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "59C94BEC6C243AA0"
+  ],
+  "tasks": {
+    "066530B8C2469E51": {
+      "type": "heracles:biome",
+      "biomes": "nullscape:shadowlands"
+    }
+  },
+  "rewards": {
+    "3ADC5D8DB8A2CC62": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur",
+        "count": 2
+      }
+    }
+  },
+  "display": {
+    "title": "Visit Shadowlands",
+    "description": [
+      "<task task=\"066530B8C2469E51\" quest=\"1B7FEDF96F36BDB2\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3ADC5D8DB8A2CC62\" quest=\"1B7FEDF96F36BDB2\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:dead_brain_coral_block"
+    },
+    "groups": {
+      "End": {
+        "position": [
+          0,
+          64
+        ]
+      }
+    }
+  }
+}

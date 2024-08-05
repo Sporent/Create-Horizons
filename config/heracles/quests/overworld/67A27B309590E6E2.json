@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "42AC022AE3A663C7"
+  ],
+  "tasks": {
+    "378258243FD79705": {
+      "title": "Find a Witch Circle",
+      "structures": "betterwitchhuts:witch_circle",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "46C34BF61FDCFF1F": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"378258243FD79705\" quest=\"67A27B309590E6E2\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"46C34BF61FDCFF1F\" quest=\"67A27B309590E6E2\"/>"
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          128,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:cauldron",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Find a Witch Circle"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

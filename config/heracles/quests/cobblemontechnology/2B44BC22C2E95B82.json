@@ -1,0 +1,37 @@
+{
+  "settings": {},
+  "dependencies": [
+    "376C266F7EDF092E"
+  ],
+  "tasks": {
+    "52997F52C251AD0F": {
+      "type": "heracles:item",
+      "item": "minecraft:iron_nugget"
+    },
+    "0CFB199EC925D27D": {
+      "title": "Automated?",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Automate Iron Nuggets",
+    "description": [
+      "<task task=\"52997F52C251AD0F\" quest=\"2B44BC22C2E95B82\"/>",
+      "<task task=\"0CFB199EC925D27D\" quest=\"2B44BC22C2E95B82\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:iron_nugget"
+    },
+    "groups": {
+      "Cobblemon Technology": {
+        "position": [
+          128,
+          96
+        ]
+      }
+    }
+  }
+}

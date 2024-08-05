@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "129CCC377E50BFB7"
+  ],
+  "tasks": {
+    "41080BADA9633F2D": {
+      "type": "heracles:item",
+      "item": "minecraft:echo_shard",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "498647BD9D2C0482": {
+      "item": {
+        "id": "numismatics:sprocket",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"41080BADA9633F2D\" quest=\"07C67AC2097EB849\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"498647BD9D2C0482\" quest=\"07C67AC2097EB849\"/>"
+    ],
+    "groups": {
+      "Cobblemon Technology": {
+        "position": [
+          32,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:echo_shard",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Acquire: minecraft:echo_shard"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

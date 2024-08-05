@@ -1,0 +1,39 @@
+{
+  "settings": {},
+  "dependencies": [
+    "165A5C62C520FB96"
+  ],
+  "tasks": {
+    "6FF16CF0D6AC940C": {
+      "type": "heracles:advancement",
+      "advancements": [
+        "minecraft:story/root"
+      ]
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Yungs Better Structures",
+    "description": [
+      "<h2>11 new structures to find</h2>",
+      "<hr/>",
+      "<task task=\"6FF16CF0D6AC940C\" quest=\"42AC022AE3A663C7\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:map"
+    },
+    "subtitle": {
+      "text": "11 new structures to find"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          64,
+          0
+        ]
+      }
+    }
+  }
+}

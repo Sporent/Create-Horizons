@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "5E06AC05FBDF7A83": {
+      "title": "Find Drylands",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:drylands"
+    }
+  },
+  "rewards": {
+    "619D62CD334B891C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Drylands",
+    "description": [
+      "<task task=\"5E06AC05FBDF7A83\" quest=\"559F6C6756AE9782\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"619D62CD334B891C\" quest=\"559F6C6756AE9782\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:ghaf_sapling"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          48,
+          160
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "24B27824948D894B"
+  ],
+  "tasks": {
+    "22DF4435C60F10F2": {
+      "type": "heracles:item",
+      "item": "create:schedule"
+    }
+  },
+  "rewards": {
+    "4C4D5403BE4C4708": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: create:schedule",
+    "description": [
+      "<task task=\"22DF4435C60F10F2\" quest=\"056297F3A721FFC5\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4C4D5403BE4C4708\" quest=\"056297F3A721FFC5\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:schedule"
+    },
+    "groups": {
+      "Trains!!!!": {
+        "position": [
+          48,
+          48
+        ]
+      }
+    }
+  }
+}

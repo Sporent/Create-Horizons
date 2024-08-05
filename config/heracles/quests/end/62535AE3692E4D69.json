@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0D4C5F06BCAC4A20",
+    "1B7FEDF96F36BDB2",
+    "70D8394EBD682174"
+  ],
+  "tasks": {
+    "181D08E2FE647B54": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "0D107AB1E8F0AEB3": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:crown"
+      }
+    },
+    "5D754F21BAC40AF4": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:ender_pearl",
+        "count": 16
+      }
+    }
+  },
+  "display": {
+    "title": "Void Wanderer",
+    "description": [
+      "<task task=\"181D08E2FE647B54\" quest=\"62535AE3692E4D69\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0D107AB1E8F0AEB3\" quest=\"62535AE3692E4D69\"/>",
+      "<reward reward=\"5D754F21BAC40AF4\" quest=\"62535AE3692E4D69\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:netherite_boots"
+    },
+    "groups": {
+      "End": {
+        "position": [
+          0,
+          128
+        ]
+      }
+    }
+  }
+}

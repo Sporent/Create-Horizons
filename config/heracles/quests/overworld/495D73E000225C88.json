@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "111BF28A5B3FBDFE": {
+      "title": "Find Arid Savanna",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:arid_savanna"
+    }
+  },
+  "rewards": {
+    "29CBB15BFBFE55D3": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Arid Savanna",
+    "description": [
+      "<task task=\"111BF28A5B3FBDFE\" quest=\"495D73E000225C88\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"29CBB15BFBFE55D3\" quest=\"495D73E000225C88\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:acacia_sapling"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          0,
+          144
+        ]
+      }
+    }
+  }
+}

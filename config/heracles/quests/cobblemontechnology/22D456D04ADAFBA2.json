@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "07C67AC2097EB849",
+    "1B8D7B31898043A0"
+  ],
+  "tasks": {
+    "2BE8ACB186B35E6B": {
+      "type": "heracles:item",
+      "item": "minecraft:nether_star",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "6C63F16D58F61984": {
+      "item": {
+        "id": "numismatics:cog",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2BE8ACB186B35E6B\" quest=\"22D456D04ADAFBA2\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6C63F16D58F61984\" quest=\"22D456D04ADAFBA2\"/>"
+    ],
+    "groups": {
+      "Cobblemon Technology": {
+        "position": [
+          0,
+          -128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:nether_star",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Acquire: minecraft:nether_star"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

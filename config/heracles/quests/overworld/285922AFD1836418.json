@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "42AC022AE3A663C7"
+  ],
+  "tasks": {
+    "7F51385B8CA45DB4": {
+      "title": "Find a Zombie Dungeon",
+      "structures": "betterdungeons:zombie_dungeon",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "49B9360F589E1D18": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Also called a catacomb"
+    },
+    "description": [
+      "<h2>Also called a catacomb</h2>",
+      "<hr/>",
+      "<task task=\"7F51385B8CA45DB4\" quest=\"285922AFD1836418\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"49B9360F589E1D18\" quest=\"285922AFD1836418\"/>"
+    ],
+    "groups": {
+      "Overworld": {
+        "position": [
+          192,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:zombie_head",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Find a Zombie Dungeon"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

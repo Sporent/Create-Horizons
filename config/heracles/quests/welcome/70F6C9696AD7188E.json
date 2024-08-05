@@ -1,0 +1,48 @@
+{
+  "dependencies": [
+    "3134464E65118F8E"
+  ],
+  "tasks": {
+    "606A39F1BD4CB7AD": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"606A39F1BD4CB7AD\" quest=\"70F6C9696AD7188E\"/>",
+      "<hr/>",
+      "There are 2 main food related mods in this modpack: &&6Farmer's Delight &&rand &&6Bountiful Fares. &&rThese mods both add a whole lot of different &&6foods &&rand some new &&6crops &&rto make them with, along with &&6special effects &&rfor eating certain foods."
+    ],
+    "groups": {
+      "Welcome!": {
+        "position": [
+          -112,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:cooking_pot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Food and Cooking"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

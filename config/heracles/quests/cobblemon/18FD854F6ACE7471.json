@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "4F542360ABE3733B"
+  ],
+  "tasks": {
+    "1F0C293C4D3A1213": {
+      "type": "heracles:item",
+      "item": "#cobblemon:apricorn_sprouts",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Any #cobblemon:apricorn_sprouts"
+    }
+  },
+  "rewards": {
+    "7F6C6F274C0C572F": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Make sure to give it enough space!"
+    },
+    "description": [
+      "<h2>Make sure to give it enough space!</h2>",
+      "<hr/>",
+      "<task task=\"1F0C293C4D3A1213\" quest=\"18FD854F6ACE7471\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7F6C6F274C0C572F\" quest=\"18FD854F6ACE7471\"/>"
+    ],
+    "groups": {
+      "Cobblemon": {
+        "position": [
+          -128,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cobblemon:red_apricorn_seed",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Harvest and Plant an Apricorn Tree"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

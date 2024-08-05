@@ -1,0 +1,37 @@
+{
+  "settings": {},
+  "dependencies": [
+    "778B73ECF7A5244B",
+    "5CD94BE0F6D68D6D",
+    "41D80E1747C50377",
+    "26506E5FCD333615",
+    "6DAA63E8E68C380B",
+    "1C7F4EC35F08AC03"
+  ],
+  "tasks": {
+    "5E8F1283FC73AC2A": {
+      "type": "heracles:item",
+      "item": "kubejs:incomplete_pokeball"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Begin an Assembly Line",
+    "description": [
+      "<task task=\"5E8F1283FC73AC2A\" quest=\"1D60BE8DC551965F\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kubejs:incomplete_pokeball"
+    },
+    "groups": {
+      "Cobblemon Technology": {
+        "position": [
+          0,
+          128
+        ]
+      }
+    }
+  }
+}

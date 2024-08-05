@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "51FFF2182DD14C71": {
+      "title": "Find Blooming Highlands",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:blooming_highlands"
+    }
+  },
+  "rewards": {
+    "5019A688B5D8CD3A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Blooming Highlands",
+    "description": [
+      "<task task=\"51FFF2182DD14C71\" quest=\"29F799F78D8941AA\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5019A688B5D8CD3A\" quest=\"29F799F78D8941AA\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:ruby_blossoms"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          128,
+          144
+        ]
+      }
+    }
+  }
+}

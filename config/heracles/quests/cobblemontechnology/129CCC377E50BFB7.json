@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "407BD92281ED5FDD",
+    "6CCCD02B989BC88C"
+  ],
+  "tasks": {
+    "468EF982234749C3": {
+      "type": "heracles:item",
+      "item": "minecraft:diamond",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "6A81927F43BC7995": {
+      "item": {
+        "id": "numismatics:sprocket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"468EF982234749C3\" quest=\"129CCC377E50BFB7\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6A81927F43BC7995\" quest=\"129CCC377E50BFB7\"/>"
+    ],
+    "groups": {
+      "Cobblemon Technology": {
+        "position": [
+          0,
+          -96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:diamond",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Acquire: minecraft:diamond"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

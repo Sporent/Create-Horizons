@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "27401FC437D7AF05": {
+      "title": "Find Red Peaks",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:red_peaks"
+    }
+  },
+  "rewards": {
+    "673AD00A103D1E78": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Red Peaks",
+    "description": [
+      "<task task=\"27401FC437D7AF05\" quest=\"143763945CE40A72\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"673AD00A103D1E78\" quest=\"143763945CE40A72\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:chert"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          128,
+          176
+        ]
+      }
+    }
+  }
+}

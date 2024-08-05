@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "42A8917032C0FB21"
+  ],
+  "tasks": {
+    "585797051B4B6BC6": {
+      "type": "heracles:item",
+      "item": "farmersdelight:fried_egg"
+    }
+  },
+  "rewards": {
+    "2D01EF2217AA4D92": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: farmersdelight:fried_egg",
+    "description": [
+      "<task task=\"585797051B4B6BC6\" quest=\"47082A43B3BC0570\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2D01EF2217AA4D92\" quest=\"47082A43B3BC0570\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:fried_egg"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "groups": {
+      "Cooking": {
+        "position": [
+          -64,
+          128
+        ]
+      }
+    }
+  }
+}

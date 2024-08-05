@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "41E27A41083089BB"
+  ],
+  "tasks": {
+    "359AA019C7E28900": {
+      "type": "heracles:item",
+      "item": "cobblemon:fossil_analyzer",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "652A60735AE018F8": {
+      "type": "heracles:item",
+      "item": "cobblemon:monitor",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "3178C2C9F690C070": {
+      "type": "heracles:item",
+      "item": "cobblemon:restoration_tank",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Re-enact Jurassic Park"
+    },
+    "description": [
+      "<h2>Re-enact Jurassic Park</h2>",
+      "<hr/>",
+      "<task task=\"3178C2C9F690C070\" quest=\"5CCFEE00D2351B28\"/>",
+      "<task task=\"652A60735AE018F8\" quest=\"5CCFEE00D2351B28\"/>",
+      "<task task=\"359AA019C7E28900\" quest=\"5CCFEE00D2351B28\"/>",
+      "<hr/>",
+      "See the image below for how to build it :D",
+      "Once built fill the tank with organics (same stuff used for the composter)",
+      "And then place the fossil in the bottom left machine!",
+      "&&6Some pokemon will require two fossils of different types to work"
+    ],
+    "groups": {
+      "Cobblemon Technology": {
+        "position": [
+          0,
+          -192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cobblemon:restoration_tank",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Build a Restoration Machine"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

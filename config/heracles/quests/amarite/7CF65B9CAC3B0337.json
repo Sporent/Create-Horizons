@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "7D33B9433EF9300F"
+  ],
+  "tasks": {
+    "2D011ADB713E3526": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<h2>Side and top down perspective of the setup to the right</h2>",
+      "<hr/>",
+      "<task task=\"2D011ADB713E3526\" quest=\"7CF65B9CAC3B0337\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Amarite": {
+        "position": [
+          -160,
+          -160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "amarite:budding_amarite",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Make an Amarite growing setup"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

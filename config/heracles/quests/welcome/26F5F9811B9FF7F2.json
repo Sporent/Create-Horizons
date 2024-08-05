@@ -1,0 +1,31 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3134464E65118F8E"
+  ],
+  "tasks": {
+    "6BFD63767EF04437": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Backpacks",
+    "description": [
+      "<task task=\"6BFD63767EF04437\" quest=\"26F5F9811B9FF7F2\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:backpack"
+    },
+    "groups": {
+      "Welcome!": {
+        "position": [
+          96,
+          80
+        ]
+      }
+    }
+  }
+}

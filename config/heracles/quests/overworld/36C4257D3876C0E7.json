@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "788D34CB389C5DEE": {
+      "title": "Find Chaparral",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:chaparral"
+    }
+  },
+  "rewards": {
+    "7CFBD6537FEA7675": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Chaparral",
+    "description": [
+      "<task task=\"788D34CB389C5DEE\" quest=\"36C4257D3876C0E7\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7CFBD6537FEA7675\" quest=\"36C4257D3876C0E7\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:sandy_soil"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          -48,
+          160
+        ]
+      }
+    }
+  }
+}

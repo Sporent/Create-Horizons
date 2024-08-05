@@ -1,0 +1,65 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "374D5777B8D3567E": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "35888738099F5350": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "1DF0239A05D0F14D": {
+      "item": {
+        "id": "farmersdelight:sweet_berry_cookie",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Hope you enjoy the modpack <3"
+    },
+    "description": [
+      "<h2>Hope you enjoy the modpack <3</h2>",
+      "<hr/>",
+      "<task task=\"374D5777B8D3567E\" quest=\"2B368F5E3C003768\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1DF0239A05D0F14D\" quest=\"2B368F5E3C003768\"/>",
+      "<reward reward=\"35888738099F5350\" quest=\"2B368F5E3C003768\"/>"
+    ],
+    "groups": {
+      "Welcome!": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cobblemon:love_sweet",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "Welcome to Create: Horizons!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

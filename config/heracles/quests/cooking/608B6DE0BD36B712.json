@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "70ADB65A96839EE4"
+  ],
+  "tasks": {
+    "3DD4762C15D202F6": {
+      "type": "heracles:item",
+      "item": "farmersdelight:bacon"
+    }
+  },
+  "rewards": {
+    "7D66E76D20248E60": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: farmersdelight:bacon",
+    "description": [
+      "<task task=\"3DD4762C15D202F6\" quest=\"608B6DE0BD36B712\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7D66E76D20248E60\" quest=\"608B6DE0BD36B712\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:bacon"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "groups": {
+      "Cooking": {
+        "position": [
+          128,
+          128
+        ]
+      }
+    }
+  }
+}

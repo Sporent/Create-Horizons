@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "160C7D730946E37F"
+  ],
+  "tasks": {
+    "2F665A07E3C3EEE1": {
+      "type": "heracles:item",
+      "item": "create:clipboard",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "275A3614C30A27AA": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2F665A07E3C3EEE1\" quest=\"099CD48D688185C2\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"275A3614C30A27AA\" quest=\"099CD48D688185C2\"/>"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -92,
+          -14
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:clipboard",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Craft the Clipboard"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "17FA00EA38A585D9"
+  ],
+  "tasks": {
+    "58580BC1382E3F8D": {
+      "type": "heracles:item",
+      "item": "create:water_wheel",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "3708F250F07C7139": {
+      "item": {
+        "id": "numismatics:spur",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"58580BC1382E3F8D\" quest=\"1E24D0A238BB042D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3708F250F07C7139\" quest=\"1E24D0A238BB042D\"/>"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          224,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:water_wheel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Craft a Water Wheel"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "59C94BEC6C243AA0"
+  ],
+  "tasks": {
+    "0B733A89423B0AE8": {
+      "type": "heracles:biome",
+      "biomes": "nullscape:crystal_peaks"
+    }
+  },
+  "rewards": {
+    "5E31F05067E746D3": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur",
+        "count": 2
+      }
+    }
+  },
+  "display": {
+    "title": "Visit Crystal Peaks",
+    "description": [
+      "<task task=\"0B733A89423B0AE8\" quest=\"0D4C5F06BCAC4A20\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5E31F05067E746D3\" quest=\"0D4C5F06BCAC4A20\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:amethyst_block"
+    },
+    "groups": {
+      "End": {
+        "position": [
+          -32,
+          64
+        ]
+      }
+    }
+  }
+}

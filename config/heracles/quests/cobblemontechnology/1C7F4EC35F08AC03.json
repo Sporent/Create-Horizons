@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "52B0CABF2D7CE731"
+  ],
+  "tasks": {
+    "5BC9055FA60AF1DE": {
+      "title": "Any #cobblemon:tumblestones",
+      "type": "heracles:item",
+      "item": "#cobblemon:tumblestones"
+    },
+    "62E8624243BE03BA": {
+      "title": "Automated",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Automate Tumblestones",
+    "description": [
+      "<task task=\"5BC9055FA60AF1DE\" quest=\"1C7F4EC35F08AC03\"/>",
+      "<task task=\"62E8624243BE03BA\" quest=\"1C7F4EC35F08AC03\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "cobblemon:tumblestone"
+    },
+    "groups": {
+      "Cobblemon Technology": {
+        "position": [
+          64,
+          160
+        ]
+      }
+    }
+  }
+}

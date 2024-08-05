@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "tasks": {
+    "0303BFFBBCCFE833": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Incendium is biomes only!",
+    "description": [
+      "<h2>The structures have been removed</h2>",
+      "<hr/>",
+      "<task task=\"0303BFFBBCCFE833\" quest=\"24BC9D25FA2C2DC9\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "createdeco:decal_warning"
+    },
+    "subtitle": {
+      "text": "The structures have been removed"
+    },
+    "groups": {
+      "Nether": {
+        "position": [
+          0,
+          -112
+        ]
+      }
+    }
+  }
+}

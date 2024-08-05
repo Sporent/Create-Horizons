@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "50CEE5EE1AF770EA"
+  ],
+  "tasks": {
+    "3F09E2DD2EC8CD98": {
+      "type": "heracles:item",
+      "item": "farmersdelight:basket"
+    }
+  },
+  "rewards": {
+    "52A6FEBFC5972081": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: farmersdelight:basket",
+    "description": [
+      "<task task=\"3F09E2DD2EC8CD98\" quest=\"11B93C519283BC0B\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"52A6FEBFC5972081\" quest=\"11B93C519283BC0B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:basket"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "groups": {
+      "Cooking": {
+        "position": [
+          128,
+          -128
+        ]
+      }
+    }
+  }
+}

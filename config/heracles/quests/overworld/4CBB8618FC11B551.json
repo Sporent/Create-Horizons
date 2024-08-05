@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00AB58E71EBD192C"
+  ],
+  "tasks": {
+    "579BA673091EF568": {
+      "title": "Find Maple Woodlands",
+      "type": "heracles:biome",
+      "biomes": "natures_spirit:maple_woodlands"
+    }
+  },
+  "rewards": {
+    "320DE36473005D06": {
+      "type": "heracles:item",
+      "item": {
+        "id": "numismatics:spur"
+      }
+    }
+  },
+  "display": {
+    "title": "Find Maple Woodlands",
+    "description": [
+      "<task task=\"579BA673091EF568\" quest=\"4CBB8618FC11B551\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"320DE36473005D06\" quest=\"4CBB8618FC11B551\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "natures_spirit:red_maple_sapling"
+    },
+    "groups": {
+      "Overworld": {
+        "position": [
+          -32,
+          176
+        ]
+      }
+    }
+  }
+}

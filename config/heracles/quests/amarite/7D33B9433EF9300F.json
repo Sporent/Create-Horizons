@@ -1,0 +1,47 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "613DF23DEF6D0000": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "you could find a geode there or bring one down using a mechanical piston"
+    },
+    "description": [
+      "<h2>you could find a geode there or bring one down using a mechanical piston</h2>",
+      "<hr/>",
+      "<task task=\"613DF23DEF6D0000\" quest=\"7D33B9433EF9300F\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Amarite": {
+        "position": [
+          -160,
+          -224
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:budding_amethyst",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "Get a budding amethyst below y=0"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

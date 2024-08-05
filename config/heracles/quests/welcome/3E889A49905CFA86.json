@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3134464E65118F8E"
+  ],
+  "tasks": {
+    "7C2DB3F89B5A1EDE": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Terrain Generation, Biomes, and Structures",
+    "description": [
+      "<task task=\"7C2DB3F89B5A1EDE\" quest=\"3E889A49905CFA86\"/>",
+      "<hr/>",
+      "- &&6Tectonic&&r is a datapack that overhauls the terrain generation of the overworld",
+      "<br/>",
+      "- &&6Nature's spirit &&radds all of the new overworld surface biomes and many new blocks, foliage and wood types",
+      "<br/>",
+      "- &&6Galosphere &&radds all of new the overworld cave biomes",
+      "<br/>",
+      "- &&6The Yung's series &&rcompletely overhauls many vanilla structures",
+      "<br/>",
+      "- &&6Incendium &&radds some new Nether biomes",
+      "<br/>",
+      "- &&6Nullscaped &&radds a few new biomes to the End"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:tuff"
+    },
+    "groups": {
+      "Welcome!": {
+        "position": [
+          -64,
+          144
+        ]
+      }
+    }
+  }
+}

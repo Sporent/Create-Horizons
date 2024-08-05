@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "48F2C49F0DE3930A"
+  ],
+  "tasks": {
+    "792694B5DB31E042": {
+      "advancements": [
+        "create:steam_engine_maxed"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "09CCE4D0563C4CB7": {
+      "item": {
+        "id": "numismatics:cog",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"792694B5DB31E042\" quest=\"17F002DA1AD5CCE4\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"09CCE4D0563C4CB7\" quest=\"17F002DA1AD5CCE4\"/>"
+    ],
+    "groups": {
+      "Fluid Handling": {
+        "position": [
+          64,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:steam_whistle",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Max out a Steam Engine!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}
